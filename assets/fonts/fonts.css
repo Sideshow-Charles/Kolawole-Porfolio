@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "GraphikBlack";
+    src: url("../fonts/GraphikBlack.otf") format("otf");
+  }
+
+  @font-face {
+      font-family: "GraphikBlackItalic";
+      src: url("../fonts//GraphikBlackItalic.otf") format("otf");;
+  }
+
+  @font-face {
+    font-family: "GraphikBold";
+    src: url("../fonts//GraphikBold.otf") format("otf");;
+}
+
+@font-face {
+    font-family: "GraphikBoldItalic";
+    src: url("../fonts//GraphikBoldItalic.otf") format("otf");;
+}
+
+@font-face {
+    font-family: "GraphikExtralight";
+    src: url("../fonts//GraphikExtralight.otf") format("otf");;
+}
+
+@font-face {
+    font-family: "GraphikExtralightItalic";
+    src: url("../fonts//GraphikExtralightItalic.otf") format("otf");;
+}
+
+@font-face {
+    font-family: "GraphikLight";
+    src: url("../fonts//GraphikLight.otf") format("otf");;
+}
+
+@font-face {
+    font-family: "GraphikLightItalic";
+    src: url("../fonts//GraphikLightItalic.otf") format("otf");;
+}
+
+@font-face {
+    font-family: "GraphikMedium";
+    src: url("../fonts//GraphikMedium.otf") format("otf");;
+}
+
+@font-face {
+    font-family: "GraphikMediumItalic";
+    src: url("../fonts//GraphikMediumItalic.otf") format("otf");;
+}
+@font-face {
+    font-family: "GraphikRegular";
+    src: url("../fonts//GraphikRegular.otf") format("otf");;
+}
+
+@font-face {
+    font-family: "GraphikRegularItalic";
+    src: url("../fonts//GraphikRegularItalic.otf") format("otf");;
+}
+
+@font-face {
+    font-family: "GraphikSemibold";
+    src: url("../fonts//GraphikSemibold.otf") format("otf");;
+}
+
+@font-face {
+    font-family: "GraphikSemiboldItalic";
+    src: url("../fonts//GraphikSemiboldItalic.otf") format("otf");;
+}
+
+ 
