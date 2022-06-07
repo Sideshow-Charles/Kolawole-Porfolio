@@ -41,8 +41,6 @@ export default {
   build: {
     extractCSS: true
   },
-
-  target: [
-     "static"
-  ]
+  
+    target: 'static' // default is 'server'
 }
