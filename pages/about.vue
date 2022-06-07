@@ -247,7 +247,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 25%;
+  width: 30%;
   margin-top: 2rem;
 }
 
