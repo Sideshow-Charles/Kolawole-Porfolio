@@ -5,10 +5,6 @@
 </template>
 
 <script>
-import fonts from "../assets/fonts/fonts.css";
-export default {
-  fonts,
-};
 </script>
 
 <style scoped>
@@ -21,7 +17,7 @@ export default {
   color: #fff;
   border: none;
   border-radius: 5px;
-  font-family: "Graphik";
+  font-family: "Graphik-Regular";
   font-weight: 400;
   font-size: 1.1em;
   cursor: pointer;

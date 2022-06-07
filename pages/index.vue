@@ -13,7 +13,7 @@
         <p>
           Hi, I’m Kolawole Popoola, a Product Designer with over 4 years
           experience in delivering end to end, usable designs for digital
-          products. I currently work with some talented people at Kuda Bank
+          products. I currently work with some talented people at <span>Kuda Bank</span>
           building the best Neobank in Africa. In my spare time, I write about
           sports, I watch a lot of sports and I play video games.
         </p>
@@ -55,7 +55,6 @@ import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 export default {
   components: {
-    // fonts,
     Header,
     Footer,
   },
@@ -63,13 +62,6 @@ export default {
 </script>
 
 <style scoped>
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .article__container {
   display: flex;
   flex-direction: column;
@@ -83,9 +75,9 @@ export default {
 }
 
 .article__header {
-  font-family: "Graphik";
+  font-family: "Graphik-Bold";
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: -0.03em;
   line-height: 4.5rem;
   margin-bottom: 3rem;
@@ -93,16 +85,21 @@ export default {
 }
 
 .article__text {
-  font-family: "GraphikLight";
-  font-size: 1.5rem;
+  font-family: "Graphik-Regular";
+  font-size: 1.3rem;
   font-weight: 300;
   line-height: 3.2rem;
   margin-bottom: 3rem;
   max-width: 54rem;
 }
 
+.article__text p span {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
 .article-CTA__link {
-  font-family: "GraphikLight";
+  font-family: "Graphik-Regular";
   font-size: 1.3rem;
   font-weight: 300;
 }
@@ -121,22 +118,21 @@ export default {
 
 .section__header {
   font-size: 1.5rem;
-  font-weight: 500;
-  font-family: "Graphik";
+  font-weight: 900;
+  font-family: "Graphik-Medium";
   margin-bottom: 3rem;
   line-height: 2.4rem;
 }
 
 .selected-works__container {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  /* gap: 72px; */
 }
 
 .selected-works__container img {
-  width: 550px;
+  max-width: 550px;
   margin-bottom: 72px;
+  width: 100%
 }
 
 .selected-works__container img:nth-child(1) {
@@ -149,7 +145,7 @@ export default {
 
 .sub-footer__container {
   text-align: center;
-  padding: 7rem 144px;
+  padding: 10rem 144px;
 }
 
 .sub-footer__text {
@@ -157,7 +153,7 @@ export default {
   line-height: 1.8;
   font-size: 1.5rem;
   font-weight: 500;
-  font-family: "Graphik";
+  font-family: "Graphik-Medium";
 }
 
 @media screen and (max-width: 968px) {

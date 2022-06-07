@@ -14,7 +14,7 @@
 <script>
 import fonts from "../assets/fonts/fonts.css";
 export default {
-    fonts,
+  fonts,
 };
 </script>
 
@@ -26,13 +26,13 @@ export default {
   padding: 0 128px;
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 32px;
 }
 
 .footer__text {
   font-size: 1.2rem;
-  font-weight: 500;
-  font-family: "Graphik";
+  font-family: "Graphik-Regular";
+  font-weight: 300;
 }
 
 .footer__links {

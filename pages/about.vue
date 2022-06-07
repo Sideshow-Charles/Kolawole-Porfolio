@@ -226,17 +226,17 @@ export default {
 }
 
 .contact__container h3 {
-  font-family: "Graphik";
+   font-family: "Graphik-Medium";
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 900;
   line-height: 60px;
   letter-spacing: 0em;
   text-align: left;
 }
 
 .contact__container p {
-  font-family: "Graphik";
-  font-size: 19px;
+   font-family: "Graphik-Regular";
+  font-size: 16px;
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 0em;
@@ -252,16 +252,16 @@ export default {
 }
 
 .about-text__header {
-  font-family: "Graphik";
-  font-size: 2.8rem;
-  font-weight: 500;
-  letter-spacing: -0.03em;
+  font-family: "Graphik-Bold";
+  font-size: 2.5rem;
+  /* font-weight: 200; */
+  /* letter-spacing: 0.1em; */
   line-height: 4.5rem;
   margin-bottom: 2rem;
 }
 
 .about-text__container {
-  font-family: "GraphikLight";
+ font-family: "Graphik-Regular";
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 3.2rem;
@@ -312,7 +312,7 @@ export default {
 .design__methods li {
   margin: 30px 0;
   list-style: none;
-  font-family: "Graphik";
+  font-family: "Graphik-Regular";
   font-size: 19px;
   font-weight: 400;
   line-height: 40px;
@@ -327,7 +327,7 @@ export default {
 .design__tools li {
   margin: 30px 0;
   list-style: none;
-  font-family: "Graphik";
+  font-family: "Graphik-Regular";
   font-size: 19px;
   font-weight: 400;
   line-height: 40px;
@@ -340,9 +340,9 @@ export default {
 }
 
 .section-work__history h2 {
-  font-family: "Graphik";
+  font-weight: 900;
+  font-family: "Graphik-Medium";
   font-size: 25px;
-  font-weight: 700;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
@@ -359,9 +359,9 @@ export default {
 
 .work__history li {
   list-style: none;
-  font-family: "Graphik";
+  font-weight: 900;
+  font-family: "Graphik-Medium";
   font-size: 19px;
-  font-weight: 500;
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
@@ -373,9 +373,9 @@ export default {
 
 .parkway-projects-work__history li {
   list-style: none;
-  font-family: "Graphik";
+  font-weight: 900;
+  font-family: "Graphik-Medium";
   font-size: 19px;
-  font-weight: 500;
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
@@ -386,7 +386,7 @@ export default {
 }
 
 .role {
-  font-family: "Graphik";
+  font-family: "Graphik-Regular";
   font-size: 16px;
   font-weight: 300;
   line-height: 30px;
@@ -397,7 +397,7 @@ export default {
 }
 
 .time {
-  font-family: "Graphik";
+  font-family: "Graphik-Regular";
   font-size: 16px;
   font-weight: 300;
   line-height: 30px;
@@ -423,9 +423,9 @@ export default {
 }
 
 .section-interest__reading h3 {
-  font-family: "Graphik";
-  font-size: 19px;
-  font-weight: 700;
+  font-weight: 900;
+  font-family: "Graphik-Medium";
+  font-size: 20px;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
@@ -438,9 +438,9 @@ export default {
 }
 
 .section-interest__listening h3 {
-  font-family: "Graphik";
-  font-size: 19px;
-  font-weight: 700;
+  font-weight: 900;
+  font-family: "Graphik-Medium";
+  font-size: 20px;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
@@ -448,8 +448,8 @@ export default {
 }
 
 .section-interest__listening h6 {
-  font-family: "Graphik";
-  font-size: 16px;
+  font-family: "Graphik-Regular";
+  font-size: 18px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;
@@ -463,8 +463,8 @@ export default {
 }
 
 .section-interest__listening__music h6 {
-  font-family: "Graphik";
-  font-size: 16px;
+  font-family: "Graphik-Regular";
+  font-size: 18px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;

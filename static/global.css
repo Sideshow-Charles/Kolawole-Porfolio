@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Graphik-Black";
+    src: url("~assets/fonts/Graphik-Black.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-BlackItalic";
+    src: url("~assets/fonts/Graphik-BlackItalic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-Bold";
+    src: url("~assets/fonts/Graphik-Bold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-BoldItalic";
+    src: url("~assets/fonts/Graphik-BoldItalic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-ExtraLight";
+    src: url("~assets/fonts/Graphik-ExtraLight.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-ExtralightItalic";
+    src: url("~assets/fonts/Graphik-ExtralightItalic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-Light";
+    src: url("~assets/fonts/Graphik-Light.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-LightItalic";
+    src: url("~assets/fonts/Graphik-LightItalic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-Medium";
+    src: url("~assets/fonts/Graphik-Medium.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-MediumItalic";
+    src: url("~assets/fonts/Graphik-MediumItalic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-Regular";
+    src: url("~assets/fonts/Graphik-Regular.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-RegularItalic";
+    src: url("~assets/fonts/Graphik-RegularItalic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-Semibold";
+    src: url("~assets/fonts/Graphik-Semibold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Graphik-SemiboldItalic";
+    src: url("~assets/fonts/Graphik-SemiboldItalic.woff") format("woff");
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -59,7 +59,7 @@ components: {
   display: flex;
   justify-content: space-around;
   width: 65%;
-  font-family: "Graphik";
+   font-family: "Graphik-Regular";
   font-weight: 400;
   font-size: 18px;
 }
