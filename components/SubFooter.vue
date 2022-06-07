@@ -13,9 +13,9 @@
         <p><span>&#169;</span>2022 Kolawole Popoola</p>
       </footer>
       <footer class="footer__links">
-        <img src="../assets/images/twitter.png" alt="" />
-        <img src="../assets/images/linkedin.png" alt="" />
-        <img src="../assets/images/dribble.png" alt="" />
+        <img src="../assets/images/twitter.svg" alt="" />
+        <img src="../assets/images/linkedin.svg" alt="" />
+        <img src="../assets/images/dribbble.svg" alt="" />
       </footer>
     </footer>
   </div>
