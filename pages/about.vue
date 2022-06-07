@@ -12,8 +12,8 @@
         </div>
 
         <div class="social-images__container">
-          <img src="../assets/images/twitter.png" alt="" />
-          <img src="../assets/images/linkedin.png" alt="" />
+          <img src="../assets/images/twitter.svg" alt="" />
+          <img src="../assets/images/linkedin.svg" alt="" />
         </div>
       </article>
 
@@ -226,7 +226,7 @@ export default {
 }
 
 .contact__container h3 {
-   font-family: "Graphik-Medium";
+  font-family: "Graphik-Medium";
   font-size: 25px;
   font-weight: 900;
   line-height: 60px;
@@ -235,7 +235,7 @@ export default {
 }
 
 .contact__container p {
-   font-family: "Graphik-Regular";
+  font-family: "Graphik-Regular";
   font-size: 16px;
   font-weight: 400;
   line-height: 40px;
@@ -247,21 +247,19 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 20%;
+  width: 25%;
   margin-top: 2rem;
 }
 
 .about-text__header {
   font-family: "Graphik-Bold";
   font-size: 2.5rem;
-  /* font-weight: 200; */
-  /* letter-spacing: 0.1em; */
   line-height: 4.5rem;
   margin-bottom: 2rem;
 }
 
 .about-text__container {
- font-family: "Graphik-Regular";
+  font-family: "Graphik-Regular";
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 3.2rem;
