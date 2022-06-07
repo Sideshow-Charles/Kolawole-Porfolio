@@ -18,10 +18,10 @@
     src: url("~assets/fonts/Graphik-BoldItalic.woff") format("woff");
   }
 
-  @font-face {
+  /* @font-face {
     font-family: "Graphik-ExtraLight";
     src: url("~assets/fonts/Graphik-ExtraLight.woff") format("woff");
-  }
+  } */
 
   @font-face {
     font-family: "Graphik-ExtralightItalic";
