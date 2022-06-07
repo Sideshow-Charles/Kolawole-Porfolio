@@ -2,7 +2,7 @@
   <div class="nav__bar">
     <div class="nav__items__left">
       <div class="logo__container">
-        <Nuxt-Link to="/"><img src="../assets/images/KOLAWOLE.png" alt="" /></Nuxt-Link>
+        <Nuxt-Link to="/"><img src="../assets/images/KOLAWOLE.svg" alt="" /></Nuxt-Link>
       </div>
       <ul class="nav__items__center">
         <li class="nav__item__center"><NuxtLink to="/work">Work</NuxtLink></li>

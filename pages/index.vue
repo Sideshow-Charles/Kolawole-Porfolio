@@ -51,12 +51,11 @@
 </template>
 
 <script>
-import fonts from "../assets/fonts/fonts.css";
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 export default {
   components: {
-    fonts,
+    // fonts,
     Header,
     Footer,
   },
@@ -116,8 +115,8 @@ export default {
 .section__content {
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 119px;
+  padding-right: 119px;
 }
 
 .section__header {
@@ -132,11 +131,20 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  /* gap: 72px; */
 }
 
 .selected-works__container img {
-  width: 45%;
-  margin: 20px 0;
+  width: 550px;
+  margin-bottom: 72px;
+}
+
+.selected-works__container img:nth-child(1) {
+  margin-right: 72px;
+}
+
+.selected-works__container img:nth-child(3) {
+  margin-right: 72px;
 }
 
 .sub-footer__container {
@@ -180,7 +188,6 @@ export default {
   }
 
   .selected-works__container img {
-    margin: 20px auto;
     width: 100%;
   }
 
