@@ -161,7 +161,7 @@ export default {
 
 @media screen and (min-width: 1600px) {
   .selected-works__container img {
-    max-width: 710px;
+    max-width: 718px;
   }
 }
 
