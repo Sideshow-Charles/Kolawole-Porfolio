@@ -24,13 +24,13 @@
         <article class="about-text__container">
           <p>
             I’m Kolawole, a product designer passionate about building
-            human-centric products. I currently work at Kuda Bank as a Product
+            human-centric products. I currently work at <span>Kuda Bank</span> as a Product
             Designer with some really talented people, building one of the
-            biggest Neo-bank’s in Africa. Previously I worked at MAX.NG as the
+            biggest Neo-bank’s in Africa. Previously I worked at <span>MAX.NG</span> as the
             Lead Designer.
           </p>
           <p>
-            Before joining MAX I worked at Fieldinsight.co (Delivery Science) -
+            Before joining MAX I worked at <span>Fieldinsight.co</span> (Delivery Science) -
             A logistics company built to strengthen companies bonds with their
             customers with a platform that works online and offline that helps
             your team on the field.
@@ -211,7 +211,11 @@ export default {
 
 .about-text__container {
   line-height: 2.5rem;
-  width: 35rem;
+  width: 40rem;
+}
+
+.about-text__container p span {
+  text-decoration: underline;
 }
 
 .image__container {
@@ -260,7 +264,7 @@ export default {
 
 .about-text__container {
   font-family: "Graphik-Regular";
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 300;
   line-height: 3.2rem;
 }
@@ -268,6 +272,10 @@ export default {
 .about-text__container p {
   margin-bottom: 3rem;
 }
+
+.about-text__container p span {
+  text-decoration: underline;
+} 
 
 .section__container {
   margin: 0 auto;
@@ -282,9 +290,9 @@ export default {
 }
 
 .section__toolkit h2 {
-  font-family: "Graphik";
+  font-weight: 900;
+  font-family: "Graphik-Medium";
   font-size: 25px;
-  font-weight: 700;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
@@ -292,9 +300,9 @@ export default {
 }
 
 .section__toolkit h3 {
-  font-family: "Graphik";
+  font-weight: 900;
+  font-family: "Graphik-Medium";
   font-size: 21px;
-  font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
@@ -471,16 +479,22 @@ export default {
   margin-bottom: 2rem;
 }
 
+@media screen and (min-width: 1600px) {
+  .about-text__container {
+    width: 55rem;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .about__container {
     flex-direction: column;
   }
   .hero__image {
-    width: 800px;
+    /* width: 800px; */
   }
 
   .about-text__container {
-    width: 800px;
+    width: 40rem;
   }
 
   .section__container {
@@ -500,7 +514,7 @@ export default {
   }
 
   .hero__image {
-    width: 600px;
+    /* width: 600px; */
   }
 
   .section__container {
