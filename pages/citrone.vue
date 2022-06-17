@@ -310,6 +310,16 @@ export default {
   margin-top: 0.5rem;
 }
 
+@media screen and (max-width: 1240px) {
+  .role-description__container {
+    flex-wrap: wrap;
+  }
+
+  .role-description__container p {
+    margin-bottom: 0.5rem;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .product__container {
     padding-left: 64px;
