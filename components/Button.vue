@@ -4,8 +4,7 @@
   </button>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style scoped>
 .contact {

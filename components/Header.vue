@@ -5,24 +5,80 @@
         <Nuxt-Link to="/"><img src="../assets/images/KOLAWOLE.svg" alt="" /></Nuxt-Link>
       </div>
       <ul class="nav__items__center">
-        <li class="nav__item__center"><NuxtLink to="/work">Work</NuxtLink></li>
-        <li class="nav__item__center"><NuxtLink to="/about">About</NuxtLink></li>
-        <li class="nav__item__center"><NuxtLink to="/design">Design</NuxtLink></li>
-        <li class="nav__item__center"><NuxtLink to="/resume">Resume</NuxtLink></li>
+        <li class="nav__item__center"><Nuxt-Link to="/work">Work</Nuxt-Link></li>
+        <li class="nav__item__center"><Nuxt-Link to="/about">About</Nuxt-Link></li>
+        <li class="nav__item__center"><Nuxt-Link to="/design">Designs</Nuxt-Link></li>
+        <li class="nav__item__center"><Nuxt-Link to="/resume">Resume</Nuxt-Link></li>
       </ul>
     </div>
     <div class="nav__items__right">
       <Button></Button>
     </div>
+
+
+      <img src="../assets/images/Menu.svg" alt="hamburger-menu" class="hamburger__menu" @click="toggleMobileNav" v-show="mobile">
+
+       <!-- Mobile nav -->
+    <div class="mobile__nav" v-show="mobileNav">
+      <ul class="mobile__nav__links">
+        <Nuxt-Link to="#"><li class="mobile__nav__link">Work</li></Nuxt-Link>
+        <Nuxt-Link to="#"><li class="mobile__nav__link">About</li></Nuxt-Link>
+        <Nuxt-Link to="#"><li class="mobile__nav__link">Designs</li></Nuxt-Link>
+        <Nuxt-Link to="#"><li class="mobile__nav__link">Resume</li></Nuxt-Link>
+    
+        <Button></Button>
+
+      </ul>
+    </div>
+    <!-- End of Mobile nav -->
   </div>
 </template>
 
 <script>
-import fonts from "../assets/fonts/fonts.css"
 export default {
-components: {
-    fonts
-}
+       data () {
+       return {
+          mobileNav: null,
+          mobile: null,
+          windowWidth: null,
+          dropDown: false,
+       }
+     },
+
+    mounted () {
+       window.addEventListener("resize", this.checkScreen);
+       this.checkScreen();
+    },
+
+     methods: {
+       toggleMobileNav() {
+         this.mobileNav = !this.mobileNav
+       },
+       
+       showdropDown() {
+         this.dropDown = !this.dropDown
+       },
+
+       hidedropDown() {
+         if (this.dropDown = true) {
+            this.dropDown = false;
+         }
+       },
+
+       // Checks the screen size to show or hide the mobile nav. 
+
+       checkScreen() {
+         this.windowWidth = window.innerWidth;
+         if (this.windowWidth <= 980) {
+           this.mobile = true;
+           return;
+         } 
+        this.mobile = false;
+        this.mobileNav = false;
+        return;
+       },
+     }
+
 }
 </script>
 
@@ -51,10 +107,6 @@ components: {
   color: inherit;
 }
 
-.nav__items__left a:active {
-  text-decoration: underline;
-}
-
 .nav__items__center {
   display: flex;
   justify-content: space-around;
@@ -64,16 +116,38 @@ components: {
   font-size: 18px;
 }
 
+.nav__items__center a:active,
+.nav__items__center a.nuxt-link-active {
+  border-bottom: 3px solid #14586D;
+}
+
+
 .nav__item__center {
   display: flex;
   justify-content: space-between;
 }
 
 /* Media Queries */
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 980px) {
   .nav__bar {
     padding-left: 64px;
     padding-right: 64px;
+  }
+
+  .nav__items__center {
+    display: none;
+  }
+
+  .nav__items__right {
+    display: none;
+  }
+
+   .hamburger__menu {
+    height: 35px;
+    width: 25px;
+    cursor: pointer;
+    margin-bottom: 5px;
+
   }
 }
 
@@ -91,4 +165,32 @@ components: {
     display: none;
   }
 }
+
+
+.mobile__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f0f8fb;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  /* overflow: none; */
+  padding-top: 200px;
+  overflow-x: hidden;
+  /* z-index: 999; */
+}
+
+.mobile__nav__links li {
+ padding-top: 25px;
+  list-style: none;
+  text-align: center;
+  margin-top: 25px;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+
 </style>

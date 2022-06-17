@@ -7,6 +7,7 @@
           be the right fit? What are you waiting for
         </p>
       </section>
+       <Button></Button>
     </section>
     <footer class="footer__container">
       <footer class="footer__text">
@@ -22,13 +23,15 @@
 </template>
 
 <script>
+import Button from "../components/Button.vue";
+export default {
+  components: {
+    Button,
+  }
+}
 </script>
 
 <style scoped>
-*{
-    margin: 0;
-    padding: 0;
-}
 .sub-footer {
   background: #f0f8fb;
 }
@@ -38,7 +41,7 @@
 }
 
 .sub-footer__text {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   line-height: 1.8;
   font-size: 1.5rem;
   font-weight: 500;
@@ -68,7 +71,7 @@
   width: 15%;
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 980px) {
   .footer__container {
     padding-left: 64px;
     padding-right: 64px;

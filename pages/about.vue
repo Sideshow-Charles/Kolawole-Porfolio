@@ -181,12 +181,10 @@
 </template>
 
 <script>
-import fonts from "../assets/fonts/fonts.css";
 import Header from "../components/Header.vue";
 import SubFooter from "../components/SubFooter.vue";
 export default {
   components: {
-    fonts,
     Header,
     SubFooter,
   },
@@ -211,7 +209,7 @@ export default {
 
 .about-text__container {
   line-height: 2.5rem;
-  width: 40rem;
+  width: 35rem;
 }
 
 .about-text__container p span {
@@ -481,7 +479,7 @@ export default {
 
 @media screen and (min-width: 1600px) {
   .about-text__container {
-    width: 55rem;
+    width: 50rem;
   }
 }
 
@@ -507,7 +505,7 @@ export default {
   }
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 980px) {
   .about__container {
     padding: 7rem 64px;
     flex-direction: column;

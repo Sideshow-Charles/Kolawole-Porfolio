@@ -1,7 +1,6 @@
 <template>
   <div>
     <Header></Header>
-
     <article class="article__container">
       <article class="article__header">
         <h1>
@@ -29,9 +28,9 @@
           <p>Some of my selected work</p>
         </section>
         <section class="selected-works__container">
-          <img src="../assets/images/selected-work1.png" alt="" />
-          <img src="../assets/images/selected-work2.png" alt="" />
-          <img src="../assets/images/selected-work3.png" alt="" />
+          <a href="/kuda-business-banking"><img src="../assets/images/selected-work1.png" alt="" /></a>
+          <a href="/monthly"><img src="../assets/images/selected-work2.png" alt="" /></a>
+          <a href="/citrone"><img src="../assets/images/selected-work3.png" alt=""/></a>
           <img src="../assets/images/selected-work4.png" alt="" />
         </section>
       </section>
@@ -64,13 +63,13 @@ export default {
 
 <style scoped>
 .article__container {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   padding-left: 128px;
   padding-right: 128px;
 }
@@ -81,7 +80,7 @@ export default {
   font-weight: 300;
   letter-spacing: -0.03em;
   line-height: 4.5rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   max-width: 55rem;
 }
 
@@ -90,7 +89,7 @@ export default {
   font-size: 1.3rem;
   font-weight: 300;
   line-height: 3.2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   max-width: 54rem;
 }
 
@@ -114,8 +113,8 @@ export default {
 .section__content {
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-left: 119px;
-  padding-right: 119px;
+  padding-left: 128px;
+  padding-right: 128px;
 }
 
 .section__header {
@@ -128,14 +127,13 @@ export default {
 
 .selected-works__container {
   display: flex;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
 }
 
 .selected-works__container img {
-  max-width: 550px;
+  width: 520px;
   margin-bottom: 72px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .selected-works__container img:nth-child(1) {
@@ -161,11 +159,11 @@ export default {
 
 @media screen and (min-width: 1600px) {
   .selected-works__container img {
-    max-width: 718px;
+    width: 800px;
   }
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 980px) {
   .article__container {
     padding-left: 64px;
     padding-right: 64px;
@@ -174,6 +172,12 @@ export default {
   .section__content {
     padding-left: 64px;
     padding-right: 64px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .selected-works__container img {
+    width: 100%;
   }
 }
 
@@ -195,6 +199,14 @@ export default {
   .selected-works__container img {
     width: 100%;
   }
+
+  .selected-works__container img:nth-child(1) {
+    margin-right: 0;
+  }
+
+  .selected-works__container img:nth-child(3) {
+    margin-right: 0;
+  } 
 
   .sub-footer__container {
     padding: 7rem 64px;
