@@ -52,18 +52,18 @@ export default {
 
      methods: {
        toggleMobileNav() {
-         this.mobileNav = !this.mobileNav
+        //  this.mobileNav = !this.mobileNav
        },
        
-       showdropDown() {
-         this.dropDown = !this.dropDown
-       },
+      //  showdropDown() {
+      //    this.dropDown = !this.dropDown
+      //  },
 
-       hidedropDown() {
-         if (this.dropDown = true) {
-            this.dropDown = false;
-         }
-       },
+      //  hidedropDown() {
+      //    if (this.dropDown = true) {
+      //       this.dropDown = false;
+      //    }
+      //  },
 
        // Checks the screen size to show or hide the mobile nav. 
 

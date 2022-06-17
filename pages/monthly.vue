@@ -268,4 +268,36 @@ export default {
   line-height: 3rem;
   margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 980px) {
+  .product__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+.about-product__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .monthly-hero__image {
+    padding: 0 64px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product__container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+.about-product__container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .monthly-hero__image {
+    padding: 0 32px;
+  }
+}
 </style>

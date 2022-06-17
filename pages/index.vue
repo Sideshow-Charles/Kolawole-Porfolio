@@ -28,10 +28,10 @@
           <p>Some of my selected work</p>
         </section>
         <section class="selected-works__container">
-          <a href="/kuda-business-banking"><img src="../assets/images/selected-work1.png" alt="" /></a>
-          <a href="/monthly"><img src="../assets/images/selected-work2.png" alt="" /></a>
-          <a href="/citrone"><img src="../assets/images/selected-work3.png" alt=""/></a>
-          <img src="../assets/images/selected-work4.png" alt="" />
+          <Nuxt-Link to="/kuda-business-banking"><img src="../assets/images/selected-work1.png" alt="" /></Nuxt-Link>
+          <Nuxt-Link to="/monthly"><img src="../assets/images/selected-work2.png" alt="" /></Nuxt-Link>
+          <Nuxt-Link to="/citrone"><img src="../assets/images/selected-work3.png" alt=""/></Nuxt-Link>
+          <Nuxt-Link to="/coded-agents"><img src="../assets/images/selected-work4.png" alt="" /></Nuxt-Link>
         </section>
       </section>
     </section>
@@ -131,7 +131,7 @@ export default {
 }
 
 .selected-works__container img {
-  width: 520px;
+  max-width: 500px;
   margin-bottom: 72px;
   /* width: 100%; */
 }
@@ -140,9 +140,10 @@ export default {
   margin-right: 72px;
 }
 
-.selected-works__container img:nth-child(3) {
+.selected-works__container img:nth-child(2) {
   margin-right: 72px;
 }
+
 
 .sub-footer__container {
   text-align: center;
@@ -159,7 +160,7 @@ export default {
 
 @media screen and (min-width: 1600px) {
   .selected-works__container img {
-    width: 800px;
+    max-width: 670px;
   }
 }
 

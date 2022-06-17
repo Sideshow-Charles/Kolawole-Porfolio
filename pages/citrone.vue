@@ -43,21 +43,21 @@
 
         <section class="product__challenge">
         <p class="product__challenge__header">The challenge</p>
-        <p class="product__challenge__text">
-          <ul class="product__challenge__list">
-              <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we build a user friendly product that isn’t a big incovenience from sending notes and assignments by email.</li>
+        <div class="product__challenge__text">
+          <div class="product__challenge__list">
+              <p>
+              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we build a user friendly product that isn’t a big incovenience from sending notes and assignments by email.</p>
 
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we track student progress on assignments, lessons, tests etc.</li>
+            <p>
+              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we track student progress on assignments, lessons, tests etc.</p>
 
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we build a product where interaction between students and tutors, students and students is very seamless.</li>
+            <p>
+              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we build a product where interaction between students and tutors, students and students is very seamless.</p>
 
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we ensure transparecy on the platform i.e students are able to see the scores for their quizzes and assignments and view a breakdown of how it was graded.</li>
-          </ul>
-        </p>
+            <p>
+              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we ensure transparecy on the platform i.e students are able to see the scores for their quizzes and assignments and view a breakdown of how it was graded.</p>
+          </div>
+        </div>
     </section>
     <section class="product__role">
         <p class="product__role__header">My Role & the team</p>
@@ -69,15 +69,15 @@
         <p class="product-research__and__user__experience__text">For this product a lot of the research we did was user interview based, why? Because like I stated earlier we were trying to build something seamless, we wanted to convince people who were used to sending mails and having long zoom calls that there were better ways so we went to learning institutions and asked tutors and students what their current pain points were and we were able to gather useful data. Here is the feedback from some of the people we spoke to :</p>
     </section>
 
-    <section class="research-points__container">
+    <!-- <section class="research-points__container">
         <section class="research-individual__points">
             <img src="../assets/images/Johnson.png" alt="" width="80px" height="80px">
             <div class="research-individual__info">
             <p class="research-individual__name">Johnson</p>
             <p class="research-individual__role">Tutor, 35 years old</p>
             </div>
-        </section>
-        <p class="research-point__header">
+        </section> -->
+        <!-- <p class="research-point__header">
                 These are Mr Johnson’s current pain points on his <br> institutions current learning situation :
         </p>
 
@@ -99,8 +99,8 @@
           <ul class="input-details__lists">
               
               <span class="icon"><img src="../assets/images/Polygon.png" alt=""></span><li class="input-details__list">There is a lot of room for cheating/plagiarism especially in quizzes.</li>
-         </ul>
-    </section>
+         </ul> 
+    </section>-->
     </section>
   </div>
 </template>
@@ -217,9 +217,9 @@ export default {
   margin-bottom: 2rem;
 }
 
-.product__challenge__list li {
+.product__challenge__list p {
   margin: 30px 0;
-  list-style: none;
+  /* list-style: none; */
   font-family: "Graphik-Regular";
   font-size: 19px;
   font-weight: 400;
@@ -228,7 +228,7 @@ export default {
   text-align: left;
 }
 
-.product__challenge__list li span {
+.product__challenge__list p span {
   margin-right: 20px;
 }
 
@@ -310,25 +310,35 @@ export default {
   margin-top: 0.5rem;
 }
 
-.input-details__lists {
-    display: flex;
-    align-items: center;
+@media screen and (max-width: 980px) {
+  .product__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+.about-product__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .citrone-hero__image {
+    padding: 0 64px;
+  }
 }
 
-.input-details__lists li {
-  margin: 5px 0;
-  list-style: none;
-  font-family: "Graphik-Regular";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 40px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin-left: 20px;
-  width: 50rem;
-}
+@media screen and (max-width: 768px) {
+  .product__container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-.input-details__list {
-    margin-left: 20px;
+.about-product__container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .citrone-hero__image {
+    padding: 0 32px;
+  }
 }
 </style>
