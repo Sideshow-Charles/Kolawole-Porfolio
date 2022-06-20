@@ -242,7 +242,7 @@ export default {
 }
 
 .product__challenge__list {
-  list-style-image: url("../assets/images/polygon.png");
+  list-style-image: url("~assets/images/polygon.png");
 }
 
 .product__challenge__list li {

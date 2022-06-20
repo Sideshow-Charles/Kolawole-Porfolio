@@ -374,7 +374,7 @@ export default {
 }
 
 .product__challenge__list {
-  list-style-image: url("../assets/images/polygon.png");
+  list-style-image: url("~assets/images/polygon.png");
 }
 
 .product__challenge__list li {
@@ -543,7 +543,7 @@ export default {
   font-family: "Graphik-Medium";
   font-size: 1.7rem;
   font-weight: 900;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .visual-design__sub__header {
@@ -655,7 +655,7 @@ export default {
 }
 
 .input__details__list {
-  list-style-image: url("../assets/images/polygon.png");
+  list-style-image: url("~assets/images/polygon.png");
 }
 
 .input__details__list li {
