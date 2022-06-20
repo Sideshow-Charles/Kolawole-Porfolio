@@ -259,7 +259,7 @@ export default {
 }
 
 .about-text__header {
-  font-family: "Graphik";
+  font-family: "Graphik-SemiBold";
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 4.5rem;

@@ -80,7 +80,7 @@ export default {
 }
 
 .article__header {
-  font-family: "Graphik";
+  font-family: "Graphik-SemiBold";
   font-size: 2rem;
   font-weight: 300;
   /* letter-spacing: -0.03em; */
