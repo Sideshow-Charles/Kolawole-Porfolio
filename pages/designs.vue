@@ -47,7 +47,7 @@ export default {
   font-family: "Graphik-SemiBold";
   font-size: 2rem;
   font-weight: 600;
-  letter-spacing: -0.03em;
+  /* letter-spacing: -0.03em; */
   line-height: 4.5rem;
   margin-bottom: 1.5rem;
 }

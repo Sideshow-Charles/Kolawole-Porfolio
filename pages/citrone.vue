@@ -155,7 +155,7 @@ export default {
   font-family: "Graphik-SemiBold";
   font-size: 2rem;
   font-weight: 600;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   line-height: 4.5rem;
   /* margin-bottom: 1.5rem; */
   max-width: 55rem;
