@@ -13,18 +13,23 @@
 
     <section class="invoicing__gallery__container">
       <section class="invoicing__gallery">
-        <img :src="mainPicture" />
+        <img :src="pictures[0].image" />
       </section>
 
-      <section class="invoicing__gallery__menu">
-        <div v-for="(picture, index) in pictures" v-bind:key="picture">
-          <img
-            :src="picture"
-            @click="changemainPicture(index)"
-            :class="{ active: index == indexofActive ? true : false }"
-          />
-        </div>
-      </section>
+      <p class="invoicing__image__caption">
+         {{pictures[0].caption }}
+      </p>
+    <!-- </section> -->
+
+    <section class="invoicing__gallery__menu">
+      <div v-for="(pictures, index) in pictures" v-bind:key="pictures">
+        <img
+          :src="pictures.image"
+          @click="changemainPicture(index)"
+          :class="{ active: index == indexofActive ? true : false }"
+        />
+      </div>
+    </section>
     </section>
   </div>
 </template>
@@ -35,17 +40,29 @@ export default {
     return {
       indexofActive: 0,
       mainPicture: require("../assets/images/invoicing-1.png"),
+      mainCaption: "List of all the times user added on their invoice",
       pictures: [
-        require("../assets/images/invoicing-1.png"),
-        require("../assets/images/invoicing-2.png"),
-        require("../assets/images/invoicing-3.png"),
+        {
+          image: require("../assets/images/invoicing-1.png"),
+          caption: "List of all the times user added on their invoice",
+        },
+
+        {
+          image: require("../assets/images/invoicing-2.png"),
+          caption: "Summary of the Invoice before it is sent to customer.",
+        },
+
+        {
+          image: require("../assets/images/invoicing-3.png"),
+          caption: "The various ways the invoice can be paid after the customer receives it",
+        },
       ],
     };
   },
 
   methods: {
     changemainPicture(index) {
-      this.mainPicture = this.pictures[index];
+      this.mainPicture = this.pictures.image[index];
       this.indexofActive = index;
     },
   },
@@ -67,7 +84,7 @@ export default {
 
 .invoicing__header {
   font-family: "Graphik-Medium";
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: 900;
   margin-bottom: 2rem;
 }
@@ -104,7 +121,7 @@ export default {
 }
 
 .invoicing__image__caption {
-  margin: 70px 0;
+  margin: 10px 0;
   text-align: center;
   color: #fff;
   font-family: "Graphik-Regular";
@@ -125,7 +142,6 @@ export default {
   height: 63px;
   cursor: pointer;
 }
-
 
 .active {
   border: 3px solid #48d38a;

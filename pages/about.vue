@@ -24,16 +24,17 @@
         <article class="about-text__container">
           <p>
             I’m Kolawole, a product designer passionate about building
-            human-centric products. I currently work at <span>Kuda Bank</span> as a Product
-            Designer with some really talented people, building one of the
-            biggest Neo-bank’s in Africa. Previously I worked at <span>MAX.NG</span> as the
-            Lead Designer.
+            human-centric products. I currently work at
+            <span>Kuda Bank</span> as a Product Designer with some really
+            talented people, building one of the biggest Neo-bank’s in Africa.
+            Previously I worked at <span>MAX.NG</span> as the Lead Designer.
           </p>
           <p>
-            Before joining MAX I worked at <span>Fieldinsight.co</span> (Delivery Science) -
-            A logistics company built to strengthen companies bonds with their
-            customers with a platform that works online and offline that helps
-            your team on the field.
+            Before joining MAX I worked at
+            <span>Fieldinsight.co</span> (Delivery Science) - A logistics
+            company built to strengthen companies bonds with their customers
+            with a platform that works online and offline that helps your team
+            on the field.
           </p>
           <p>
             My journey in design has been a very interesting one, I’ve been
@@ -223,8 +224,12 @@ export default {
 }
 
 .image__container img {
-  height: 50%;
+  /* height: 50%; */
   margin-bottom: 5rem;
+}
+
+.hero__image {
+  width: 75%;
 }
 
 .contact__container h3 {
@@ -249,13 +254,14 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 30%;
+  width: 20%;
   margin-top: 2rem;
 }
 
 .about-text__header {
-  font-family: "Graphik-Bold";
+  font-family: "Graphik";
   font-size: 2.5rem;
+  font-weight: 600;
   line-height: 4.5rem;
   margin-bottom: 2rem;
 }
@@ -273,7 +279,7 @@ export default {
 
 .about-text__container p span {
   text-decoration: underline;
-} 
+}
 
 .section__container {
   margin: 0 auto;
@@ -437,7 +443,7 @@ export default {
 }
 
 .section-interest__reading img {
-  width: 15%;
+  max-width: 70px;
   margin-right: 20px;
 }
 
@@ -462,7 +468,7 @@ export default {
 }
 
 .section-interest__listening img {
-  width: 15%;
+  max-width: 70px;
   margin-right: 20px;
 }
 

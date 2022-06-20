@@ -42,31 +42,26 @@
       <section class="product__challenge">
         <p class="product__challenge__header">The challenge</p>
         <div class="product__challenge__text">
-          <div class="product__challenge__list">
-            <p>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Provide a solution for business owners with petty businesses that
+          <ul class="product__challenge__list">
+            <li style="padding-left: 1em">
+              Provide a solution for business owners with petty businesses that
               aren’t registered
-            </p>
+            </li>
 
-            <p>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Allow users to be able to track their activities on their
-              business account i.e inflow, outflow
-            </p>
+            <li style="padding-left: 1em">
+              Allow users to be able to track their activities on their business
+              account i.e inflow, outflow
+            </li>
 
-            <p>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Provide a solution that allows business owners to send and
-              receive money seamlessly and also pay bills.
-            </p>
+            <li style="padding-left: 1em">
+              Provide a solution that allows business owners to send and receive
+              money seamlessly and also pay bills.
+            </li>
 
-            <p>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Provide a solution that allows business owners to send out
-              invoices to their customers and be paid directly.
-            </p>
-          </div>
+            <li style="padding-left: 1em">
+              Provide a solution that allows business owners to send out invoices to their customers and be paid directly.
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -164,28 +159,21 @@
 
     <section class="input-details__container">
       <p class="input-details__header">Inputing your Details</p>
-      <p class="input-details__text">
+      <div class="input-details__text">
         Once you select to sign up with Email, you are then asked to provide
         your email alongside other information that will be needed for you to
         set up your account. The necessary information that will be collected
         include ;
-      </p>
-      <div class="input-details__list">
-        <p>
-          <span><img src="../assets/images/Polygon.png" alt="" /></span
-          >Verifying your ID with a selfie
-        </p>
-
-        <p>
-          <span><img src="../assets/images/Polygon.png" alt="" /></span
-          >Uploading a valid ID card
-        </p>
-
-        <p>
-          <span><img src="../assets/images/Polygon.png" alt="" /></span>Filling
-          a form that tells us more about your business
-        </p>
       </div>
+      <ul class="input__details__list">
+        <li style="padding-left: 1em">Verifying your ID with a selfie</li>
+
+        <li style="padding-left: 1em">Uploading a valid ID card</li>
+
+        <li style="padding-left: 1em">
+          Filling a form that tells us more about your business
+        </li>
+      </ul>
     </section>
 
     <section class="signup__flow__gallery__container">
@@ -224,8 +212,8 @@
         <img src="../assets/images/welcome-screen-3.png" alt="" />
         <img src="../assets/images/welcome-screen-4.png" alt="" />
       </section>
-    </section>
-    <img
+    </section>-->
+    <!-- <img
       src="../assets/images/mobile-screens-background.png"
       alt=""
       class="mobile-screens__backhround__image"
@@ -288,16 +276,16 @@ export default {
   /* justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-top: 5rem;
+  padding-top: 7rem;
   padding-bottom: 5rem;
   padding-left: 128px;
   padding-right: 128px;
 }
 
 .product__header {
-  font-family: "Graphik-Bold";
+  font-family: "Graphik";
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 600;
   letter-spacing: 0.02em;
   line-height: 4.5rem;
   /* margin-bottom: 1.5rem; */
@@ -324,7 +312,7 @@ export default {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   border: 1px solid #000;
   padding: 2.5px 20px;
@@ -354,7 +342,7 @@ export default {
 }
 
 .product__brief {
-  margin-top: 7rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
 }
 
@@ -385,19 +373,19 @@ export default {
   margin-bottom: 2rem;
 }
 
-.product__challenge__list p {
-  margin: 30px 0;
-  /* list-style: none; */
+.product__challenge__list {
+  list-style-image: url("../assets/images/polygon.png");
+}
+
+.product__challenge__list li {
+  margin-left: 20px;
+  padding: 20px 0;
   font-family: "Graphik-Regular";
   font-size: 19px;
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
-}
-
-.product__challenge__list p span {
-  margin-right: 20px;
 }
 
 .product__role {
@@ -594,6 +582,7 @@ export default {
 
 .visual-design__image__container img:nth-child(3) {
   margin-right: 231px;
+  max-height: 880px;
 }
 
 .onboarding__container {
@@ -610,7 +599,7 @@ export default {
 
 .onboarding__header {
   font-family: "Graphik-Medium";
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: 900;
   margin-bottom: 2rem;
 }
@@ -652,7 +641,7 @@ export default {
 
 .input-details__header {
   font-family: "Graphik-Medium";
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: 900;
   margin-bottom: 2rem;
 }
@@ -662,22 +651,22 @@ export default {
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
-.input-details__list p {
-  margin: 20px 0;
-  list-style: none;
+.input__details__list {
+  list-style-image: url("../assets/images/polygon.png");
+}
+
+.input__details__list li {
+  margin-left: 20px;
+  padding: 20px 0;
   font-family: "Graphik-Regular";
   font-size: 19px;
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
-}
-
-.input-details__list p span {
-  margin-right: 20px;
 }
 
 .signup__flow__gallery__container {
@@ -743,7 +732,7 @@ export default {
 
 .mobile-screens__header {
   font-family: "Graphik-Medium";
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: 900;
   margin-bottom: 2rem;
 }

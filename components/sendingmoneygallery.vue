@@ -2,19 +2,23 @@
   <div>
       <section class="sending-money__container">
         <p class="sending-money__header">Sending Money</p>
-         <p class="sending-money__text">Once you’ve signe up/in and you have access to your account, you can fund the account with your account number given to you and you can also send money to other banks with the following steps :</p>
+         <div class="sending-money__text">Once you’ve signe up/in and you have access to your account, you can fund the account with your account number given to you and you can also send money to other banks with the following steps :</div>
            <ul class="sending-money__list">
-              <li>
-              <span><img src="../assets/images/Polygon.png" alt=""></span>Click on the Payments tab and go to “Send Money”</li>
+            <li style="padding-left:1em">
+              Click on the Payments tab and go to “Send Money”
+            </li>
 
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt=""></span>Select Transaction type i.e Single Transaction</li>
+            <li style="padding-left:1em">
+              Select Transaction type i.e Single Transaction
+            </li>
 
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt=""></span>Fill in the details of the person you are sending money to i.e Bank, Account Number and Amount</li>
+            <li style="padding-left:1em">
+              Fill in the details of the person you are sending money to i.e Bank, Account Number and Amount
+            </li>
 
-             <li>
-              <span><img src="../assets/images/Polygon.png" alt=""></span>Send Money</li>
+             <li style="padding-left:1em">
+              Send Money
+            </li>
           </ul>
     </section>
 
@@ -77,7 +81,7 @@ export default {
 
 .sending-money__header {
   font-family: "Graphik-Medium";
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: 900;
   margin-bottom: 2rem;
 }
@@ -87,22 +91,22 @@ export default {
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sending-money__list {
+  list-style-image: url("../assets/images/polygon.png");
 }
 
 .sending-money__list li {
-  margin: 20px 0;
-  list-style: none;
+  margin-left: 20px;
+  padding: 20px 0;
   font-family: "Graphik-Regular";
   font-size: 19px;
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
-}
-
-.sending-money__list li span {
-    margin-right: 20px;
 }
 
 .sending-money__gallery__container {

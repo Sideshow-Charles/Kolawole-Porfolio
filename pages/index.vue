@@ -4,7 +4,7 @@
     <article class="article__container">
       <article class="article__header">
         <h1>
-          Product designer who is passionate about solving problems and creating
+          Product designer who is passionate about solving <br> problems and creating
           the best user experiences.
         </h1>
       </article>
@@ -19,7 +19,7 @@
         </p>
       </article>
       <article class="article-CTA__link">
-        <p>Read more about me</p>
+        <p><a href="/about">Read more about me</a></p>
       </article>
     </article>
     <section class="section__container">
@@ -28,10 +28,15 @@
           <p>Some of my selected work</p>
         </section>
         <section class="selected-works__container">
-          <Nuxt-Link to="/kuda-business-banking"><img src="../assets/images/selected-work1.png" alt="" /></Nuxt-Link>
-          <Nuxt-Link to="/monthly"><img src="../assets/images/selected-work2.png" alt="" /></Nuxt-Link>
-          <Nuxt-Link to="/citrone"><img src="../assets/images/selected-work3.png" alt=""/></Nuxt-Link>
-          <Nuxt-Link to="/coded-agents"><img src="../assets/images/selected-work4.png" alt="" /></Nuxt-Link>
+          <div class="selected__works">
+          <a href="/kuda-business-banking"><img src="../assets/images/selected-work1.png" alt="" /></a>
+          <a href="/monthly"><img src="../assets/images/selected-work2.png" alt="" /></a>
+          </div>
+
+          <div class="selected__works">
+          <a href="/citrone"><img src="../assets/images/selected-work3.png" alt="" /></a>
+          <a href="/coded-agents"><img src="../assets/images/selected-work4.png" alt="" /></a>
+          </div>
         </section>
       </section>
     </section>
@@ -68,20 +73,20 @@ export default {
   /* justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-top: 5rem;
+  padding-top: 7rem;
   padding-bottom: 5rem;
   padding-left: 128px;
   padding-right: 128px;
 }
 
 .article__header {
-  font-family: "Graphik-Bold";
+  font-family: "Graphik";
   font-size: 2rem;
   font-weight: 300;
-  letter-spacing: -0.03em;
+  /* letter-spacing: -0.03em; */
   line-height: 4.5rem;
-  /* margin-bottom: 3rem; */
-  max-width: 55rem;
+  margin-bottom: 2rem;
+  /* max-width: 55rem; */
 }
 
 .article__text {
@@ -100,9 +105,14 @@ export default {
 }
 
 .article-CTA__link {
-  font-family: "Graphik-Regular";
+  font-family: "Graphik-Medium";
   font-size: 1.3rem;
   font-weight: 300;
+}
+
+.article-CTA__link a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .section__container {
@@ -127,23 +137,33 @@ export default {
 
 .selected-works__container {
   display: flex;
-  flex-wrap: wrap;
+ flex-direction: column;
+ gap: 72px;
+  /* padding: 0;
+  margin: 0;
+  width: 100%; */
 }
 
-.selected-works__container img {
-  max-width: 500px;
-  margin-bottom: 72px;
+.selected-works__container a img {
+  max-width: 550px;
+  /* margin-bottom: 72px; */
   /* width: 100%; */
 }
 
-.selected-works__container img:nth-child(1) {
-  margin-right: 72px;
+.selected__works {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
 }
 
-.selected-works__container img:nth-child(2) {
-  margin-right: 72px;
+/* .selected-works__container a img:nth-child(1) {
+  margin-right: 50px;
 }
 
+.selected-works__container a img:nth-child(3) {
+  margin-right: 50px;
+} */
 
 .sub-footer__container {
   text-align: center;
@@ -159,8 +179,8 @@ export default {
 }
 
 @media screen and (min-width: 1600px) {
-  .selected-works__container img {
-    max-width: 670px;
+  .selected-works__container a img {
+    max-width: 718px;
   }
 }
 
@@ -174,11 +194,20 @@ export default {
     padding-left: 64px;
     padding-right: 64px;
   }
+
+  .selected__works {
+    flex-direction: column;
+  }
+
+  .selected-works__container a img {
+    max-width: 100%;
+    margin-bottom: 72px;
+  }
 }
 
 @media screen and (max-width: 820px) {
-  .selected-works__container img {
-    width: 100%;
+  .selected-works__container a img {
+    max-width: 100%;
   }
 }
 
@@ -194,20 +223,25 @@ export default {
   }
 
   .selected-works__container {
+    gap: 0 !important;
+  }
+
+  /* .selected__works {
     flex-direction: column;
+  } */
+
+  .selected-works__container a img {
+    max-width: 100%;
+    margin-bottom: 72px;
   }
 
-  .selected-works__container img {
-    width: 100%;
-  }
-
-  .selected-works__container img:nth-child(1) {
+  /* .selected-works__container img:nth-child(1) {
     margin-right: 0;
   }
 
   .selected-works__container img:nth-child(3) {
     margin-right: 0;
-  } 
+  }  */
 
   .sub-footer__container {
     padding: 7rem 64px;

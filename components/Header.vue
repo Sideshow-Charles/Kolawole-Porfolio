@@ -5,9 +5,9 @@
         <Nuxt-Link to="/"><img src="../assets/images/KOLAWOLE.svg" alt="" /></Nuxt-Link>
       </div>
       <ul class="nav__items__center">
-        <li class="nav__item__center"><Nuxt-Link to="/work">Work</Nuxt-Link></li>
+        <li class="nav__item__center"><Nuxt-Link to="/kuda-business-banking">Work</Nuxt-Link></li>
         <li class="nav__item__center"><Nuxt-Link to="/about">About</Nuxt-Link></li>
-        <li class="nav__item__center"><Nuxt-Link to="/design">Designs</Nuxt-Link></li>
+        <li class="nav__item__center"><Nuxt-Link to="/designs">Designs</Nuxt-Link></li>
         <li class="nav__item__center"><Nuxt-Link to="/resume">Resume</Nuxt-Link></li>
       </ul>
     </div>

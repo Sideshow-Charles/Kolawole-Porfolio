@@ -41,35 +41,59 @@
         </p>
       </section>
 
-        <section class="product__challenge">
+      <section class="product__challenge">
         <p class="product__challenge__header">The challenge</p>
         <div class="product__challenge__text">
-          <div class="product__challenge__list">
-              <p>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we build a user friendly product that isn’t a big incovenience from sending notes and assignments by email.</p>
+          <ul class="product__challenge__list">
+            <li style="padding-left: 1em">
+              How do we build a user friendly product that isn’t a big
+              incovenience from sending notes and assignments by email.
+            </li>
 
-            <p>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we track student progress on assignments, lessons, tests etc.</p>
+            <li style="padding-left: 1em">
+              How do we track student progress on assignments, lessons, tests
+              etc.
+            </li>
 
-            <p>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we build a product where interaction between students and tutors, students and students is very seamless.</p>
+            <li style="padding-left: 1em">
+              How do we build a product where interaction between students and
+              tutors, students and students is very seamless.
+            </li>
 
-            <p>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>How do we ensure transparecy on the platform i.e students are able to see the scores for their quizzes and assignments and view a breakdown of how it was graded.</p>
-          </div>
+            <li style="padding-left: 1em">
+              How do we ensure transparecy on the platform i.e students are able
+              to see the scores for their quizzes and assignments and view a
+              breakdown of how it was graded.
+            </li>
+          </ul>
         </div>
-    </section>
-    <section class="product__role">
+      </section>
+      <section class="product__role">
         <p class="product__role__header">My Role & the team</p>
-        <p class="product__role__text">I was in charge of the design direction for this product, this involved color scheme selection, logo design, UI/UX research and design. I worked hand in hand with two engineers and a product manager to ship a user centered, usable and seamless learning platform.</p>
-    </section>
+        <p class="product__role__text">
+          I was in charge of the design direction for this product, this
+          involved color scheme selection, logo design, UI/UX research and
+          design. I worked hand in hand with two engineers and a product manager
+          to ship a user centered, usable and seamless learning platform.
+        </p>
+      </section>
 
-    <section class="product-research__and__user__experience">
-        <p class="product-research__and__user__experience__header">Research & User Experience</p>
-        <p class="product-research__and__user__experience__text">For this product a lot of the research we did was user interview based, why? Because like I stated earlier we were trying to build something seamless, we wanted to convince people who were used to sending mails and having long zoom calls that there were better ways so we went to learning institutions and asked tutors and students what their current pain points were and we were able to gather useful data. Here is the feedback from some of the people we spoke to :</p>
-    </section>
+      <section class="product-research__and__user__experience">
+        <p class="product-research__and__user__experience__header">
+          Research & User Experience
+        </p>
+        <p class="product-research__and__user__experience__text">
+          For this product a lot of the research we did was user interview
+          based, why? Because like I stated earlier we were trying to build
+          something seamless, we wanted to convince people who were used to
+          sending mails and having long zoom calls that there were better ways
+          so we went to learning institutions and asked tutors and students what
+          their current pain points were and we were able to gather useful data.
+          Here is the feedback from some of the people we spoke to :
+        </p>
+      </section>
 
-    <!-- <section class="research-points__container">
+      <!-- <section class="research-points__container">
         <section class="research-individual__points">
             <img src="../assets/images/Johnson.png" alt="" width="80px" height="80px">
             <div class="research-individual__info">
@@ -77,7 +101,7 @@
             <p class="research-individual__role">Tutor, 35 years old</p>
             </div>
         </section> -->
-        <!-- <p class="research-point__header">
+      <!-- <p class="research-point__header">
                 These are Mr Johnson’s current pain points on his <br> institutions current learning situation :
         </p>
 
@@ -121,16 +145,16 @@ export default {
   /* justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-top: 5rem;
+  padding-top: 7rem;
   padding-bottom: 5rem;
   padding-left: 128px;
   padding-right: 128px;
 }
 
 .product__header {
-   font-family: "Graphik-Bold";
+  font-family: "Graphik";
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 600;
   letter-spacing: 0.02em;
   line-height: 4.5rem;
   /* margin-bottom: 1.5rem; */
@@ -157,7 +181,7 @@ export default {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   border: 1px solid #000;
   padding: 2.5px 20px;
@@ -180,13 +204,13 @@ export default {
   flex-direction: column;
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-bottom: 5rem;
+  /* padding-bottom: 3rem; */
   padding-left: 128px;
   padding-right: 128px;
 }
 
 .product__brief {
-  margin-top: 7rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
 }
 
@@ -217,19 +241,19 @@ export default {
   margin-bottom: 2rem;
 }
 
-.product__challenge__list p {
-  margin: 30px 0;
-  /* list-style: none; */
+.product__challenge__list {
+  list-style-image: url("../assets/images/polygon.png");
+}
+
+.product__challenge__list li {
+  margin-left: 20px;
+  padding: 20px 0;
   font-family: "Graphik-Regular";
   font-size: 19px;
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
-}
-
-.product__challenge__list p span {
-  margin-right: 20px;
 }
 
 .product__role {
@@ -273,7 +297,7 @@ export default {
 }
 
 .research-points__container {
-    padding: 0 48px;
+  padding: 0 48px;
 }
 
 .research-individual__points {
@@ -284,7 +308,7 @@ export default {
 }
 
 .research-individual__info {
-    width: 62rem;
+  width: 62rem;
 }
 
 .research-individual__name {
@@ -326,7 +350,7 @@ export default {
     padding-right: 64px;
   }
 
-.about-product__container {
+  .about-product__container {
     padding-left: 64px;
     padding-right: 64px;
   }
@@ -342,7 +366,7 @@ export default {
     padding-right: 32px;
   }
 
-.about-product__container {
+  .about-product__container {
     padding-left: 32px;
     padding-right: 32px;
   }
