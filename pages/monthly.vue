@@ -305,7 +305,7 @@ export default {
 }
 
 .product__challenge__list {
-  list-style-image: url("~assets/images/polygon.png");
+  list-style-image: url("~assets/images/Polygon.png");
 }
 
 .product__challenge__list li {
@@ -378,7 +378,7 @@ export default {
 }
 
 .research__list {
-  list-style-image: url("~assets/images/polygon.png");
+  list-style-image: url("~assets/images/Polygon.png");
 }
 
 .research__list li {

@@ -95,7 +95,7 @@ export default {
 }
 
 .sending-money__list {
-  list-style-image: url("~assets/images/polygon.png");
+  list-style-image: url("~assets/images/Polygon.png");
 }
 
 .sending-money__list li {
