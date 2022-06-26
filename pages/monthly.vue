@@ -584,26 +584,6 @@ export default {
     padding-left: 64px;
     padding-right: 64px;
   }
-
-  /* .sign-in__container {
-    flex-direction: column;
-    gap: 70px;
-  } */
-
-  .sign-in__container img {
-    padding-left: 64px;
-    padding-right: 64px;
-  }
-
-  /* .loans__container {
-    flex-direction: column-reverse;
-    gap: 70px;
-  } */
-
-  .loans__container img {
-    padding-left: 64px;
-    padding-right: 64px;
-  }
 }
 
 @media screen and (max-width: 768px) {
