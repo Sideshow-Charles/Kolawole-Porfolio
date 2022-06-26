@@ -2,84 +2,97 @@
   <div class="nav__bar">
     <div class="nav__items__left">
       <div class="logo__container">
-        <Nuxt-Link to="/"><img src="../assets/images/KOLAWOLE.svg" alt="" /></Nuxt-Link>
+        <Nuxt-Link to="/"
+          ><img src="../assets/images/KOLAWOLE.svg" alt=""
+        /></Nuxt-Link>
       </div>
       <ul class="nav__items__center">
-        <li class="nav__item__center"><Nuxt-Link to="/kuda-business-banking">Work</Nuxt-Link></li>
-        <li class="nav__item__center"><Nuxt-Link to="/about">About</Nuxt-Link></li>
-        <li class="nav__item__center"><Nuxt-Link to="/designs">Designs</Nuxt-Link></li>
-        <li class="nav__item__center"><Nuxt-Link to="/resume">Resume</Nuxt-Link></li>
+        <li class="nav__item__center">
+          <Nuxt-Link to="/kuda-business-banking">Work</Nuxt-Link>
+        </li>
+        <li class="nav__item__center">
+          <Nuxt-Link to="/about">About</Nuxt-Link>
+        </li>
+        <li class="nav__item__center">
+          <Nuxt-Link to="/designs">Designs</Nuxt-Link>
+        </li>
+        <li class="nav__item__center">
+          <Nuxt-Link to="/resume">Resume</Nuxt-Link>
+        </li>
       </ul>
     </div>
     <div class="nav__items__right">
       <Button></Button>
     </div>
 
+    <!-- <img src="../assets/images/Menu.svg" alt="hamburger-menu" class="hamburger__menu" @click="toggleMobileNav" v-show="mobile"> -->
 
-      <img src="../assets/images/Menu.svg" alt="hamburger-menu" class="hamburger__menu" @click="toggleMobileNav" v-show="mobile">
-
-       <!-- Mobile nav -->
-    <div class="mobile__nav" v-show="mobileNav">
+    <!-- Mobile nav -->
+    <!-- <div class="mobile__nav" v-show="mobile">
       <ul class="mobile__nav__links">
-        <Nuxt-Link to="#"><li class="mobile__nav__link">Work</li></Nuxt-Link>
-        <Nuxt-Link to="#"><li class="mobile__nav__link">About</li></Nuxt-Link>
-        <Nuxt-Link to="#"><li class="mobile__nav__link">Designs</li></Nuxt-Link>
-        <Nuxt-Link to="#"><li class="mobile__nav__link">Resume</li></Nuxt-Link>
-    
-        <Button></Button>
-
+        <li class="nav__item__center">
+          <Nuxt-Link to="/kuda-business-banking">Work</Nuxt-Link>
+        </li>
+        <li class="nav__item__center">
+          <Nuxt-Link to="/about">About</Nuxt-Link>
+        </li>
+        <li class="nav__item__center">
+          <Nuxt-Link to="/designs">Designs</Nuxt-Link>
+        </li>
+        <li class="nav__item__center">
+          <Nuxt-Link to="/resume">Resume</Nuxt-Link>
+        </li>
       </ul>
-    </div>
+    </div> -->
     <!-- End of Mobile nav -->
   </div>
 </template>
 
 <script>
 export default {
-       data () {
-       return {
-          mobileNav: null,
-          mobile: null,
-          windowWidth: null,
-          dropDown: false,
-       }
-     },
+  // data() {
+  //   return {
+  //     mobileNav: null,
+  //     mobile: null,
+  //     windowWidth: null,
+  //     dropDown: false,
+  //   };
+  // },
 
-    mounted () {
-       window.addEventListener("resize", this.checkScreen);
-       this.checkScreen();
-    },
+  // mounted() {
+  //   window.addEventListener("resize", this.checkScreen);
+  //   this.checkScreen();
+  // },
 
-     methods: {
-       toggleMobileNav() {
-        //  this.mobileNav = !this.mobileNav
-       },
-       
-      //  showdropDown() {
-      //    this.dropDown = !this.dropDown
-      //  },
+  // methods: {
+  //   toggleMobileNav() {
+      //  this.mobileNav = !this.mobileNav
+    // },
 
-      //  hidedropDown() {
-      //    if (this.dropDown = true) {
-      //       this.dropDown = false;
-      //    }
-      //  },
+    //  showdropDown() {
+    //    this.dropDown = !this.dropDown
+    //  },
 
-       // Checks the screen size to show or hide the mobile nav. 
+    //  hidedropDown() {
+    //    if (this.dropDown = true) {
+    //       this.dropDown = false;
+    //    }
+    //  },
 
-       checkScreen() {
-         this.windowWidth = window.innerWidth;
-         if (this.windowWidth <= 980) {
-           this.mobile = true;
-           return;
-         } 
-        this.mobile = false;
-        this.mobileNav = false;
-        return;
-       },
-     }
+    // Checks the screen size to show or hide the mobile nav.
 
-}
+  //   checkScreen() {
+  //     this.windowWidth = window.innerWidth;
+  //     if (this.windowWidth <= 980) {
+  //       this.mobile = true;
+  //       return;
+  //     }
+  //     this.mobile = false;
+  //     this.mobileNav = false;
+  //     return;
+  //   },
+  // },
+};
 </script>
 
 <style scoped>
@@ -111,16 +124,15 @@ export default {
   display: flex;
   justify-content: space-around;
   width: 65%;
-   font-family: "Graphik-Regular";
+  font-family: "Graphik-Regular";
   font-weight: 400;
   font-size: 18px;
 }
 
 .nav__items__center a:active,
 .nav__items__center a.nuxt-link-active {
-  border-bottom: 3px solid #14586D;
+  border-bottom: 3px solid #14586d;
 }
-
 
 .nav__item__center {
   display: flex;
@@ -134,63 +146,35 @@ export default {
     padding-right: 64px;
   }
 
+  .nav__items__left {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .nav__items__center {
-    display: none;
+    width: 50%;
+    margin-top: 50px;
+    justify-content: space-between;
   }
 
   .nav__items__right {
     display: none;
   }
 
-   .hamburger__menu {
-    height: 35px;
-    width: 25px;
-    cursor: pointer;
-    margin-bottom: 5px;
-
+  .nav__items__left {
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .nav__bar {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    flex-direction: column-reverse;
   }
 
-  .nav__items__center {
-    display: none;
-  }
-
-  .nav__items__right {
-    display: none;
+ .nav__items__center {
+    width: 100%;
   }
 }
-
-
-.mobile__nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #f0f8fb;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  height: 100vh;
-  /* overflow: none; */
-  padding-top: 200px;
-  overflow-x: hidden;
-  /* z-index: 999; */
-}
-
-.mobile__nav__links li {
- padding-top: 25px;
-  list-style: none;
-  text-align: center;
-  margin-top: 25px;
-  position: relative;
-  top: 0;
-  overflow: hidden;
-}
-
-
 </style>

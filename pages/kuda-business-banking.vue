@@ -59,7 +59,8 @@
             </li>
 
             <li style="padding-left: 1em">
-              Provide a solution that allows business owners to send out invoices to their customers and be paid directly.
+              Provide a solution that allows business owners to send out
+              invoices to their customers and be paid directly.
             </li>
           </ul>
         </div>
@@ -157,48 +158,9 @@
       <img src="../assets/images/kuda-onboarding-image.png" alt="" />
     </section>
 
-    <section class="input-details__container">
-      <p class="input-details__header">Inputing your Details</p>
-      <div class="input-details__text">
-        Once you select to sign up with Email, you are then asked to provide
-        your email alongside other information that will be needed for you to
-        set up your account. The necessary information that will be collected
-        include ;
-      </div>
-      <ul class="input__details__list">
-        <li style="padding-left: 1em">Verifying your ID with a selfie</li>
-
-        <li style="padding-left: 1em">Uploading a valid ID card</li>
-
-        <li style="padding-left: 1em">
-          Filling a form that tells us more about your business
-        </li>
-      </ul>
-    </section>
-
-    <section class="signup__flow__gallery__container">
-      <section class="signup__flow__gallery">
-        <img :src="mainPicture" />
-
-        <p class="gallery__image__caption">
-          <!-- <div v-for="(caption, index) in captions">
-         {{caption [index] }}
-         </div> -->
-        </p>
-      </section>
-
-      <section class="gallery__menu">
-        <div v-for="(picture, index) in pictures" v-bind:key="picture">
-          <img
-            :src="picture"
-            @click="changemainPicture(index)"
-            :class="{ active: index == indexofActive ? true : false }"
-          />
-        </div>
-      </section>
-    </section>
-    <SendMoneyGallery></SendMoneyGallery>
-    <Invoicing></Invoicing>
+    <InputingYourDetailsGallery></InputingYourDetailsGallery>
+    <SendingMoneyGallery></SendingMoneyGallery>
+    <InvoicingGallery></InvoicingGallery>
 
     <section class="mobile-screens__container">
       <p class="mobile-screens__header">Mobile Screens</p>
@@ -223,48 +185,19 @@
 
 <script>
 import Header from "../components/Header.vue";
-import SendMoneyGallery from "../components/sendingmoneygallery.vue";
-import Invoicing from "../components/invoicing.vue";
+import SendingMoneyGallery from "../components/sending-money-gallery.vue";
+import InvoicingGallery from "../components/invoicing-gallery.vue";
+import InputingYourDetailsGallery from "../components/inputing-your-details-gallery.vue";
 export default {
   data() {
-    return {
-      indexofActive: 0,
-      mainPicture: require("../assets/images/gallery-0.png"),
-      mainCaption:
-        "User signs up here with their basic details (Email Address) and password.",
-      pictures: [
-        require("../assets/images/gallery-0.png"),
-        require("../assets/images/gallery-1.png"),
-        require("../assets/images/gallery-2.png"),
-        require("../assets/images/gallery-3.png"),
-        require("../assets/images/gallery-4.png"),
-        require("../assets/images/gallery-5.png"),
-        require("../assets/images/gallery-6.png"),
-      ],
-
-      caption: [
-        "User signs up here with their basic details (Email Address) and password.",
-        "User verifies their identity and tells us more about the business.",
-        "User verifies their identity and tells us more about the business (Done state)",
-        "Welcome screen once the user is done signing up.",
-        "User selects what type of business account they want and they can see the features both types have.",
-        "User dashboard (Empty State)",
-      ],
-    };
+    return {};
   },
 
   components: {
     Header,
-    SendMoneyGallery,
-    Invoicing,
-  },
-
-  methods: {
-    changemainPicture(index) {
-      this.mainPicture = this.pictures[index];
-      // this.mainCaption = this.caption[index]
-      this.indexofActive = index;
-    },
+    SendingMoneyGallery,
+    InvoicingGallery,
+    InputingYourDetailsGallery,
   },
 };
 </script>
@@ -288,7 +221,7 @@ export default {
   font-weight: 600;
   /* letter-spacing: 0.02em; */
   line-height: 4.5rem;
-  /* margin-bottom: 1.5rem; */
+  margin-bottom: 1.8rem;
   max-width: 55rem;
 }
 
@@ -297,7 +230,7 @@ export default {
   font-size: 1.3rem;
   font-weight: 300;
   line-height: 3rem;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
   max-width: 54rem;
 }
 
@@ -627,97 +560,6 @@ export default {
   width: 100%;
 }
 
-.input-details__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  max-width: 109.2rem;
-  margin: 0 auto;
-  padding-top: 5rem;
-  padding-bottom: 7rem;
-  padding-left: 128px;
-  padding-right: 128px;
-}
-
-.input-details__header {
-  font-family: "Graphik-Medium";
-  font-size: 1.7rem;
-  font-weight: 900;
-  margin-bottom: 2rem;
-}
-
-.input-details__text {
-  font-family: "Graphik-Regular";
-  font-size: 1.2rem;
-  font-weight: 300;
-  line-height: 3rem;
-  margin-bottom: 3rem;
-}
-
-.input__details__list {
-  list-style-image: url("~assets/images/Polygon.png");
-}
-
-.input__details__list li {
-  margin-left: 20px;
-  padding: 20px 0;
-  font-family: "Graphik-Regular";
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 40px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-.signup__flow__gallery__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* max-width: 109.2rem; */
-  margin: 0 128px;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-  padding-left: 128px;
-  padding-right: 128px;
-  background-color: #000;
-}
-
-.signup__flow__gallery {
-  width: 75%;
-  margin: 0 auto;
-}
-
-.signup__flow__gallery img {
-  width: 100%;
-}
-
-.gallery__image__caption {
-  margin: 70px 0;
-  text-align: center;
-  color: #fff;
-  font-family: "Graphik-Regular";
-  font-size: 1.1rem;
-  font-weight: 300;
-}
-
-.gallery__menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.gallery__menu img {
-  width: 99px;
-  height: 63px;
-  margin-right: 20px;
-  cursor: pointer;
-}
-
-.active {
-  border: 3px solid #48d38a;
-}
-
 .mobile-screens__container {
   display: flex;
   flex-direction: column;
@@ -803,6 +645,16 @@ export default {
     padding-right: 64px;
   }
 
+  .visual-design__image__container img {
+    width: 100%;
+    /* padding-top: 5rem; */
+  }
+
+  /* .visual-design__image__container img:nth-child(3) {
+    margin-right: 231px;
+    max-height: 880px;
+  } */
+
   .onboarding__container {
     padding-left: 64px;
     padding-right: 64px;
@@ -810,17 +662,6 @@ export default {
 
   .onboarding-hero__image {
     padding: 0 64px;
-  }
-
-  .input-details__container {
-    padding-left: 64px;
-    padding-right: 64px;
-  }
-
-  .signup__flow__gallery__container {
-    padding-left: 64px;
-    padding-right: 64px;
-    margin: 0 64px;
   }
 }
 
@@ -860,23 +701,108 @@ export default {
   .onboarding-hero__image {
     padding: 0 32px;
   }
+}
 
-  .input-details__container {
-    padding-left: 32px;
-    padding-right: 32px;
+@media screen and (max-width: 540px) {
+  .product__header {
+    font-size: 25.5px;
+    font-weight: 600;
+    line-height: 50px;
   }
 
-  .signup__flow__gallery__container {
-    padding-left: 32px;
-    padding-right: 32px;
-    margin: 0 32px;
+  .product__text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 48px;
   }
 
-  .gallery__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+  .role-description__container p {
+    font-size: 16px;
+  }
+
+  .product__brief__header {
+    font-size: 25.5px;
+    font-weight: 600;
+  }
+
+  .product__brief__text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product__challenge__header {
+    font-size: 25.5px;
+    font-weight: 600;
+  }
+
+  /* .product__challenge__list li {
+    margin-left: 20px;
+    padding: 20px 0;
+    font-family: "Graphik-Regular";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  } */
+
+  .product__role__header {
+    font-size: 25.5px;
+    font-weight: 600;
+  }
+
+  .product__role__text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .sub-product__role__header {
+    font-size: 25.5px;
+    font-weight: 600;
+  }
+
+  .sub-product__role__text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  /* .sub-product__role__text span {
+    text-decoration: underline;
+  } */
+
+  .product-target__audience {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .product-target__audience__header {
+    font-size: 25.5px;
+    font-weight: 600;
+  }
+
+  .product-target__audience__text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product__solution {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .product__solution__header {
+    font-size: 25.5px;
+    font-weight: 600;
+  }
+
+  .product__solution__text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 48px;
   }
 }
 </style>

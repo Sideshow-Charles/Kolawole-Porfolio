@@ -3,10 +3,10 @@
     <Header></Header>
     <article class="article__container">
       <article class="article__header">
-        <h1>
-          Product designer who is passionate about solving <br> problems and creating
+        <p>
+          Product designer who is passionate about solving problems and creating
           the best user experiences.
-        </h1>
+        </p>
       </article>
       <article class="article__text">
         <p>
@@ -29,13 +29,21 @@
         </section>
         <section class="selected-works__container">
           <div class="selected__works">
-          <a href="/kuda-business-banking"><img src="../assets/images/selected-work1.png" alt="" /></a>
-          <a href="/monthly"><img src="../assets/images/selected-work2.png" alt="" /></a>
+            <a href="/kuda-business-banking"
+              ><img src="../assets/images/selected-work1.png" alt=""
+            /></a>
+            <a href="/monthly"
+              ><img src="../assets/images/selected-work2.png" alt=""
+            /></a>
           </div>
 
           <div class="selected__works">
-          <a href="/citrone"><img src="../assets/images/selected-work3.png" alt="" /></a>
-          <a href="/coded-agents"><img src="../assets/images/selected-work4.png" alt="" /></a>
+            <a href="/citrone"
+              ><img src="../assets/images/selected-work3.png" alt=""
+            /></a>
+            <a href="/coded-agents"
+              ><img src="../assets/images/selected-work4.png" alt=""
+            /></a>
           </div>
         </section>
       </section>
@@ -83,10 +91,9 @@ export default {
   font-family: "Graphik-SemiBold";
   font-size: 2rem;
   font-weight: 300;
-  /* letter-spacing: -0.03em; */
   line-height: 4.5rem;
   margin-bottom: 2rem;
-  /* max-width: 55rem; */
+  max-width: 56rem;
 }
 
 .article__text {
@@ -95,7 +102,7 @@ export default {
   font-weight: 300;
   line-height: 3.2rem;
   margin-bottom: 2.5rem;
-  max-width: 54rem;
+  max-width: 52rem;
 }
 
 .article__text p span {
@@ -137,8 +144,8 @@ export default {
 
 .selected-works__container {
   display: flex;
- flex-direction: column;
- gap: 72px;
+  flex-direction: column;
+  gap: 72px;
   /* padding: 0;
   margin: 0;
   width: 100%; */
@@ -151,10 +158,10 @@ export default {
 }
 
 .selected__works {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* .selected-works__container a img:nth-child(1) {
@@ -245,6 +252,26 @@ align-items: center;
 
   .sub-footer__container {
     padding: 7rem 64px;
+  }
+
+  @media screen and (max-width: 540px) {
+    .article__header {
+      font-size: 25.5px;
+      font-weight: 600;
+      line-height: 50px;
+    }
+
+    .article__text {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 43px;
+    }
+  }
+
+  .sub-footer__text {
+    line-height: 43px;
+    font-size: 20.5px;
+    font-weight: 300;
   }
 }
 </style>

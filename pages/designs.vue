@@ -11,13 +11,24 @@
       </p>
 
       <section class="design__images">
-        <img src="../assets/images/design-1.png" alt="" />
-        <img src="../assets/images/design-2.png" alt="" />
-        <img src="../assets/images/design-3.png" alt="" />
-        <img src="../assets/images/design-4.png" alt="" />
+        <div class="design__container">
+          <img src="../assets/images/design-1.png" alt="" />
+          <p class="design__caption">MAX Delivery Admin Dashboard</p>
+        </div>
+        <div class="design__container">
+          <img src="../assets/images/design-2.png" alt="" />
+          <p class="design__caption">Megalectrics Radio App</p>
+        </div>
+        <div class="design__container">
+          <img src="../assets/images/design-3.png" alt="" />
+          <p class="design__caption">MAX Delivery Driver Web App</p>
+        </div>
+        <div class="design__container">
+          <img src="../assets/images/design-4.png" alt="" />
+          <p class="design__caption">Fieldinsight website</p>
+        </div>
       </section>
     </section>
-
     <SubFooter></SubFooter>
   </div>
 </template>
@@ -71,6 +82,13 @@ export default {
   max-width: 550px;
 }
 
+.design__caption {
+  font-family: "Graphik-Regular";
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 900;
+}
+
 @media screen and (min-width: 1600px) {
   .design__images {
     gap: 50px;
@@ -97,5 +115,19 @@ export default {
     padding-left: 32px;
     padding-right: 32px;
   }
+}
+
+@media screen and (max-width: 540px) {
+  .more-designs__header {
+  font-size: 25.5;
+  font-weight: 300;
+  line-height: 50px;
+}
+
+.more-designs__text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 48px;
+}
 }
 </style>

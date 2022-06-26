@@ -466,7 +466,7 @@ export default {
   font-family: "Graphik-Medium";
   font-size: 1.7rem;
   font-weight: 900;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .sign-in__container {
@@ -477,12 +477,12 @@ export default {
 }
 
 .sign-in__container img {
-  width: 350px;
+  width: 450px;
 }
 
 .sign-in__header {
   font-family: "Graphik-Medium";
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 900;
 }
 
@@ -499,18 +499,18 @@ export default {
 .loans__container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: row-reverse;
   margin-top: 3rem;
 }
 
 .loans__container img {
-  width: 350px;
+  width: 450px;
 }
 
 .loans__header {
   font-family: "Graphik-Medium";
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 900;
 }
 
@@ -524,13 +524,23 @@ export default {
   max-width: 601px;
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1280px) {
   .role-description__container {
     flex-wrap: wrap;
   }
 
   .role-description__container p {
     margin-bottom: 0.5rem;
+  }
+
+  .sign-in__container {
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .loans__container {
+    flex-direction: column-reverse;
+    gap: 70px;
   }
 }
 
@@ -559,20 +569,20 @@ export default {
     padding-right: 64px;
   }
 
-  .sign-in__container {
+  /* .sign-in__container {
     flex-direction: column;
     gap: 70px;
-  }
+  } */
 
   .sign-in__container img {
     padding-left: 64px;
     padding-right: 64px;
   }
 
-  .loans__container {
+  /* .loans__container {
     flex-direction: column-reverse;
     gap: 70px;
-  }
+  } */
 
   .loans__container img {
     padding-left: 64px;
@@ -612,11 +622,13 @@ export default {
   .sign-in__container img {
     padding-left: 32px;
     padding-right: 32px;
+    width: 100%;
   }
 
   .loans__container img {
     padding-left: 32px;
     padding-right: 32px;
+    width: 100%;
   }
 }
 </style>

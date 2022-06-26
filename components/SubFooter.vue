@@ -104,4 +104,12 @@ export default {
     width: 15%;
   }
 }
+
+@media screen and (max-width: 540px) {
+   .sub-footer__text {
+    line-height: 43px;
+    font-size: 20.5px;
+    font-weight: 300;
+  }
+}
 </style>

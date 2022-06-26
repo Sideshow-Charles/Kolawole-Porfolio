@@ -490,9 +490,9 @@ export default {
 }
 
 @media screen and (max-width: 1300px) {
-  .about__container {
+  /* .about__container {
     flex-direction: column;
-  }
+  } */
   .hero__image {
     /* width: 800px; */
   }

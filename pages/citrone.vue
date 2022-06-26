@@ -9,7 +9,6 @@
       <article class="product__text">
         <p>
           Citrone is a learning platform that makes it easy for educators to
-          <br />
           create learning experiences that engage students positively.
         </p>
       </article>
@@ -286,6 +285,7 @@ export default {
   font-size: 1.7rem;
   font-weight: 900;
   margin-bottom: 2rem;
+  line-height: 43px;
 }
 
 .product-research__and__user__experience__text {

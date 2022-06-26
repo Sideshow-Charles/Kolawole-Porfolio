@@ -13,23 +13,22 @@
 
     <section class="invoicing__gallery__container">
       <section class="invoicing__gallery">
-        <img :src="pictures[0].image" />
+        <img :src="mainPicture" />
       </section>
 
       <p class="invoicing__image__caption">
-         {{pictures[0].caption }}
+        {{ mainCaption }}
       </p>
-    <!-- </section> -->
 
-    <section class="invoicing__gallery__menu">
-      <div v-for="(pictures, index) in pictures" v-bind:key="pictures">
-        <img
-          :src="pictures.image"
-          @click="changemainPicture(index)"
-          :class="{ active: index == indexofActive ? true : false }"
-        />
-      </div>
-    </section>
+      <section class="invoicing__gallery__menu">
+        <div v-for="(pictures, index) in pictures" v-bind:key="index">
+          <img
+            :src="pictures.image"
+            @click="changemainPicture(index)"
+            :class="{ active: index == indexofActive ? true : false }"
+          />
+        </div>
+      </section>
     </section>
   </div>
 </template>
@@ -39,8 +38,8 @@ export default {
   data() {
     return {
       indexofActive: 0,
-      mainPicture: require("../assets/images/invoicing-1.png"),
-      mainCaption: "List of all the times user added on their invoice",
+      mainPicture: "",
+      mainCaption: "",
       pictures: [
         {
           image: require("../assets/images/invoicing-1.png"),
@@ -54,7 +53,8 @@ export default {
 
         {
           image: require("../assets/images/invoicing-3.png"),
-          caption: "The various ways the invoice can be paid after the customer receives it",
+          caption:
+            "The various ways the invoice can be paid after the customer receives it",
         },
       ],
     };
@@ -62,9 +62,15 @@ export default {
 
   methods: {
     changemainPicture(index) {
-      this.mainPicture = this.pictures.image[index];
+      this.mainPicture = this.pictures[index].image;
+      this.mainCaption = this.pictures[index].caption;
       this.indexofActive = index;
     },
+  },
+
+  mounted() {
+    (this.mainPicture = this.pictures[0].image),
+      (this.mainCaption = this.pictures[0].caption);
   },
 };
 </script>
@@ -111,8 +117,7 @@ export default {
 }
 
 .invoicing__gallery {
-  width: 544px;
-  height: 518.63px;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -127,13 +132,14 @@ export default {
   font-family: "Graphik-Regular";
   font-size: 1.1rem;
   font-weight: 300;
+  line-height: 43px;
 }
 
 .invoicing__gallery__menu {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 70px;
   padding: 0 70px;
 }
 
@@ -171,5 +177,25 @@ export default {
     padding-left: 32px;
     padding-right: 32px;
   }
+
+  .invoicing__gallery__menu {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin-top: 70px;
+    padding: 0 70px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  /* .invoicing__gallery__menu img {
+    width: 80px;
+  } */
+
+  .invoicing__gallery img {
+    width: 100%;
+    margin-bottom: 70px;
+  }
 }
+
 </style>
