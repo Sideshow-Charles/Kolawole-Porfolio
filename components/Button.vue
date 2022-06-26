@@ -56,5 +56,10 @@ span.emoji {
     margin-top: 10px;
     width: 100%;
   }
+
+  .contact {
+    font-size: 18px;
+    font-weight: 300px;
+  }
 }
 </style>
