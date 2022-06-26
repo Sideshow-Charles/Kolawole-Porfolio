@@ -209,7 +209,7 @@ export default {
   /* justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-top: 7rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
   padding-left: 128px;
   padding-right: 128px;
@@ -705,13 +705,13 @@ export default {
 
 @media screen and (max-width: 540px) {
   .product__header {
-    font-size: 25.5px;
+    font-size: 26px;
     font-weight: 300;
     line-height: 50px;
   }
 
   .product__text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 48px;
   }
@@ -721,18 +721,18 @@ export default {
   }
 
   .product__brief__header {
-    font-size: 25.5px;
+    font-size: 26px;
     font-weight: 300;
   }
 
   .product__brief__text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 48px;
   }
 
   .product__challenge__header {
-    font-size: 25.5px;
+    font-size: 26px;
     font-weight: 300;
   }
 
@@ -748,23 +748,23 @@ export default {
   } */
 
   .product__role__header {
-    font-size: 25.5px;
+    font-size: 26px;
     font-weight: 300;
   }
 
   .product__role__text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 48px;
   }
 
   .sub-product__role__header {
-    font-size: 25.5px;
+    font-size: 26px;
     font-weight: 300;
   }
 
   .sub-product__role__text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 48px;
   }
@@ -779,12 +779,12 @@ export default {
   }
 
   .product-target__audience__header {
-    font-size: 25.5px;
+    font-size: 26px;
     font-weight: 300;
   }
 
   .product-target__audience__text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 48px;
   }
@@ -795,12 +795,12 @@ export default {
   }
 
   .product__solution__header {
-    font-size: 25.5px;
+    font-size: 26px;
     font-weight: 300;
   }
 
   .product__solution__text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 48px;
   }
