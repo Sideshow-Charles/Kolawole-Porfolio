@@ -9,7 +9,6 @@
       <article class="product__text">
         <p>
           Coded Agents is a mobile app that helps connects Home Agents to people
-          <br />
           who are looking for homes to buy or rent for a perod of time.
         </p>
       </article>
