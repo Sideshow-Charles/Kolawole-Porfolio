@@ -81,7 +81,7 @@ export default {
   /* justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-top: 7rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
   padding-left: 128px;
   padding-right: 128px;

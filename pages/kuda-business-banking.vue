@@ -706,7 +706,7 @@ export default {
 @media screen and (max-width: 540px) {
   .product__header {
     font-size: 25.5px;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 50px;
   }
 
@@ -722,7 +722,7 @@ export default {
 
   .product__brief__header {
     font-size: 25.5px;
-    font-weight: 600;
+    font-weight: 300;
   }
 
   .product__brief__text {
@@ -733,7 +733,7 @@ export default {
 
   .product__challenge__header {
     font-size: 25.5px;
-    font-weight: 600;
+    font-weight: 300;
   }
 
   /* .product__challenge__list li {
@@ -749,7 +749,7 @@ export default {
 
   .product__role__header {
     font-size: 25.5px;
-    font-weight: 600;
+    font-weight: 300;
   }
 
   .product__role__text {
@@ -760,7 +760,7 @@ export default {
 
   .sub-product__role__header {
     font-size: 25.5px;
-    font-weight: 600;
+    font-weight: 300;
   }
 
   .sub-product__role__text {
@@ -780,7 +780,7 @@ export default {
 
   .product-target__audience__header {
     font-size: 25.5px;
-    font-weight: 600;
+    font-weight: 300;
   }
 
   .product-target__audience__text {
@@ -796,7 +796,7 @@ export default {
 
   .product__solution__header {
     font-size: 25.5px;
-    font-weight: 600;
+    font-weight: 300;
   }
 
   .product__solution__text {
