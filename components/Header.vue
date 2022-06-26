@@ -174,9 +174,9 @@ export default {
 
 @media screen and (max-width: 540px) {
   .nav__items__center {
-    line-height: 43px;
-    font-size: 20.5px;
-    font-weight: 300;
+    font-size: 15px;
+      font-weight: 300;
+      line-height: 43px;
   }
 }
 </style>
