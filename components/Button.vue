@@ -1,10 +1,27 @@
 <template>
-  <button class="contact">
-    <span class="emoji">&#128075;&#127997;</span> Contact Me!
-  </button>
+  <a href="mailto:kolapopoola4@gmail.com"
+    ><button
+      class="contact"
+      :class="btnStyle"
+      v-bind="$attrs"
+      v-on="$listeners"
+    >
+      <slot /> <span class="emoji">&#128075;&#127997;</span> Contact Me!
+    </button></a
+  >
 </template>
 
-<script></script>
+<script>
+export default {
+  name: "Contact",
+  props: {
+    btnStyle: {
+      type: String,
+      default: "",
+    },
+  },
+};
+</script>
 
 <style scoped>
 .contact {
@@ -32,5 +49,12 @@ span.emoji {
   vertical-align: middle;
   line-height: 2;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 540px) {
+  .mobile {
+    margin-top: 10px;
+    width: 100%;
+  }
 }
 </style>

@@ -6,8 +6,7 @@
       <p class="more-designs__header">More Designs</p>
       <p class="more-designs__text">
         These are some of my other commissioned design works, consisting of
-        mobile and <br />
-        web designs.
+        mobile and web designs.
       </p>
 
       <section class="design__images">
@@ -119,15 +118,15 @@ export default {
 
 @media screen and (max-width: 540px) {
   .more-designs__header {
-  font-size: 26px;
-  font-weight: 300;
-  line-height: 50px;
-}
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
 
-.more-designs__text {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 48px;
-}
+  .more-designs__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
 }
 </style>

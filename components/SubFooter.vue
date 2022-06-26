@@ -111,5 +111,9 @@ export default {
     font-size: 20.5px;
     font-weight: 300;
   }
+
+  .footer__links img {
+    width: 35%;
+  }
 }
 </style>

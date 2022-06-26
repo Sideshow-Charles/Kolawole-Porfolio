@@ -63,4 +63,10 @@
     width: 15%;
   }
 }
+
+@media screen and (max-width: 540px) {
+   .footer__links img {
+    width: 35%;
+  }
+}
 </style>

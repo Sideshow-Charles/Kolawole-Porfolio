@@ -22,6 +22,11 @@
         <p><a href="/about">Read more about me</a></p>
       </article>
     </article>
+
+    <div class="button__container">
+      <Button btn-style="mobile"></Button>
+    </div>
+
     <section class="section__container">
       <section class="section__content">
         <section class="section__header">
@@ -46,6 +51,30 @@
             /></a>
           </div>
         </section>
+
+        <!-- Mobile Images -->
+
+        <section class="selected-works__container__mobile">
+          <div class="selected__works__mobile">
+            <a href="/kuda-business-banking"
+              ><img src="../assets/images/mobile-image-kuda.png" alt=""
+            /></a>
+            <a href="/monthly"
+              ><img src="../assets/images/mobile-image-monthly.png" alt=""
+            /></a>
+          </div>
+
+          <div class="selected__works__mobile">
+            <a href="/citrone"
+              ><img src="../assets/images/mobile-image-citrone.png" alt=""
+            /></a>
+            <a href="/coded-agents"
+              ><img src="../assets/images/mobile-image-coded-agents.png" alt=""
+            /></a>
+          </div>
+        </section>
+
+        <!-- End Of Mobile Images -->
       </section>
     </section>
 
@@ -65,10 +94,12 @@
 
 <script>
 import Header from "../components/Header.vue";
+import Button from "../components/Button.vue";
 import Footer from "../components/Footer.vue";
 export default {
   components: {
     Header,
+    Button,
     Footer,
   },
 };
@@ -122,6 +153,10 @@ export default {
   color: inherit;
 }
 
+.button__container {
+  display: none;
+}
+
 .section__container {
   background: #f0f8fb;
   padding: 64px 0;
@@ -146,15 +181,14 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 72px;
-  /* padding: 0;
-  margin: 0;
-  width: 100%; */
+}
+
+.selected-works__container__mobile {
+  display: none;
 }
 
 .selected-works__container a img {
   max-width: 550px;
-  /* margin-bottom: 72px; */
-  /* width: 100%; */
 }
 
 .selected__works {
@@ -163,14 +197,6 @@ export default {
   justify-content: space-between;
   align-items: center;
 }
-
-/* .selected-works__container a img:nth-child(1) {
-  margin-right: 50px;
-}
-
-.selected-works__container a img:nth-child(3) {
-  margin-right: 50px;
-} */
 
 .sub-footer__container {
   text-align: center;
@@ -233,22 +259,10 @@ export default {
     gap: 0 !important;
   }
 
-  /* .selected__works {
-    flex-direction: column;
-  } */
-
   .selected-works__container a img {
     max-width: 100%;
     margin-bottom: 72px;
   }
-
-  /* .selected-works__container img:nth-child(1) {
-    margin-right: 0;
-  }
-
-  .selected-works__container img:nth-child(3) {
-    margin-right: 0;
-  }  */
 
   .sub-footer__container {
     padding: 7rem 64px;
@@ -257,6 +271,7 @@ export default {
   @media screen and (max-width: 540px) {
     .article__container {
       padding-top: 5rem;
+      padding-bottom: 0;
     }
 
     .article__header {
@@ -270,12 +285,43 @@ export default {
       font-weight: 300;
       line-height: 43px;
     }
-  }
 
-  .sub-footer__text {
-    line-height: 43px;
-    font-size: 20.5px;
-    font-weight: 300;
+    .article-CTA__link {
+      font-size: 19px;
+      /* font-weight: 300; */
+      line-height: 43px;
+    }
+
+    .button__container {
+      display: block;
+      padding: 0 32px;
+      margin: 50px 0;
+    }
+
+    .section__header {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 43px;
+    }
+
+    .sub-footer__text {
+      line-height: 43px;
+      font-size: 20.5px;
+      font-weight: 300;
+    }
+
+    .selected-works__container {
+      display: none;
+    }
+
+    .selected-works__container__mobile {
+      display: block;
+    }
+
+    .selected-works__container__mobile a img {
+      max-width: 100%;
+      margin-bottom: 72px;
+    }
   }
 }
 </style>
