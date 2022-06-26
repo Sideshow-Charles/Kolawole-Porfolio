@@ -493,7 +493,7 @@ export default {
 }
 
 .sign-in__container img {
-  width: 450px;
+  width: 45%;
 }
 
 .sign-in__header {
@@ -521,7 +521,7 @@ export default {
 }
 
 .loans__container img {
-  width: 450px;
+  width: 45%;
 }
 
 .loans__header {
