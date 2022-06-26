@@ -182,7 +182,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 50px; */
+  gap: 50px;
   margin-top: 70px;
 }
 

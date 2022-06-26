@@ -8,7 +8,7 @@
 
       <article class="product__text">
         <p>
-          A digital business bank that helps business users make payments,<br />
+          A digital business bank that helps business users make payments,
           create invoices and also manage multiple accounts seamlessly.
         </p>
       </article>
@@ -22,7 +22,8 @@
     </article>
 
     <section class="kuda-hero__image">
-      <img src="../assets/images/kuda-hero-image.png" alt="" width="100%" />
+      <img src="../assets/images/kuda-hero-image.png" alt="" class="hero-image" width="100%" />
+      <img src="../assets/images/kuda-mobile-image.png" class="mobile-image" alt="" width="100%" />
     </section>
 
     <section class="about-product__container">
@@ -257,6 +258,10 @@ export default {
 
 .kuda-hero__image img {
   width: 100%;
+}
+
+.mobile-image {
+  display: none;
 }
 
 .about-product__container {
@@ -714,6 +719,14 @@ export default {
     font-size: 16px;
   }
 
+  .hero-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+  }
+
   .product__brief__header {
     font-size: 26px;
     font-weight: 300;
@@ -729,17 +742,6 @@ export default {
     font-size: 26px;
     font-weight: 300;
   }
-
-  /* .product__challenge__list li {
-    margin-left: 20px;
-    padding: 20px 0;
-    font-family: "Graphik-Regular";
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 0em;
-    text-align: left;
-  } */
 
   .product__role__header {
     font-size: 26px;
@@ -762,10 +764,6 @@ export default {
     font-weight: 300;
     line-height: 48px;
   }
-
-  /* .sub-product__role__text span {
-    text-decoration: underline;
-  } */
 
   .product-target__audience {
     margin-top: 2rem;

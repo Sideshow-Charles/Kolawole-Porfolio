@@ -9,7 +9,6 @@
       <article class="product__text">
         <p>
           Monthly is a product that allows people take rent loans, and pay it
-          <br />
           back monthly, so as to help their financial freedom and flexibility.
         </p>
       </article>
@@ -229,6 +228,7 @@ export default {
   /* letter-spacing: 0.02em; */
   line-height: 4.5rem;
   max-width: 55rem;
+  margin-bottom: 1.8rem;
 }
 
 .product__text {
@@ -237,6 +237,7 @@ export default {
   font-weight: 300;
   line-height: 3rem;
   max-width: 54rem;
+  margin-bottom: 1rem;
 }
 
 .role-description__container {
@@ -620,14 +621,6 @@ export default {
     padding: 0 32px;
   }
 
-  .hero-image {
-    display: none;
-  }
-
-  .mobile-image {
-    display: block;
-  }
-
   .wireframes__container {
     padding-left: 32px;
     padding-right: 32px;
@@ -652,6 +645,141 @@ export default {
     padding-left: 32px;
     padding-right: 32px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .product__container {
+    padding-top: 5rem;
+  }
+
+  .product__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .product__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .role-description__container p {
+    font-size: 16px;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+  }
+
+  .product__brief__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .product__brief__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product__challenge__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .product__role__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .product__challenge__list li {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px;
+  }
+
+  .product__role__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+  .research__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .research__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .research__subtext {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .research__list li {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px;
+  }
+
+  .research-sub__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product__solution__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .product__solution__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .wireframes__header {
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .visual-design__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .sign-in__header {
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .sign-in__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .loans__header {
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .loans__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
   }
 }
 </style>

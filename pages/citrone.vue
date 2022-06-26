@@ -22,7 +22,18 @@
     </article>
 
     <section class="citrone-hero__image">
-      <img src="../assets/images/citrone-hero-image.png" alt="" width="100%" />
+      <img
+        src="../assets/images/citrone-hero-image.png"
+        alt=""
+        class="hero-image"
+        width="100%"
+      />
+      <img
+        src="../assets/images/citrone-mobile-image.png"
+        alt=""
+        class="mobile-image"
+        width="100%"
+      />
     </section>
 
     <section class="about-product__container">
@@ -139,9 +150,6 @@ export default {
 
 <style scoped>
 .product__container {
-  /* display: flex; */
-  flex-direction: column;
-  /* justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
   padding-top: 7rem;
@@ -156,7 +164,7 @@ export default {
   font-weight: 600;
   /* letter-spacing: 0.02em; */
   line-height: 4.5rem;
-  /* margin-bottom: 1.5rem; */
+  margin-bottom: 1.5rem;
   max-width: 55rem;
 }
 
@@ -165,7 +173,7 @@ export default {
   font-size: 1.3rem;
   font-weight: 300;
   line-height: 3rem;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
   max-width: 54rem;
 }
 
@@ -198,12 +206,16 @@ export default {
   width: 100%;
 }
 
+.mobile-image {
+  display: none;
+}
+
 .about-product__container {
   display: flex;
   flex-direction: column;
   max-width: 109.2rem;
   margin: 0 auto;
-  /* padding-bottom: 3rem; */
+  padding-bottom: 3rem;
   padding-left: 128px;
   padding-right: 128px;
 }
@@ -373,6 +385,15 @@ export default {
 
   .citrone-hero__image {
     padding: 0 32px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hero-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
   }
 }
 </style>

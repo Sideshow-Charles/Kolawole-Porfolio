@@ -179,18 +179,11 @@ export default {
   }
 
   .invoicing__gallery__menu {
-    display: flex;
-    /* justify-content: space-evenly; */
-    align-items: center;
     margin-top: 70px;
     padding: 0 70px;
-    gap: 10px;
+    gap: 25px;
     flex-wrap: wrap;
   }
-
-  /* .invoicing__gallery__menu img {
-    width: 80px;
-  } */
 
   .invoicing__gallery img {
     width: 100%;
