@@ -23,7 +23,18 @@
     </article>
 
     <section class="monthly-hero__image">
-      <img src="../assets/images/monthly-hero-image.png" alt="" width="100%" />
+      <img
+        src="../assets/images/monthly-hero-image.png"
+        class="hero-image"
+        alt=""
+        width="100%"
+      />
+      <img
+        src="../assets/images/monthly-mobile-image.png"
+        class="mobile-image"
+        alt=""
+        width="100%"
+      />
     </section>
 
     <section class="about-product__container">
@@ -259,6 +270,10 @@ export default {
 
 .monthly-hero__image img {
   width: 100%;
+}
+
+.mobile-image {
+  display: none;
 }
 
 .about-product__container {
@@ -603,6 +618,14 @@ export default {
 
   .monthly-hero__image {
     padding: 0 32px;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
   }
 
   .wireframes__container {

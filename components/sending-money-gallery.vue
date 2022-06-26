@@ -182,7 +182,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 61px;
+  /* gap: 50px; */
   margin-top: 70px;
 }
 
@@ -231,6 +231,25 @@ export default {
     flex-wrap: wrap;
     align-items: center;
     margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .sending-money__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .sending-money__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px;
+  }
+
+  .sending-money__list li {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px;
   }
 }
 </style>

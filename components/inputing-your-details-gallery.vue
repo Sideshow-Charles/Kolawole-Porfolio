@@ -144,9 +144,9 @@ export default {
 }
 
 .input-details__gallery__container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
   /* max-width: 109.2rem; */
   margin: 0 128px;
   padding-top: 7rem;
@@ -219,17 +219,31 @@ export default {
     margin: 0 32px;
   }
 
-  /* .input-details__gallery img {
-    width: 250px;
-    margin: 0 auto;
-  } */
-
   .input-details__gallery__menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .input-details__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .input-details__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px;
+  }
+
+  .input-details__list li {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px;
   }
 }
 </style>

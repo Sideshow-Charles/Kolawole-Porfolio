@@ -126,7 +126,7 @@ export default {
 }
 
 .invoicing__image__caption {
-  margin: 10px 0;
+  margin-top: 70px;
   text-align: center;
   color: #fff;
   font-family: "Graphik-Regular";
@@ -195,6 +195,19 @@ export default {
   .invoicing__gallery img {
     width: 100%;
     margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .invoicing__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .invoicing__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px;
   }
 }
 

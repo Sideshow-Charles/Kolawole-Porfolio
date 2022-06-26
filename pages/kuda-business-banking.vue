@@ -204,9 +204,6 @@ export default {
 
 <style scoped>
 .product__container {
-  /* display: flex; */
-  flex-direction: column;
-  /* justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
   padding-top: 5rem;
@@ -219,7 +216,6 @@ export default {
   font-family: "Graphik-SemiBold";
   font-size: 2rem;
   font-weight: 600;
-  /* letter-spacing: 0.02em; */
   line-height: 4.5rem;
   margin-bottom: 1.8rem;
   max-width: 55rem;
@@ -397,7 +393,6 @@ export default {
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 3rem;
-  /* margin-bottom: 1rem; */
 }
 
 .flow-chart__container {
@@ -406,7 +401,6 @@ export default {
   justify-content: space-between;
   max-width: 109.2rem;
   margin: 0 auto;
-  /* padding-top: 1rem; */
   padding-bottom: 7rem;
 }
 
@@ -803,6 +797,33 @@ export default {
     font-size: 18px;
     font-weight: 300;
     line-height: 48px;
+  }
+
+  .visual-design__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .visual-design__sub__header {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .visual-design__text {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .onboarding__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .onboarding__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px;
   }
 }
 </style>

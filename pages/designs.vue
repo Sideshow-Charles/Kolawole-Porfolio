@@ -119,13 +119,13 @@ export default {
 
 @media screen and (max-width: 540px) {
   .more-designs__header {
-  font-size: 25.5;
+  font-size: 26px;
   font-weight: 300;
   line-height: 50px;
 }
 
 .more-designs__text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 48px;
 }

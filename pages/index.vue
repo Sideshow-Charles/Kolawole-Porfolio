@@ -81,7 +81,7 @@ export default {
   /* justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-top: 5rem;
+  padding-top: 7rem;
   padding-bottom: 5rem;
   padding-left: 128px;
   padding-right: 128px;
@@ -93,7 +93,7 @@ export default {
   font-weight: 300;
   line-height: 4.5rem;
   margin-bottom: 2rem;
-  max-width: 56rem;
+  max-width: 57rem;
 }
 
 .article__text {
@@ -102,7 +102,7 @@ export default {
   font-weight: 300;
   line-height: 3.2rem;
   margin-bottom: 2.5rem;
-  max-width: 52rem;
+  max-width: 54rem;
 }
 
 .article__text p span {
@@ -255,6 +255,10 @@ export default {
   }
 
   @media screen and (max-width: 540px) {
+    .article__container {
+      padding-top: 5rem;
+    }
+
     .article__header {
       font-size: 26px;
       font-weight: 300;

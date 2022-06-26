@@ -19,7 +19,7 @@
 
       <article class="about-text__container">
         <article class="about-text__header">
-          <p>Hello Again</p>
+          <p class="about__header">Hello Again</p>
         </article>
         <article class="about-text__container">
           <p>
@@ -571,6 +571,18 @@ export default {
   .section-interest__container {
     padding-left: 24px;
     padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .about__header {
+    font-size: 26px !important;
+    font-weight: 300 !important;
+  }
+  .about-text__container p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
   }
 }
 </style>
