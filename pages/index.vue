@@ -256,8 +256,8 @@ export default {
 
   @media screen and (max-width: 540px) {
     .article__header {
-      font-size: 19.5px;
-      font-weight: 600;
+      font-size: 24px;
+      font-weight: 300;
       line-height: 50px;
     }
 
