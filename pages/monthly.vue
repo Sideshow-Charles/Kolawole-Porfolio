@@ -636,14 +636,14 @@ export default {
   }
 
   .sign-in__container img {
-    padding-left: 32px;
-    padding-right: 32px;
+    /* padding-left: 32px;
+    padding-right: 32px; */
     width: 100%;
   }
 
   .loans__container img {
-    padding-left: 32px;
-    padding-right: 32px;
+    /* padding-left: 32px;
+    padding-right: 32px; */
     width: 100%;
   }
 }
