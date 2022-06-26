@@ -58,29 +58,23 @@ export default {
   //     dropDown: false,
   //   };
   // },
-
   // mounted() {
   //   window.addEventListener("resize", this.checkScreen);
   //   this.checkScreen();
   // },
-
   // methods: {
   //   toggleMobileNav() {
-      //  this.mobileNav = !this.mobileNav
-    // },
-
-    //  showdropDown() {
-    //    this.dropDown = !this.dropDown
-    //  },
-
-    //  hidedropDown() {
-    //    if (this.dropDown = true) {
-    //       this.dropDown = false;
-    //    }
-    //  },
-
-    // Checks the screen size to show or hide the mobile nav.
-
+  //  this.mobileNav = !this.mobileNav
+  // },
+  //  showdropDown() {
+  //    this.dropDown = !this.dropDown
+  //  },
+  //  hidedropDown() {
+  //    if (this.dropDown = true) {
+  //       this.dropDown = false;
+  //    }
+  //  },
+  // Checks the screen size to show or hide the mobile nav.
   //   checkScreen() {
   //     this.windowWidth = window.innerWidth;
   //     if (this.windowWidth <= 980) {
@@ -173,8 +167,16 @@ export default {
     flex-direction: column-reverse;
   }
 
- .nav__items__center {
+  .nav__items__center {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .nav__items__center {
+    line-height: 43px;
+    font-size: 20.5px;
+    font-weight: 300;
   }
 }
 </style>
