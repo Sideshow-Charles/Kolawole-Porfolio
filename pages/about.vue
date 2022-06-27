@@ -284,7 +284,7 @@ export default {
 .section__container {
   margin: 0 auto;
   max-width: 109.2rem;
-  padding-top: 7rem;
+  padding-top: 5rem;
   padding-bottom: 7rem;
   padding-left: 128px;
   padding-right: 128px;

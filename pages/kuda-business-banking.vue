@@ -22,8 +22,18 @@
     </article>
 
     <section class="kuda-hero__image">
-      <img src="../assets/images/kuda-hero-image.png" alt="" class="hero-image" width="100%" />
-      <img src="../assets/images/kuda-mobile-image.png" class="mobile-image" alt="" width="100%" />
+      <img
+        src="../assets/images/kuda-hero-image.png"
+        alt=""
+        class="hero-image"
+        width="100%"
+      />
+      <img
+        src="../assets/images/kuda-mobile-image.png"
+        class="mobile-image"
+        alt=""
+        width="100%"
+      />
     </section>
 
     <section class="about-product__container">
@@ -703,6 +713,10 @@ export default {
 }
 
 @media screen and (max-width: 540px) {
+  .product__container {
+    padding-top: 41px;
+  }
+
   .product__header {
     font-size: 26px;
     font-weight: 300;

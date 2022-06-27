@@ -147,7 +147,7 @@ export default {
 
   .nav__items__center {
     width: 50%;
-    margin-top: 50px;
+    margin-top: 37px;
     justify-content: space-between;
   }
 
@@ -160,6 +160,12 @@ export default {
   }
 }
 
+@media screen and (max-width: 820px) {
+  .nav__items__center {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .nav__bar {
     padding-left: 32px;
@@ -167,9 +173,9 @@ export default {
     flex-direction: column-reverse;
   }
 
-  .nav__items__center {
+  /* .nav__items__center {
     width: 100%;
-  }
+  } */
 }
 
 @media screen and (max-width: 540px) {

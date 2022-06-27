@@ -487,7 +487,8 @@ export default {
 }
 
 .sign-in__container img {
-  width: 45%;
+  max-width: 475px;
+  max-height: 883px;
 }
 
 .sign-in__header {
@@ -515,7 +516,8 @@ export default {
 }
 
 .loans__container img {
-  width: 45%;
+  max-width: 475px;
+  max-height: 883px;
 }
 
 .loans__header {
@@ -624,7 +626,7 @@ export default {
 
 @media screen and (max-width: 540px) {
   .product__container {
-    padding-top: 5rem;
+    padding-top: 41px;
   }
 
   .product__header {

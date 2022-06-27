@@ -270,7 +270,7 @@ export default {
 
   @media screen and (max-width: 540px) {
     .article__container {
-      padding-top: 5rem;
+      padding-top: 41px;
       padding-bottom: 0;
     }
 
