@@ -1196,4 +1196,8 @@ export default {
     line-height: 30px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  
+}
 </style>
