@@ -144,10 +144,6 @@ export default {
 }
 
 .input-details__gallery__container {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
-  /* max-width: 109.2rem; */
   margin: 0 128px;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -186,12 +182,17 @@ export default {
 .input-details__gallery__menu img {
   width: 99px;
   height: 63px;
-  /* margin-right: 20px; */
   cursor: pointer;
 }
 
 .active {
   border: 3px solid #48d38a;
+}
+
+@media screen and (max-width: 1200px) {
+  .input-details__gallery__menu {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 980px) {

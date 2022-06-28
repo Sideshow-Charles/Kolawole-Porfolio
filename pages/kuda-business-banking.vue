@@ -179,18 +179,64 @@
         These are some screens from the mobile app.
       </p>
     </section>
-    <!-- <section class="mobile-screens__images__container">
-      <section class="mobile-screens__images">
-        <img src="../assets/images/welcome-screen-2.png" alt="" />
-        <img src="../assets/images/welcome-screen-3.png" alt="" />
-        <img src="../assets/images/welcome-screen-4.png" alt="" />
+    <section class="mobile-screens-one__images">
+      <img src="../assets/images/welcome-screen-2.png" alt="" />
+      <img src="../assets/images/welcome-screen-3.png" alt="" />
+      <img src="../assets/images/welcome-screen-4.png" alt="" />
+    </section>
+
+    <section class="mobile-screens-two__images">
+      <img src="../assets/images/landing-page-signed-in.png" alt="" />
+      <img src="../assets/images/personal-details.png" alt="" />
+      <img src="../assets/images/verify-ID-first-step.png" alt="" />
+    </section>
+
+    <section class="mobile-screens-three__images">
+      <img src="../assets/images/bank-1.png" alt="" />
+      <img src="../assets/images/invoicing.png" alt="" />
+      <img src="../assets/images/get-started.png" alt="" />
+    </section>
+
+    <section class="product__challenge__and__takeaway">
+      <p class="product__challenges__header">Challenges and Takeaways</p>
+      <p class="product__challenges__text">
+        This project provided an excellent opportunity to learn about designing
+        for security and ease, a business owner won’t want to keep their money
+        in your bank if they aren’t sure their money is safe and easily
+        accessible whenever they need it, so we had to put that into
+        consideration when designing and optimize for accessibility and easy
+        usage.
+      </p>
+    </section>
+
+    <section class="product__conclusion">
+      <p class="product__conclusion__header">Conclusion and Outcome</p>
+      <p class="product__conclusion__text">
+        Kuda Business is a product under Kuda MFB which has over 3 million
+        customers and is currently in it’s expansion phase to the UK and other
+        African country, Kuda Business since it’s launch has helped add to the
+        total Kuda MFB users with over 100,000 customers here in Lagos, Nigeria.
+        As we continue growing more features will be added to satisfy out large
+        and ever increasing customer base.
+      </p>
+    </section>
+
+    <section class="product-CTA_link">
+      <p>
+        <a href="https://kuda.com/business/">Click here to go to website</a>
+      </p>
+    </section>
+
+    <section class="product__footer">
+      <p class="product__presentation">Presentation available on request</p>
+      <section class="product__next__container">
+        <p class="product__next__header">Next Project</p>
+        <p class="product__next__text">
+          <Nuxt-Link to="/monthly">Monthly</Nuxt-Link>
+        </p>
       </section>
-    </section>-->
-    <!-- <img
-      src="../assets/images/mobile-screens-background.png"
-      alt=""
-      class="mobile-screens__backhround__image"
-    /> -->
+    </section>
+    <SubFooter></SubFooter>
   </div>
 </template>
 
@@ -199,6 +245,7 @@ import Header from "../components/Header.vue";
 import SendingMoneyGallery from "../components/sending-money-gallery.vue";
 import InvoicingGallery from "../components/invoicing-gallery.vue";
 import InputingYourDetailsGallery from "../components/inputing-your-details-gallery.vue";
+import SubFooter from "../components/SubFooter.vue";
 export default {
   data() {
     return {};
@@ -209,6 +256,7 @@ export default {
     SendingMoneyGallery,
     InvoicingGallery,
     InputingYourDetailsGallery,
+    SubFooter,
   },
 };
 </script>
@@ -570,9 +618,9 @@ export default {
 }
 
 .mobile-screens__container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
   padding-top: 7rem;
@@ -596,24 +644,195 @@ export default {
   margin-bottom: 3rem;
 }
 
-/* .mobile-screens__images__container {
+.mobile-screens-one__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 0 96px;
+  background: url("../assets/images/mobile-screens-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 592px;
+  background-position: bottom;
+  margin-left: 47px;
+  margin-right: 47px;
+  margin-bottom: 200px;
+}
+
+.mobile-screens-one__images img {
+  max-width: 375px;
+  max-height: 812px;
+  position: relative;
+  top: -73px;
+}
+
+.mobile-screens-two__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 0 96px;
+  background: url("../assets/images/mobile-screens-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 592px;
+  background-position: bottom;
+  margin-left: 47px;
+  margin-right: 47px;
+  margin-bottom: 200px;
+}
+
+.mobile-screens-two__images img {
+  max-width: 375px;
+  height: 812px;
+  position: relative;
+  top: -73px;
+}
+
+.mobile-screens-two__images img:nth-child(2) {
+  height: 877px;
+  top: -41px;
+}
+
+.mobile-screens-two__images img:nth-child(3) {
+  height: 845px;
+  top: -58px;
+}
+
+.mobile-screens-three__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 0 96px;
+  background: url("../assets/images/mobile-screens-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 592px;
+  background-position: bottom;
+  margin-left: 47px;
+  margin-right: 47px;
+  margin-bottom: 200px;
+}
+
+.mobile-screens-three__images img {
+  max-width: 375px;
+  max-height: 812px;
+  position: relative;
+  top: -73px;
+}
+
+.mobile-screens-three__images img:nth-child(1) {
+  height: 882px;
+  top: -68px;
+}
+
+.product__challenge__and__takeaway {
   max-width: 109.2rem;
   margin: 0 auto;
+  padding-bottom: 5rem;
   padding-left: 128px;
   padding-right: 128px;
 }
 
-.mobile-screens__images img {
-  width: 375px;
-  z-index: 7;
+.product__challenges__header {
+  font-family: "Graphik-Medium";
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
 }
 
-.mobile-screens__backhround__image {
-  width: 1345px;
-  height: 592px;
-  margin: 0 47px;
-  position: relative;
-  top: 13303px;
+.product__challenges__text {
+  font-family: "Graphik-Regular";
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.product__conclusion {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+.product__conclusion__header {
+  font-family: "Graphik-Medium";
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.product__conclusion__text {
+  font-family: "Graphik-Regular";
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.product-CTA_link {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+.product-CTA_link p a {
+  font-family: "Graphik-Medium";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33px;
+  color: #14586d;
+  text-align: left;
+  text-decoration: none;
+}
+
+.product__footer {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+.product__presentation {
+  font-family: "Graphik-SemiBold";
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 69px;
+  color: #14586d;
+}
+
+.product__next__container {
+  margin-top: 150px;
+  margin-bottom: 118px;
+  text-align: center;
+}
+
+.product__next__header {
+  font-family: "Graphik-SemiBold";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 17px;
+}
+
+.product__next__text a {
+  font-family: "Graphik-SemiBold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #979797;
+  text-decoration: none;
+}
+
+/* .nav__items__center a:active,
+.nav__items__center a.nuxt-link-active {
+  border-bottom: 3px solid #14586d;
 } */
 
 @media screen and (max-width: 1240px) {
@@ -623,6 +842,54 @@ export default {
 
   .role-description__container p {
     margin-bottom: 0.5rem;
+  }
+
+  .mobile-screens-one__images {
+    flex-direction: column;
+    background-size: 100% 2000px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 250px;
+  }
+
+  .mobile-screens-two__images {
+    flex-direction: column;
+    background-size: 100% 2000px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 250px;
+  }
+
+  .mobile-screens-three__images {
+    flex-direction: column;
+    background-size: 100% 2000px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 250px;
+  }
+
+  .mobile-screens-one__images img {
+    top: 0;
+  }
+
+  .mobile-screens-two__images img {
+    top: 0;
+  }
+
+  .mobile-screens-three__images img {
+    top: 0;
+  }
+
+  .mobile-screens-two__images img:nth-child(2) {
+    top: 0;
+  }
+
+  .mobile-screens-two__images img:nth-child(3) {
+    top: 0;
+  }
+
+  .mobile-screens-three__images img:nth-child(1) {
+    top: 0;
   }
 }
 
@@ -656,13 +923,7 @@ export default {
 
   .visual-design__image__container img {
     width: 100%;
-    /* padding-top: 5rem; */
   }
-
-  /* .visual-design__image__container img:nth-child(3) {
-    margin-right: 231px;
-    max-height: 880px;
-  } */
 
   .onboarding__container {
     padding-left: 64px;
@@ -671,6 +932,31 @@ export default {
 
   .onboarding-hero__image {
     padding: 0 64px;
+  }
+
+  .mobile-screens__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product__challenge__and__takeaway {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product__conclusion {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product-CTA_link {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product__footer {
+    padding-left: 64px;
+    padding-right: 64px;
   }
 }
 
@@ -709,6 +995,31 @@ export default {
 
   .onboarding-hero__image {
     padding: 0 32px;
+  }
+
+  .mobile-screens__container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product__challenge__and__takeaway {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product__conclusion {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product-CTA_link {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product__footer {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
@@ -836,6 +1147,53 @@ export default {
     font-size: 18px;
     font-weight: 300;
     line-height: 43px;
+  }
+
+  .product__challenges__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .product__challenges__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product__conclusion__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .product__conclusion__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product-CTA_link p a {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .product__presentation {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .product__next__header {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  .product__next__text a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
   }
 }
 </style>

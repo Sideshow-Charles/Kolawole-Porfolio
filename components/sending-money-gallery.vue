@@ -180,9 +180,9 @@ export default {
 
 .sending-money__gallery__menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 61px;
   margin-top: 70px;
 }
 
@@ -194,6 +194,12 @@ export default {
 
 .active {
   border: 3px solid #48d38a;
+}
+
+@media screen and (max-width: 1200px) {
+  .sending-money__gallery__menu {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 980px) {

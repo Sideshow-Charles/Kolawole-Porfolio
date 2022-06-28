@@ -40,7 +40,16 @@
       <section class="product__brief">
         <p class="product__brief__header">Brief</p>
         <p class="product__brief__text">
-          A lot of landlords, especially in this part of the world prefer to ask for a year down payment of rent before a tenant moves in, some even ask for two years and after speaking to quite a number of tenants who are looking for houses currently, we figured that this arrangement isn’t easy for them, some of them might not have the whole money to pay at that point in time while some might have but it isn’t convenient for them to pay a huge sum and will rather prefer a montly payment plan. This is where this product comes in, they apply for the rent loan, we send the yearly rent to their landlords and they refund to us on the application every month.
+          A lot of landlords, especially in this part of the world prefer to ask
+          for a year down payment of rent before a tenant moves in, some even
+          ask for two years and after speaking to quite a number of tenants who
+          are looking for houses currently, we figured that this arrangement
+          isn’t easy for them, some of them might not have the whole money to
+          pay at that point in time while some might have but it isn’t
+          convenient for them to pay a huge sum and will rather prefer a montly
+          payment plan. This is where this product comes in, they apply for the
+          rent loan, we send the yearly rent to their landlords and they refund
+          to us on the application every month.
         </p>
       </section>
 
@@ -669,17 +678,16 @@ export default {
     font-weight: 300;
   }
 
-  .product__role__header {
-    font-size: 26px;
-    font-weight: 300;
-  }
-
   .product__challenge__list li {
     font-size: 18px;
     font-weight: 300;
     line-height: 43px;
   }
 
+  .product__role__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
   .product__role__text {
     font-size: 18px;
     font-weight: 300;
