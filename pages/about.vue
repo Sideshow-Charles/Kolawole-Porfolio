@@ -574,6 +574,11 @@ export default {
 }
 
 @media screen and (max-width: 540px) {
+  .landing__page {
+  background-image: url("../assets/images/lines-for-mobile.svg");
+  background-position: center center;
+}
+
   .about__header {
     font-size: 26px !important;
     font-weight: 300 !important;

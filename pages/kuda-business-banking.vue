@@ -1029,6 +1029,11 @@ export default {
 }
 
 @media screen and (max-width: 540px) {
+  #landing__page {
+    background-image: url("../assets/images/lines-for-mobile.svg");
+    background-position: top center;
+  }
+
   .product__container {
     padding-top: 41px;
   }

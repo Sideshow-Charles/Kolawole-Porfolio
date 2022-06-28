@@ -77,7 +77,7 @@
         <!-- End Of Mobile Images -->
       </section>
     </section>
-
+<div id="landing__page">
     <section class="sub-footer__container">
       <section class="sub-footer__text">
         <p>
@@ -89,6 +89,7 @@
     </section>
 
     <Footer></Footer>
+    </div>
   </div>
 </template>
 
@@ -275,6 +276,13 @@ export default {
   }
 
   @media screen and (max-width: 540px) {
+    #landing__page {
+      background-image: url("../assets/images/lines-for-mobile.svg");
+      background-repeat: no-repeat;
+      background-position: top center;
+      height: 100%;
+    }
+
     .article__container {
       padding-top: 41px;
       padding-bottom: 0;
