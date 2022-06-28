@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="landing__page">
     <Header></Header>
     <article class="product__container">
       <article class="product__header">
@@ -262,13 +262,18 @@ export default {
 </script>
 
 <style scoped>
+#landing__page {
+  background-image: url("../assets/images/lines-for-web.svg");
+  background-position: center center;
+}
+
 .product__container {
   max-width: 109.2rem;
   margin: 0 auto;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .product__header {
@@ -309,7 +314,7 @@ export default {
 }
 
 .kuda-hero__image {
-  padding: 0 128px;
+  padding: 0 121px;
   max-width: 109.2rem;
   margin: 0 auto;
 }
@@ -329,8 +334,8 @@ export default {
   max-width: 109.2rem;
   margin: 0 auto;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .product__brief {
@@ -409,7 +414,7 @@ export default {
 
 .sub-product__role__text {
   font-family: "Graphik-Regular";
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 300;
   line-height: 3rem;
   margin-bottom: 3rem;
@@ -470,7 +475,7 @@ export default {
 .flow-chart-onboarding__container {
   background: #f0f8fb;
   padding: 64px 0;
-  margin: 3rem 128px;
+  margin: 3rem 121px;
 }
 
 .flow-chart-onboarding__content {
@@ -495,7 +500,7 @@ export default {
 .business-registration__container {
   background: #f0f8fb;
   padding: 64px 0;
-  margin: 3rem 128px;
+  margin: 3rem 121px;
 }
 
 .business-registration__content {
@@ -525,8 +530,8 @@ export default {
   margin: 0 auto;
   padding-top: 2rem;
   padding-bottom: 7rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .visual-design__header {
@@ -583,8 +588,8 @@ export default {
   margin: 0 auto;
   padding-top: 2rem;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .onboarding__header {
@@ -608,7 +613,7 @@ export default {
 }
 
 .onboarding-hero__image {
-  padding: 0 128px;
+  padding: 0 121px;
   max-width: 109.2rem;
   margin: 0 auto;
 }
@@ -625,8 +630,8 @@ export default {
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 7rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .mobile-screens__header {
@@ -729,8 +734,8 @@ export default {
   max-width: 109.2rem;
   margin: 0 auto;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .product__challenges__header {
@@ -752,8 +757,8 @@ export default {
   max-width: 109.2rem;
   margin: 0 auto;
   padding-bottom: 3rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .product__conclusion__header {
@@ -775,8 +780,8 @@ export default {
   max-width: 109.2rem;
   margin: 0 auto;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .product-CTA_link p a {
@@ -793,8 +798,8 @@ export default {
   max-width: 109.2rem;
   margin: 0 auto;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .product__presentation {
@@ -1149,20 +1154,16 @@ export default {
     line-height: 43px;
   }
 
-    /* .mobile-screens-one__images {
-    background-size: 100% 2500px;
-    padding: 0;
+  .mobile-screens__header {
+    font-size: 22px;
+    font-weight: 300;
   }
 
-  .mobile-screens-two__images {
-    background-size: 100% 2500px;
-    padding: 0;
+  .mobile-screens__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
   }
-
-  .mobile-screens-three__images {
-    background-size: 100% 2500px;
-    padding: 0;
-  } */
 
   .mobile-screens-one__images img {
     max-width: 350px;
@@ -1170,13 +1171,13 @@ export default {
   }
 
   .mobile-screens-two__images img {
-   max-width: 350px;
-   top: 45px;
+    max-width: 350px;
+    top: 45px;
   }
 
   .mobile-screens-three__images img {
-   max-width: 350px;
-   top: 0;
+    max-width: 350px;
+    top: 0;
   }
 
   .product__challenges__header {
@@ -1228,6 +1229,5 @@ export default {
 }
 
 @media screen and (max-width: 375px) {
-
 }
 </style>

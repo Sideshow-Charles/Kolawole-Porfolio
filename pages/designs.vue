@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="landing__page">
     <Header></Header>
 
     <section class="more-designs__container">
@@ -44,13 +44,19 @@ export default {
 </script>
 
 <style scoped>
+#landing__page {
+  background-image: url("../assets/images/lines-for-web.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .more-designs__container {
   max-width: 109.2rem;
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .more-designs__header {
@@ -78,7 +84,7 @@ export default {
 }
 
 .design__images img {
-  max-width: 550px;
+  max-width: 562px;
 }
 
 .design__caption {
@@ -94,7 +100,7 @@ export default {
   }
 
   .design__images img {
-    max-width: 718px;
+    max-width: 730px;
   }
 }
 

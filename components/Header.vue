@@ -96,8 +96,8 @@ export default {
   align-items: center;
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 120px;
+  padding-right: 120px;
   padding-top: 40px;
   padding-bottom: 20px;
 }

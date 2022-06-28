@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="landing__page">
     <Header></Header>
     <article class="about__container">
       <article class="image__container">
@@ -193,10 +193,9 @@ export default {
 </script>
 
 <style scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.landing__page {
+  background-image: url("../assets/images/lines-for-web.svg");
+  background-position: center center;
 }
 
 .about__container {
@@ -286,8 +285,8 @@ export default {
   max-width: 109.2rem;
   padding-top: 5rem;
   padding-bottom: 7rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -426,8 +425,8 @@ export default {
   padding-bottom: 7rem;
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
   display: flex;
   justify-content: space-between;
 }
@@ -579,10 +578,68 @@ export default {
     font-size: 26px !important;
     font-weight: 300 !important;
   }
+
+  .contact__container h3 {
+    font-size: 22px;
+    font-weight: 200;
+  }
+
   .about-text__container p {
     font-size: 18px;
     font-weight: 300;
     line-height: 48px;
+  }
+
+  .section__toolkit h2 {
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  .section__toolkit h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .design__methods li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .design__tools li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .section-work__history h2 {
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  .section-interest__reading h3 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .section-interest__listening h3 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .section-interest__listening h6 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .section-interest__listening__music h6 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
   }
 }
 </style>

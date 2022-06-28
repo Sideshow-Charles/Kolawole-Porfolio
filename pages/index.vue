@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="landing__page">
     <Header></Header>
     <article class="article__container">
       <article class="article__header">
@@ -106,6 +106,12 @@ export default {
 </script>
 
 <style scoped>
+#landing__page {
+  background-image: url("../assets/images/lines-for-web.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .article__container {
   /* display: flex; */
   flex-direction: column;
@@ -114,8 +120,8 @@ export default {
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .article__header {
@@ -165,8 +171,8 @@ export default {
 .section__content {
   max-width: 109.2rem;
   margin: 0 auto;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .section__header {

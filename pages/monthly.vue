@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="landing__page">
     <Header></Header>
     <article class="product__container">
       <article class="product__header">
@@ -214,14 +214,19 @@ export default {
 </script>
 
 <style scoped>
+#landing__page {
+  background-image: url("../assets/images/lines-for-web.svg");
+  background-position: center center;
+}
+
 .product__container {
   flex-direction: column;
   max-width: 109.2rem;
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .product__header {
@@ -267,7 +272,7 @@ export default {
 }
 
 .monthly-hero__image {
-  padding: 0 128px;
+  padding: 0 121px;
   max-width: 109.2rem;
   margin: 0 auto;
 }
@@ -287,8 +292,8 @@ export default {
   max-width: 109.2rem;
   margin: 0 auto;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .product__brief {
@@ -444,8 +449,8 @@ export default {
   margin: 0 auto;
   padding-top: 2rem;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .wireframes__header {
@@ -477,8 +482,8 @@ export default {
   margin: 0 auto;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .visual-design__header {

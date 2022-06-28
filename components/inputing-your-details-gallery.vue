@@ -109,8 +109,8 @@ export default {
   margin: 0 auto;
   padding-top: 5rem;
   padding-bottom: 7rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .input-details__header {
@@ -147,8 +147,8 @@ export default {
   margin: 0 128px;
   padding-top: 7rem;
   padding-bottom: 7rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
   background-color: #000;
 }
 

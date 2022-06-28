@@ -52,7 +52,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 128px;
+  padding: 0 121px;
   max-width: 109.2rem;
   margin: 0 auto;
   padding-bottom: 32px;

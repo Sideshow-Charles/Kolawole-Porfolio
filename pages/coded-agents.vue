@@ -92,8 +92,8 @@ export default {
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .product__header {
@@ -137,7 +137,7 @@ export default {
 }
 
 .coded-agents-hero__image {
-  padding: 0 128px;
+  padding: 0 121px;
   max-width: 109.2rem;
   margin: 0 auto;
 }
@@ -153,8 +153,8 @@ export default {
   max-width: 109.2rem;
   margin: 0 auto;
   padding-bottom: 5rem;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .product__brief {
