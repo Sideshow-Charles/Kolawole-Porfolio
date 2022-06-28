@@ -192,8 +192,8 @@
     </section>
 
     <section class="mobile-screens-three__images">
-      <img src="../assets/images/bank-1.png" alt="" />
-      <img src="../assets/images/invoicing.png" alt="" />
+      <img src="../assets/images/bank.png" alt="" />
+      <img src="../assets/images/invoice.png" alt="" />
       <img src="../assets/images/get-started.png" alt="" />
     </section>
 
@@ -1198,6 +1198,6 @@ export default {
 }
 
 @media screen and (max-width: 375px) {
-  
+
 }
 </style>
