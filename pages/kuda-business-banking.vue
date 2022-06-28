@@ -1149,6 +1149,36 @@ export default {
     line-height: 43px;
   }
 
+    /* .mobile-screens-one__images {
+    background-size: 100% 2500px;
+    padding: 0;
+  }
+
+  .mobile-screens-two__images {
+    background-size: 100% 2500px;
+    padding: 0;
+  }
+
+  .mobile-screens-three__images {
+    background-size: 100% 2500px;
+    padding: 0;
+  } */
+
+  .mobile-screens-one__images img {
+    max-width: 350px;
+    top: 0;
+  }
+
+  .mobile-screens-two__images img {
+   max-width: 350px;
+   top: 45px;
+  }
+
+  .mobile-screens-three__images img {
+   max-width: 350px;
+   top: 0;
+  }
+
   .product__challenges__header {
     font-size: 26px;
     font-weight: 300;
