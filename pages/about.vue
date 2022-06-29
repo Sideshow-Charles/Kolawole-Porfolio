@@ -195,11 +195,12 @@ export default {
 <style scoped>
 .landing__page {
   background-image: url("../assets/images/lines-for-web.svg");
-  background-position: center center;
+  background-repeat: repeat-y;
+  background-position: top center;
 }
 
 .about__container {
-  padding: 7rem 128px;
+  padding: 7rem 121px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -576,7 +577,7 @@ export default {
 @media screen and (max-width: 540px) {
   .landing__page {
   background-image: url("../assets/images/lines-for-mobile.svg");
-  background-position: center center;
+  background-position: top center;
 }
 
   .about__header {

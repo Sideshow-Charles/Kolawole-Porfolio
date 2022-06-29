@@ -151,7 +151,8 @@ export default {
 <style scoped>
 #landing__page {
   background-image: url("../assets/images/lines-for-web.svg");
-  background-position: center center;
+  background-repeat: repeat-y;
+  background-position: top center;
 }
 
 .product__container {

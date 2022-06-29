@@ -77,18 +77,18 @@
         <!-- End Of Mobile Images -->
       </section>
     </section>
-<div id="landing__page">
-    <section class="sub-footer__container">
-      <section class="sub-footer__text">
-        <p>
-          Want to build something ground breaking and you feel I might <br />
-          be the right fit? What are you waiting for
-        </p>
+    <div id="landing__page">
+      <section class="sub-footer__container">
+        <section class="sub-footer__text">
+          <p>
+            Want to build something ground breaking and you feel I might <br />
+            be the right fit? What are you waiting for
+          </p>
+        </section>
+        <Button></Button>
       </section>
-      <Button></Button>
-    </section>
 
-    <Footer></Footer>
+      <Footer></Footer>
     </div>
   </div>
 </template>
@@ -109,20 +109,17 @@ export default {
 <style scoped>
 #landing__page {
   background-image: url("../assets/images/lines-for-web.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-repeat: repeat-y;
+  background-position: top center;
 }
 
 .article__container {
-  /* display: flex; */
-  flex-direction: column;
-  /* justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 5rem;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .article__header {

@@ -47,7 +47,7 @@ export default {
 #landing__page {
   background-image: url("../assets/images/lines-for-web.svg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
 }
 
 .more-designs__container {
@@ -55,8 +55,8 @@ export default {
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 5rem;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 121px;
+  padding-right: 121px;
 }
 
 .more-designs__header {
@@ -78,13 +78,13 @@ export default {
 .design__images {
   display: flex;
   flex-wrap: wrap;
-  gap: 75px;
+  gap: 68px;
   margin-top: 5rem;
   margin-bottom: 8rem;
 }
 
 .design__images img {
-  max-width: 562px;
+  max-width: 565px;
 }
 
 .design__caption {
@@ -94,13 +94,13 @@ export default {
   font-weight: 900;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1500px) {
   .design__images {
     gap: 50px;
   }
 
   .design__images img {
-    max-width: 730px;
+    max-width: 718px;
   }
 }
 
@@ -123,12 +123,6 @@ export default {
 }
 
 @media screen and (max-width: 540px) {
-  #landing__page {
-  background-image: url("../assets/images/lines-for-mobile.svg");
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
   .more-designs__header {
     font-size: 26px;
     font-weight: 300;
