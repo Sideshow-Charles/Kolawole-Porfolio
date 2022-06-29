@@ -123,6 +123,13 @@ export default {
 }
 
 @media screen and (max-width: 540px) {
+  #landing__page {
+    background-image: url("../assets/images/lines-for-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* height: 100%; */
+  }
+
   .more-designs__header {
     font-size: 26px;
     font-weight: 300;
