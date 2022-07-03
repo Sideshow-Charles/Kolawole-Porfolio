@@ -201,21 +201,94 @@
         <img src="../assets/images/loan-image.png" alt="" />
       </div>
     </section>
+    <section class="mobile-screens-one__images">
+      <img src="../assets/images/monthly-kyc-one.png" alt="" />
+      <img src="../assets/images/monthly-kyc-two.png" alt="" />
+      <img src="../assets/images/monthly-kyc-three.png" alt="" />
+    </section>
+
+    <section class="complete__kyc__container">
+      <p class="complete__kyc__header">Complete KYC</p>
+      <p class="complete__kyc__text">
+        The point of this screen is just you giving us some extra details about
+        you i.e your address, verifying your identity, uploading a bank
+        statement so we can confirm if you are eligible for the loan in question
+        and also your proof of address so we can confirm if where you inputed as
+        your address tallies with what is on the proof of address.
+      </p>
+    </section>
+
+    <section class="more__visuals__container">
+      <p class="more__visuals__header">More Visuals from the project</p>
+    </section>
+
+    <section class="mobile-screens-two__images">
+      <img src="../assets/images/apply-for-loans-1.png" alt="" />
+      <img src="../assets/images/apply-for-loans-2.png" alt="" />
+      <img src="../assets/images/pre-approved-Loan-2.png" alt="" />
+      <img src="../assets/images/active-loan-1.png" alt="" />
+    </section>
+
+    <section class="website-design__container">
+      <p class="website-design__header">Website Design</p>
+      <div class="website-design__images">
+        <img src="../assets/images/website-design-1.png" alt="" />
+        <img src="../assets/images/website-design-2.png" alt="" />
+      </div>
+    </section>
+    <section class="product__challenge__and__takeaway">
+      <p class="product__challenges__header">Challenges and Takeaways</p>
+      <p class="product__challenges__text">
+        A common issue we faced in building this product was trying to convince
+        users that our interest rates aren’t bad and that we can be trusted
+        because we are always on their side. A major takeaway is that users were
+        very receptive to the idea of not having to dump a huge sum at once for
+        rent and I think more landlords should adopt this moving forward.
+      </p>
+    </section>
+
+    <section class="product__conclusion">
+      <p class="product__conclusion__header">Conclusion and Outcome</p>
+      <p class="product__conclusion__text">
+        The product is still in the alpha stage, but the plan is to roll it out
+        in phases to validate and get user feedback, and iterate before
+        releasing the final version of the app.
+      </p>
+    </section>
+
+    <section class="product-CTA_link">
+      <p>
+        <a href="#">Click here to sign up <span>for beta.</span></a>
+      </p>
+    </section>
+
+    <section class="product__footer">
+      <p class="product__presentation">Presentation available on request</p>
+      <section class="product__next__container">
+        <p class="product__next__header">Next Project</p>
+        <p class="product__next__text">
+          <Nuxt-Link to="/citrone">Citrone</Nuxt-Link>
+        </p>
+      </section>
+    </section>
+    <SubFooter></SubFooter>
   </div>
 </template>
 
 <script>
 import Header from "../components/Header.vue";
+import SubFooter from "../components/SubFooter.vue";
 export default {
   components: {
     Header,
+    SubFooter,
   },
 };
 </script>
 
 <style scoped>
 #landing__page {
- background-image: url("../assets/images/lines-for-web.svg");
+  background-image: url("../assets/images/lines-for-web.svg");
   background-repeat: repeat-y;
   background-position: top center;
 }
@@ -234,7 +307,6 @@ export default {
   font-family: "Graphik-SemiBold";
   font-size: 2rem;
   font-weight: 600;
-  /* letter-spacing: 0.02em; */
   line-height: 4.5rem;
   max-width: 55rem;
   margin-bottom: 1.8rem;
@@ -525,7 +597,6 @@ export default {
 .loans__container {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   flex-direction: row-reverse;
   margin-top: 3rem;
 }
@@ -551,6 +622,259 @@ export default {
   max-width: 601px;
 }
 
+.mobile-screens-one__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 0 96px;
+  background: url("../assets/images/mobile-screens-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 592px;
+  background-position: bottom;
+  margin-left: 47px;
+  margin-right: 47px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.mobile-screens-one__images img {
+  max-width: 375px;
+  max-height: 812px;
+  position: relative;
+  top: -73px;
+}
+
+.complete__kyc__container {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  padding-left: 121px;
+  padding-right: 121px;
+  text-align: center;
+}
+
+.complete__kyc__header {
+  font-family: "Graphik-Medium";
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.complete__kyc__text {
+  font-family: "Graphik-Regular";
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.more__visuals__container {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-top: 7rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.more__visuals__header {
+  font-family: "Graphik-Medium";
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.mobile-screens-two__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 201px;
+  padding: 0 96px;
+  background: url("../assets/images/mobile-screens-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 1300px;
+  background-position: center;
+  margin-left: 47px;
+  margin-right: 47px;
+  margin-top: 107px;
+  margin-bottom: 200px;
+}
+
+.mobile-screens-two__images img {
+  max-width: 375px;
+  height: 812px;
+  position: relative;
+  top: 35px;
+}
+
+.mobile-screens-two__images img:nth-child(1) {
+  height: 931px;
+}
+
+.mobile-screens-two__images img:nth-child(2) {
+  height: 1032.95px;
+}
+
+.mobile-screens-two__images img:nth-child(3) {
+  height: 976px;
+}
+
+.mobile-screens-two__images img:nth-child(4) {
+  height: 989px;
+}
+
+.website-design__container {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 200px;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.website-design__header {
+  font-family: "Graphik-Medium";
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.website-design__images {
+  background: #f0f8fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
+  padding: 78px 0;
+}
+
+.website-design__images img:nth-child(1) {
+  max-width: 451.84px;
+  height: 1917.86px;
+}
+
+.website-design__images img:nth-child(2) {
+  max-width: 445.54px;
+  height: 999.96px;
+}
+
+.product__challenge__and__takeaway {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.product__challenges__header {
+  font-family: "Graphik-Medium";
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.product__challenges__text {
+  font-family: "Graphik-Regular";
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.product__conclusion {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.product__conclusion__header {
+  font-family: "Graphik-Medium";
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.product__conclusion__text {
+  font-family: "Graphik-Regular";
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.product-CTA_link {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.product-CTA_link p a {
+  font-family: "Graphik-Medium";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33px;
+  color: #14586d;
+  text-align: left;
+  text-decoration: none;
+}
+
+.product-CTA_link p a span {
+  color: #1e1e1e;
+}
+
+.product__footer {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.product__presentation {
+  font-family: "Graphik-SemiBold";
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 69px;
+  color: #14586d;
+}
+
+.product__next__container {
+  margin-top: 150px;
+  margin-bottom: 118px;
+  text-align: center;
+}
+
+.product__next__header {
+  font-family: "Graphik-SemiBold";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 17px;
+}
+
+.product__next__text a {
+  font-family: "Graphik-SemiBold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #979797;
+  text-decoration: none;
+}
+
+/* @media screen and (min-width: 1600px) {
+  .mobile-screens-two__images {
+    max-width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+} */
+
 @media screen and (max-width: 1280px) {
   .role-description__container {
     flex-wrap: wrap;
@@ -568,6 +892,34 @@ export default {
   .loans__container {
     flex-direction: column-reverse;
     gap: 70px;
+  }
+
+  .mobile-screens-one__images {
+    flex-direction: column;
+    background-size: 100% 2000px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 250px;
+  }
+
+  .mobile-screens-one__images img {
+    top: 0;
+  }
+
+  .mobile-screens-two__images {
+    flex-direction: column;
+    background-size: 100% 3500px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 250px;
+  }
+
+  .mobile-screens-two__images img {
+    top: 0;
+  }
+
+  .website-design__images {
+    flex-direction: column;
   }
 }
 
@@ -592,6 +944,36 @@ export default {
   }
 
   .visual-design__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .complete__kyc__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .website-design__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product__challenge__and__takeaway {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product__conclusion {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product-CTA_link {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product__footer {
     padding-left: 64px;
     padding-right: 64px;
   }
@@ -627,15 +1009,41 @@ export default {
   }
 
   .sign-in__container img {
-    /* padding-left: 32px;
-    padding-right: 32px; */
     width: 100%;
   }
 
   .loans__container img {
-    /* padding-left: 32px;
-    padding-right: 32px; */
     width: 100%;
+  }
+
+  .complete__kyc__container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .website-design__container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product__challenge__and__takeaway {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product__conclusion {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product-CTA_link {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product__footer {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
@@ -704,6 +1112,7 @@ export default {
     font-weight: 300;
     line-height: 48px;
   }
+
   .research__header {
     font-size: 26px;
     font-weight: 300;
@@ -775,6 +1184,91 @@ export default {
     font-size: 18px;
     font-weight: 300;
     line-height: 48px;
+  }
+
+  .mobile-screens-one__images {
+    background-size: 100% 1300px;
+  }
+
+  .mobile-screens-one__images img {
+    max-width: 100%;
+  }
+
+  .mobile-screens-two__images img {
+    max-width: 100%;
+  }
+
+  .complete__kyc__header {
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .complete__kyc__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .more__visuals__header {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .website-design__header {
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .website-design__images {
+    max-width: 100%;
+  }
+
+  .product__challenges__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .product__challenges__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product__conclusion__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .product__conclusion__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product-CTA_link p a {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .product__presentation {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .product__next__header {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  .product__next__text a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
   }
 }
 </style>

@@ -624,9 +624,6 @@ export default {
 }
 
 .mobile-screens__container {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
   max-width: 109.2rem;
   margin: 0 auto;
   padding-top: 7rem;
@@ -841,7 +838,7 @@ export default {
   border-bottom: 3px solid #14586d;
 } */
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1280px) {
   .role-description__container {
     flex-wrap: wrap;
   }

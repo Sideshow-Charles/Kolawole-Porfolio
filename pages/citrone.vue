@@ -101,49 +101,159 @@
           their current pain points were and we were able to gather useful data.
           Here is the feedback from some of the people we spoke to :
         </p>
+        <section class="research-examples__container">
+          <section class="research-example__one">
+            <div class="research-example__one__header">
+              <img src="../assets/images/Johnson.png" alt="" />
+              <div class="research-example__one__header__texts">
+                <p class="research-example__one__header__text">Johnson</p>
+                <p class="research-example__one__header__sub__text">
+                  Tutor, 35 years old
+                </p>
+              </div>
+            </div>
+            <p class="research-example__one__decription">
+              Has a hard time tracking his students progress
+            </p>
+            <ul class="research-example__one__list">
+              <li style="padding-left: 1em">
+                Wishes he could refer to old lesson notes in real time
+              </li>
+              <li style="padding-left: 1em">
+                He didn’t think the app was good to look at (bad UI)
+              </li>
+              <li style="padding-left: 1em">
+                His email is always a mess trying to sort out the numerous
+                assignments his tutors send to him to grade.
+              </li>
+              <li style="padding-left: 1em">
+                There is a lot of room for cheating/plagiarism especially in
+                quizzes.
+              </li>
+            </ul>
+          </section>
+          <section class="research-example__two">
+            <div class="research-example__two__header">
+              <img src="../assets/images/sarah.png" alt="" />
+              <div class="research-example__two__header__texts">
+                <p class="research-example__two__header__text">Sarah</p>
+                <p class="research-example__two__header__sub__text">
+                  Student, 20 years old
+                </p>
+              </div>
+            </div>
+            <p class="research-example__two__decription">
+              Doesn’t enjoy the fact that she has to be on zoom everyday, it
+              isn’t cost effective for her.
+            </p>
+            <ul class="research-example__two__list">
+              <li style="padding-left: 1em">
+                Doesn’t enjoy the fact that she has to be on zoom everyday, it
+                isn’t cost effective for her.
+              </li>
+              <li style="padding-left: 1em">
+                She feels interaction can be better as a lot of people don’t
+                like speaking on those calls.
+              </li>
+              <li style="padding-left: 1em">
+                She also doesn’t enjoy the fact that currently whatever a tutor
+                grades her quiz/assignment is final and she can’t see a
+                breakdown of the score.
+              </li>
+            </ul>
+          </section>
+        </section>
+        <p class="research__conclusion">
+          For this process we spoke to over 50 people and they all had similar
+          responses.
+        </p>
       </section>
 
-      <!-- <section class="research-points__container">
-        <section class="research-individual__points">
-            <img src="../assets/images/Johnson.png" alt="" width="80px" height="80px">
-            <div class="research-individual__info">
-            <p class="research-individual__name">Johnson</p>
-            <p class="research-individual__role">Tutor, 35 years old</p>
-            </div>
-        </section> -->
-      <!-- <p class="research-point__header">
-                These are Mr Johnson’s current pain points on his <br> institutions current learning situation :
+      <section class="product__solution">
+        <p class="solution__header">The solution</p>
+        <p class="solution__text">
+          After we had gathered all the information in the research stage the
+          next thing we did as a team was to work on the user journey that we
+          want to give the users of the product and also work on low fidelity
+          wireframes
         </p>
-
-         <ul class="input-details__lists">
-              
-              <span class="icon"><img src="../assets/images/Polygon.png" alt=""></span><li class="input-details__list">Has a hard time tracking his students progress</li>
-         </ul>
-
-           <ul class="input-details__lists">
-              
-              <span class="icon"><img src="../assets/images/Polygon.png" alt=""></span><li class="input-details__list">Wishes he could refer to old lesson notes in real time</li>
-         </ul>
-
-          <ul class="input-details__lists">
-              
-              <span class="icon"><img src="../assets/images/Polygon.png" alt=""></span><li class="input-details__list">His email is always a mess trying to sort out the <br> numerous assignments his tutors send to him to <br> grade.</li>
-         </ul>
-
-          <ul class="input-details__lists">
-              
-              <span class="icon"><img src="../assets/images/Polygon.png" alt=""></span><li class="input-details__list">There is a lot of room for cheating/plagiarism especially in quizzes.</li>
-         </ul> 
-    </section>-->
+      </section>
     </section>
+
+    <section class="user-journey__container">
+      <p class="user-journey__header">User Journey</p>
+      <div class="user-journey__image">
+        <img src="../assets/images/citrone-user-flow.png" alt="" />
+      </div>
+      <p class="user-journey__link">Link to the User Journey</p>
+    </section>
+
+    <section class="wireframes__container">
+      <p class="wireframes__header">Some parts of the low level wire frame</p>
+      <div class="wireframes-images__container">
+        <div class="wireframes__images">
+          <img src="../assets/images/citrone-wireframe-1.png" alt="" />
+          <img src="../assets/images/citrone-wireframe-2.png" alt="" />
+          <img src="../assets/images/citrone-wireframe-3.png" alt="" />
+          <img src="../assets/images/citrone-wireframe-4.png" alt="" />
+          <img src="../assets/images/citrone-wireframe-5.png" alt="" />
+          <img src="../assets/images/citrone-wireframe-6.png" alt="" />
+          <img src="../assets/images/citrone-wireframe-7.png" alt="" />
+          <img src="../assets/images/citrone-wireframe-8.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <CitroneVisualDesign></CitroneVisualDesign>
+    <section class="product__challenge__and__takeaway">
+      <p class="product__challenges__header">Challenges and Takeaways</p>
+      <p class="product__challenges__text">
+        A common issue we faced in building this product was trying to convince
+        users we could actually build something that is as seamless as what they
+        have now and we did that by constant communication and iteration even
+        after the user reseaarch phase, we made sure to always get feedback and
+        this helped us to build what we have now, a big takeaway from this is to
+        always be empathetic when you are building.
+      </p>
+    </section>
+
+    <section class="product__conclusion">
+      <p class="product__conclusion__header">Conclusion and Outcome</p>
+      <p class="product__conclusion__text">
+        We’ve been able to launch and so far we have almost 200 users on the
+        platform, in the 200 users we have 10 academies and we have gotten very
+        encouraging feedback from the tutors and students in those academies,
+        especially about being able to track student progress which was a very
+        serious pain point in their former methods. This project made me
+        appreciate the importance of user testing and getting the product in the
+        hands of users during the design process.
+      </p>
+    </section>
+
+    <section class="product-CTA_link">
+      <p>
+        <a href="#">Click here to go to website</a>
+      </p>
+    </section>
+
+    <section class="product__footer">
+      <section class="product__next__container">
+        <p class="product__next__header">Next Project</p>
+        <p class="product__next__text">
+          <Nuxt-Link to="/coded-agents">Coded Agents Redesign</Nuxt-Link>
+        </p>
+      </section>
+    </section>
+    <SubFooter></SubFooter>
   </div>
 </template>
 
 <script>
 import Header from "../components/Header.vue";
+import CitroneVisualDesign from "../components/citrone-visual-design.vue";
 export default {
   components: {
     Header,
+    CitroneVisualDesign,
   },
 };
 </script>
@@ -314,42 +424,301 @@ export default {
   margin-bottom: 3rem;
 }
 
-.research-points__container {
-  padding: 0 48px;
-}
-
-.research-individual__points {
+.research-examples__container {
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  /* padding: 0 48px; */
 }
 
-.research-individual__info {
-  width: 62rem;
+.research-example__one {
+  max-width: 30rem;
 }
 
-.research-individual__name {
+.research-example__one__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+}
+
+.research-example__one__header img {
+  max-width: 80px;
+  height: 50px;
+}
+
+.research-example__one__header__text {
   font-family: "Graphik-Medium";
-  font-size: 1.1rem;
+  line-height: 33px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.research-example__one__header__sub__text {
+  font-family: "Graphik-Medium";
+  font-weight: 200;
+  font-size: 12px;
+  color: #1e1e1e;
+}
+
+.research-example__one__decription {
+  margin-top: 26px;
+  font-family: "Graphik-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+}
+
+.research-example__one__list {
+  list-style-image: url("~assets/images/Polygon.png");
+}
+
+.research-example__one__list li {
+  margin-left: 20px;
+  padding: 10px 0;
+  font-family: "Graphik-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.research-example__two {
+  max-width: 30rem;
+}
+
+.research-example__two__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+}
+
+.research-example__two__header img {
+  max-width: 80px;
+  height: 50px;
+}
+
+.research-example__two__header__text {
+  font-family: "Graphik-Medium";
+  line-height: 33px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.research-example__two__header__sub__text {
+  font-family: "Graphik-Medium";
+  font-weight: 200;
+  font-size: 12px;
+  color: #1e1e1e;
+}
+
+.research-example__two__decription {
+  margin-top: 26px;
+  /* max-width: 30rem; */
+  font-family: "Graphik-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+}
+
+.research-example__two__list {
+  list-style-image: url("~assets/images/Polygon.png");
+}
+
+.research-example__two__list li {
+  margin-left: 20px;
+  padding: 10px 0;
+  font-family: "Graphik-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.research__conclusion {
+  font-family: "Graphik-Regular";
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.product__solution {
+  padding-top: 3rem;
+}
+
+.solution__header {
+  font-family: "Graphik-Medium";
+  font-size: 25px;
   font-weight: 900;
-  /* margin-bottom: 1rem; */
 }
 
-.research-individual__role {
+.solution__text {
   font-family: "Graphik-Regular";
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 300;
   line-height: 3rem;
-  /* margin-bottom: 3rem; */
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
-.research-point__header {
+.user-journey__container {
+  padding-top: 3rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.user-journey__header {
+  font-family: "Graphik-Medium";
+  font-size: 20px;
+  font-weight: 900;
+  color: #1e1e1e47;
+  margin-bottom: 3rem;
+}
+
+.user-journey__image img {
+  width: 100%;
+  background: #f0f8fb;
+}
+
+.user-journey__link {
+  text-align: center;
+  margin: 3rem 0;
+  text-decoration: underline;
   font-family: "Graphik-Regular";
-  font-size: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.wireframes__container {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.wireframes__header {
+  font-size: 1.4rem;
+  font-weight: 900;
+  font-family: "Graphik-Medium";
+  line-height: 2.4rem;
+  color: rgba(30, 30, 30, 0.28);
+  margin-bottom: 3rem;
+}
+
+.wireframes-images__container {
+  background: #f0f8fb;
+}
+
+.wireframes__images {
+  padding: 80px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 96px;
+}
+
+.wireframes__images img {
+  width: 170px;
+}
+
+.product__challenge__and__takeaway {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.product__challenges__header {
+  font-family: "Graphik-Medium";
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.product__challenges__text {
+  font-family: "Graphik-Regular";
+  font-size: 1.2rem;
   font-weight: 300;
   line-height: 3rem;
-  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.product__conclusion {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.product__conclusion__header {
+  font-family: "Graphik-Medium";
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.product__conclusion__text {
+  font-family: "Graphik-Regular";
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.product-CTA_link {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.product-CTA_link p a {
+  font-family: "Graphik-Medium";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33px;
+  color: #14586d;
+  text-align: left;
+  text-decoration: none;
+}
+
+.product__footer {
+  max-width: 109.2rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+.product__next__container {
+  margin-top: 150px;
+  margin-bottom: 118px;
+  text-align: center;
+}
+
+.product__next__header {
+  font-family: "Graphik-SemiBold";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 17px;
+}
+
+.product__next__text a {
+  font-family: "Graphik-SemiBold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #979797;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1240px) {
@@ -376,6 +745,44 @@ export default {
   .citrone-hero__image {
     padding: 0 64px;
   }
+
+  .research-examples__container {
+    flex-direction: column;
+  }
+
+  .research-example__one {
+    margin-bottom: 10rem;
+  }
+
+  .user-journey__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .wireframes__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product__challenge__and__takeaway {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product__conclusion {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product-CTA_link {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .product__footer {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -392,6 +799,40 @@ export default {
   .citrone-hero__image {
     padding: 0 32px;
   }
+
+  .user-journey__container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .wireframes__images img {
+    width: 100%;
+  }
+
+  .wireframes__container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product__challenge__and__takeaway {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product__conclusion {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product-CTA_link {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .product__footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -405,6 +846,129 @@ export default {
   }
   .mobile-image {
     display: block;
+  }
+
+  .product__container {
+    padding-top: 41px;
+  }
+
+  .product__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .product__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .role-description__container p {
+    font-size: 16px;
+  }
+
+  .product__brief__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product__challenge__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .product__challenge__list li {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px;
+  }
+
+  .product__role__header {
+    font-size: 26px;
+    font-weight: 300;
+  }
+  .product__role__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .research__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .research__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .solution__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .solution__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .wireframes__header {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+  .product__challenges__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .product__challenges__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product__conclusion__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+
+  .product__conclusion__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .product-CTA_link p a {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .product__presentation {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .product__next__header {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  .product__next__text a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
   }
 }
 </style>

@@ -216,8 +216,34 @@ export default {
 }
 
 @media screen and (min-width: 1600px) {
+  #landing__page {
+    background-image: url("../assets/images/lines-for-web.svg");
+    background-repeat: repeat-x;
+    background-position: top center;
+  }
+
   .selected-works__container a img {
     max-width: 718px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .selected-works__container {
+    gap: 35px;
+  }
+
+  .selected-works__container a img {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section__container {
+    gap: 40px;
+  }
+
+  .selected-works__container a img {
+    max-width: 370px;
   }
 }
 
