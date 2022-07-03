@@ -185,17 +185,35 @@
       <img src="../assets/images/welcome-screen-4.png" alt="" />
     </section>
 
+    <div class="mobile-mobile-screens-one__images">
+      <img src="../assets/images/kuda-mobile-1.png" alt="" />
+      <img src="../assets/images/kuda-mobile-2.png" alt="" />
+      <img src="../assets/images/kuda-mobile-3.png" alt="" />
+    </div>
+
     <section class="mobile-screens-two__images">
       <img src="../assets/images/landing-page-signed-in.png" alt="" />
       <img src="../assets/images/personal-details.png" alt="" />
       <img src="../assets/images/verify-ID-first-step.png" alt="" />
     </section>
 
+    <div class="mobile-mobile-screens-two__images">
+      <img src="../assets/images/kuda-mobile-4.png" alt="" />
+      <img src="../assets/images/kuda-mobile-5.png" alt="" />
+      <img src="../assets/images/kuda-mobile-6.png" alt="" />
+    </div>
+
     <section class="mobile-screens-three__images">
       <img src="../assets/images/bank.png" alt="" />
       <img src="../assets/images/invoice.png" alt="" />
       <img src="../assets/images/get-started.png" alt="" />
     </section>
+
+    <div class="mobile-mobile-screens-three__images">
+      <img src="../assets/images/kuda-mobile-7.png" alt="" />
+      <img src="../assets/images/kuda-mobile-8.png" alt="" />
+      <img src="../assets/images/kuda-mobile-9.png" alt="" />
+    </div>
 
     <section class="product__challenge__and__takeaway">
       <p class="product__challenges__header">Challenges and Takeaways</p>
@@ -669,6 +687,10 @@ export default {
   top: -73px;
 }
 
+.mobile-mobile-screens-one__images {
+  display: none;
+}
+
 .mobile-screens-two__images {
   display: flex;
   justify-content: center;
@@ -701,6 +723,10 @@ export default {
   top: -58px;
 }
 
+.mobile-mobile-screens-two__images {
+  display: none;
+}
+
 .mobile-screens-three__images {
   display: flex;
   justify-content: center;
@@ -726,6 +752,10 @@ export default {
 .mobile-screens-three__images img:nth-child(1) {
   height: 882px;
   top: -68px;
+}
+
+.mobile-mobile-screens-three__images {
+  display: none;
 }
 
 .product__challenge__and__takeaway {
@@ -1168,19 +1198,94 @@ export default {
     line-height: 48px;
   }
 
+  .mobile-screens-one__images {
+    display: none;
+  }
+
   .mobile-screens-one__images img {
     max-width: 350px;
     top: 0;
+    display: none;
+  }
+
+  .mobile-mobile-screens-one__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    padding: 0 96px;
+    background: url("../assets/images/mobile-screens-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    background-position: center;
+    /* margin-left: 47px;
+  margin-right: 47px; */
+    margin-bottom: 200px;
+  }
+
+  .mobile-mobile-screens-one__images img {
+    max-width: 100%;
+  }
+
+  .mobile-screens-two__images {
+    display: none;
   }
 
   .mobile-screens-two__images img {
     max-width: 350px;
     top: 45px;
+    display: none;
+  }
+
+  .mobile-mobile-screens-two__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    padding: 0 96px;
+    background: url("../assets/images/mobile-screens-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    background-position: center;
+    /* margin-left: 47px;
+    margin-right: 47px; */
+    margin-bottom: 200px;
+  }
+
+  .mobile-mobile-screens-two__images img {
+    max-width: 100%;
+  }
+
+  .mobile-screens-three__images {
+    display: none;
   }
 
   .mobile-screens-three__images img {
     max-width: 350px;
     top: 0;
+    display: none;
+  }
+
+  .mobile-mobile-screens-three__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    padding: 0 96px;
+    background: url("../assets/images/mobile-screens-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    background-position: center;
+    /* margin-left: 47px;
+    margin-right: 47px; */
+    margin-bottom: 200px;
+  }
+
+  .mobile-mobile-screens-three__images img {
+    max-width: 100%;
   }
 
   .product__challenges__header {

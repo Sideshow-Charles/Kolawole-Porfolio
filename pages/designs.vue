@@ -73,19 +73,18 @@ export default {
   font-size: 1.3rem;
   font-weight: 300;
   line-height: 3rem;
+  margin-bottom: 3rem;
 }
 
 .design__images {
-  display: flex;
-  flex-wrap: wrap;
   gap: 68px;
-  margin-top: 5rem;
-  margin-bottom: 8rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 .design__images img {
-  max-width: 565px;
-}
+  max-width: 100%;
+} 
 
 .design__caption {
   font-family: "Graphik-Regular";
@@ -94,13 +93,22 @@ export default {
   font-weight: 900;
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1024px) {
   .design__images {
-    gap: 50px;
+    gap: 20px;
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .design__images {
+    gap: 76px;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
   }
 
   .design__images img {
-    max-width: 718px;
+    max-width: 100%;
   }
 }
 
@@ -108,6 +116,10 @@ export default {
   .more-designs__container {
     padding-left: 64px;
     padding-right: 64px;
+  }
+
+  .design__images {
+     grid-template-columns: 1fr;
   }
 
   .design__images img {

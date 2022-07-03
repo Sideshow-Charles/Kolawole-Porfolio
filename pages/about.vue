@@ -44,11 +44,15 @@
             ship out great and most importantly usable products. I finished
             university in 2018 with a degree in Computer Science.
           </p>
-          <p>
+          <p class="final__paragraph">
             In my spare time, I write about sports, I watch a lot of sports and
             I play video games. I’m currently available for any design gigs, if
             you’d like to build something groundbreaking shoot me a mail at
-            kolapopoola4@gmail.com :)
+            <a href="mailto:kolapopoola4@gmail.com"
+              >kolapopoola4@gmail.com :)<img
+                src="../assets/images/underline.svg"
+                alt=""
+            /></a>
           </p>
         </article>
       </article>
@@ -213,9 +217,9 @@ export default {
   width: 35rem;
 }
 
-.about-text__container p span {
+/* .about-text__container p span {
   text-decoration: underline;
-}
+} */
 
 .image__container {
   display: flex;
@@ -279,6 +283,20 @@ export default {
 
 .about-text__container p span {
   text-decoration: underline;
+}
+
+.final__paragraph a {
+  text-decoration: none;
+  color: inherit;
+  width: fit-content;
+  position: relative;
+}
+
+.final__paragraph img {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 280px;
 }
 
 .section__container {
@@ -490,13 +508,6 @@ export default {
 }
 
 @media screen and (max-width: 1300px) {
-  /* .about__container {
-    flex-direction: column;
-  } */
-  .hero__image {
-    /* width: 800px; */
-  }
-
   .about-text__container {
     width: 40rem;
   }
@@ -511,14 +522,16 @@ export default {
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .about-text__container {
+    width: 30rem;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .about__container {
     padding: 7rem 64px;
     flex-direction: column;
-  }
-
-  .hero__image {
-    /* width: 600px; */
   }
 
   .section__container {
@@ -576,9 +589,9 @@ export default {
 
 @media screen and (max-width: 540px) {
   .landing__page {
-  background-image: url("../assets/images/lines-for-mobile.svg");
-  background-position: top center;
-}
+    background-image: url("../assets/images/lines-for-mobile.svg");
+    background-position: top center;
+  }
 
   .about__header {
     font-size: 26px !important;
@@ -594,6 +607,13 @@ export default {
     font-size: 18px;
     font-weight: 300;
     line-height: 48px;
+  }
+
+  .final__paragraph img {
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    width: 230px;
   }
 
   .section__toolkit h2 {

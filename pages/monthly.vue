@@ -207,6 +207,12 @@
       <img src="../assets/images/monthly-kyc-three.png" alt="" />
     </section>
 
+    <div class="monthly-mobile-screens-one__images">
+      <img src="../assets/images/monthly-1.png" alt="" />
+      <img src="../assets/images/monthly-2.png" alt="" />
+      <img src="../assets/images/monthly-3.png" alt="" />
+    </div>
+
     <section class="complete__kyc__container">
       <p class="complete__kyc__header">Complete KYC</p>
       <p class="complete__kyc__text">
@@ -229,6 +235,13 @@
       <img src="../assets/images/active-loan-1.png" alt="" />
     </section>
 
+    <div class="monthly-mobile-screens-two__images">
+      <img src="../assets/images/monthly-4.png" alt="" />
+      <img src="../assets/images/monthly-5.png" alt="" />
+      <img src="../assets/images/monthly-6.png" alt="" />
+      <img src="../assets/images/monthly-7.png" alt="" />
+    </div>
+
     <section class="website-design__container">
       <p class="website-design__header">Website Design</p>
       <div class="website-design__images">
@@ -236,6 +249,12 @@
         <img src="../assets/images/website-design-2.png" alt="" />
       </div>
     </section>
+
+    <div class="mobile-website-design__images">
+      <img src="../assets/images/monthly-8.png" alt="" />
+      <img src="../assets/images/monthly-9.png" alt="" />
+    </div>
+
     <section class="product__challenge__and__takeaway">
       <p class="product__challenges__header">Challenges and Takeaways</p>
       <p class="product__challenges__text">
@@ -645,6 +664,10 @@ export default {
   top: -73px;
 }
 
+.monthly-mobile-screens-one__images {
+  display: none;
+}
+
 .complete__kyc__container {
   max-width: 109.2rem;
   margin: 0 auto;
@@ -708,6 +731,10 @@ export default {
   top: 35px;
 }
 
+.monthly-mobile-screens-two__images {
+  display: none;
+}
+
 .mobile-screens-two__images img:nth-child(1) {
   height: 931px;
 }
@@ -746,6 +773,10 @@ export default {
   align-items: center;
   gap: 95px;
   padding: 78px 0;
+}
+
+.mobile-website-design__images {
+  display: none;
 }
 
 .website-design__images img:nth-child(1) {
@@ -866,14 +897,6 @@ export default {
   color: #979797;
   text-decoration: none;
 }
-
-/* @media screen and (min-width: 1600px) {
-  .mobile-screens-two__images {
-    max-width: 33%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-} */
 
 @media screen and (max-width: 1280px) {
   .role-description__container {
@@ -1187,14 +1210,60 @@ export default {
   }
 
   .mobile-screens-one__images {
-    background-size: 100% 1300px;
+    display: none;
   }
 
   .mobile-screens-one__images img {
+    display: none;
+  }
+
+  .monthly-mobile-screens-one__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    padding: 0 96px;
+    background: url("../assets/images/mobile-screens-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1300px;
+    background-position: bottom;
+    margin-top: 50px;
+    margin-bottom: 200px;
+  }
+
+  .monthly-mobile-screens-one__images img {
     max-width: 100%;
+    position: relative;
+    top: 0;
+  }
+
+  .mobile-screens-two__images {
+    display: none;
   }
 
   .mobile-screens-two__images img {
+    display: none;
+  }
+
+  .monthly-mobile-screens-two__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    padding: 0 96px;
+    background: url("../assets/images/mobile-screens-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 2000px;
+    background-position: center;
+    /* margin-left: 47px;
+    margin-right: 47px; */
+    margin-top: 107px;
+    margin-bottom: 200px;
+  }
+
+  .monthly-mobile-screens-two__images img {
     max-width: 100%;
   }
 
@@ -1215,12 +1284,32 @@ export default {
     line-height: 48px;
   }
 
+  .website-design__container {
+    padding-bottom: 30px;
+  }
+
   .website-design__header {
     font-size: 22px;
     font-weight: 300;
   }
 
   .website-design__images {
+    display: none;
+    /* max-width: 100%; */
+  }
+
+  .mobile-website-design__images {
+    background: #f0f8fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 78px 32px;
+    margin-bottom: 5rem;
+  }
+
+  .mobile-website-design__images img {
     max-width: 100%;
   }
 

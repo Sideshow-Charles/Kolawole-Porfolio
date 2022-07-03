@@ -823,11 +823,11 @@ export default {
 }
 
 .mobile-screens-two__one {
-  background: url("../assets/images/mobile-screens-background.png");
+  background: url("../assets/images/rectangle-left.png");
   background-repeat: no-repeat;
   background-size: 539px 500px;
   background-position: bottom;
-  z-index: 500;
+  /* z-index: 500; */
 }
 
 .mobile-screens-two__one img {
@@ -839,21 +839,20 @@ export default {
 }
 
 .mobile-screens-two__two {
-  background: url("../assets/images/mobile-screens-background.png");
+  background: url("../assets/images/rectangle-right.png");
   background-repeat: no-repeat;
   background-size: 539px 400px;
   background-position: bottom;
   position: relative;
-  right: 80px;
+  right: 68px;
 }
 
 .mobile-screens-two__two img {
   max-width: 375px;
   padding: 0 64px;
   z-index: 999;
-  /* position: relative;
-  top: 80px; */
-  /* right: 80px; */
+  position: relative;
+  top: 120px;
 }
 
 .filter__container {

@@ -24,68 +24,11 @@
     <div class="nav__items__right">
       <Button></Button>
     </div>
-
-    <!-- <img src="../assets/images/Menu.svg" alt="hamburger-menu" class="hamburger__menu" @click="toggleMobileNav" v-show="mobile"> -->
-
-    <!-- Mobile nav -->
-    <!-- <div class="mobile__nav" v-show="mobile">
-      <ul class="mobile__nav__links">
-        <li class="nav__item__center">
-          <Nuxt-Link to="/kuda-business-banking">Work</Nuxt-Link>
-        </li>
-        <li class="nav__item__center">
-          <Nuxt-Link to="/about">About</Nuxt-Link>
-        </li>
-        <li class="nav__item__center">
-          <Nuxt-Link to="/designs">Designs</Nuxt-Link>
-        </li>
-        <li class="nav__item__center">
-          <Nuxt-Link to="/resume">Resume</Nuxt-Link>
-        </li>
-      </ul>
-    </div> -->
-    <!-- End of Mobile nav -->
   </div>
 </template>
 
 <script>
 export default {
-  // data() {
-  //   return {
-  //     mobileNav: null,
-  //     mobile: null,
-  //     windowWidth: null,
-  //     dropDown: false,
-  //   };
-  // },
-  // mounted() {
-  //   window.addEventListener("resize", this.checkScreen);
-  //   this.checkScreen();
-  // },
-  // methods: {
-  //   toggleMobileNav() {
-  //  this.mobileNav = !this.mobileNav
-  // },
-  //  showdropDown() {
-  //    this.dropDown = !this.dropDown
-  //  },
-  //  hidedropDown() {
-  //    if (this.dropDown = true) {
-  //       this.dropDown = false;
-  //    }
-  //  },
-  // Checks the screen size to show or hide the mobile nav.
-  //   checkScreen() {
-  //     this.windowWidth = window.innerWidth;
-  //     if (this.windowWidth <= 980) {
-  //       this.mobile = true;
-  //       return;
-  //     }
-  //     this.mobile = false;
-  //     this.mobileNav = false;
-  //     return;
-  //   },
-  // },
 };
 </script>
 

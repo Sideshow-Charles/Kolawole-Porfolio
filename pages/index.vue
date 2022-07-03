@@ -19,7 +19,10 @@
         </p>
       </article>
       <article class="article-CTA__link">
-        <p><a href="/about">Read more about me</a></p>
+        <p>
+          <a href="/about">Read more about me</a>
+          <img src="../assets/images/underline.svg" alt="" />
+        </p>
       </article>
     </article>
 
@@ -33,23 +36,23 @@
           <p>Some of my selected work</p>
         </section>
         <section class="selected-works__container">
-          <div class="selected__works">
-            <a href="/kuda-business-banking"
-              ><img src="../assets/images/selected-work1.png" alt=""
-            /></a>
-            <a href="/monthly"
-              ><img src="../assets/images/selected-work2.png" alt=""
-            /></a>
-          </div>
+          <!-- <div class="selected__works"> -->
+          <a href="/kuda-business-banking"
+            ><img src="../assets/images/selected-work1.png" alt=""
+          /></a>
+          <a href="/monthly"
+            ><img src="../assets/images/selected-work2.png" alt=""
+          /></a>
+          <!-- </div> -->
 
-          <div class="selected__works">
-            <a href="/citrone"
-              ><img src="../assets/images/selected-work3.png" alt=""
-            /></a>
-            <a href="/coded-agents"
-              ><img src="../assets/images/selected-work4.png" alt=""
-            /></a>
-          </div>
+          <!-- <div class="selected__works"> -->
+          <a href="/citrone"
+            ><img src="../assets/images/selected-work3.png" alt=""
+          /></a>
+          <a href="/coded-agents"
+            ><img src="../assets/images/selected-work4.png" alt=""
+          /></a>
+          <!-- </div> -->
         </section>
 
         <!-- Mobile Images -->
@@ -150,6 +153,14 @@ export default {
   font-family: "Graphik-Medium";
   font-size: 1.3rem;
   font-weight: 300;
+  width: fit-content;
+  position: relative;
+}
+
+.article-CTA__link img {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
 }
 
 .article-CTA__link a {
@@ -182,9 +193,9 @@ export default {
 }
 
 .selected-works__container {
-  display: flex;
-  flex-direction: column;
   gap: 72px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
 }
 
 .selected-works__container__mobile {
@@ -192,7 +203,12 @@ export default {
 }
 
 .selected-works__container a img {
-  max-width: 550px;
+  max-width: 100%;
+}
+
+.selected-works__container a {
+  /* width: fit-content; */
+  display: inline-block;
 }
 
 .selected__works {
@@ -222,28 +238,30 @@ export default {
     background-position: top center;
   }
 
-  .selected-works__container a img {
-    max-width: 718px;
+  .selected-works__container {
+    gap: 72px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
   }
 }
 
 @media screen and (max-width: 1280px) {
   .selected-works__container {
-    gap: 35px;
+    gap: 72px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 
-  .selected-works__container a img {
+  /* .selected-works__container a img {
     max-width: 500px;
-  }
+  } */
 }
 
 @media screen and (max-width: 1024px) {
-  .section__container {
-    gap: 40px;
-  }
-
-  .selected-works__container a img {
-    max-width: 370px;
+  .selected-works__container {
+    gap: 72px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
 
@@ -263,21 +281,26 @@ export default {
   }
 
   .selected-works__container a img {
-    max-width: 100%;
+    /* max-width: 100%; */
     margin-bottom: 72px;
   }
 }
 
 @media screen and (max-width: 820px) {
-  .selected-works__container a img {
+  /* .selected-works__container a img {
     max-width: 100%;
-  }
+  } */
 }
 
 @media screen and (max-width: 768px) {
   .article__container {
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .article-CTA__link img {
+    bottom: 0;
+    max-width: 190px;
   }
 
   .section__content {
