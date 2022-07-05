@@ -907,6 +907,10 @@ export default {
     margin-bottom: 0.5rem;
   }
 
+   .wireframes__images {
+    justify-content: center;
+  }
+
   .sign-in__container {
     flex-direction: column;
     gap: 70px;

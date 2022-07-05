@@ -113,14 +113,15 @@
               </div>
             </div>
             <p class="research-example__one__decription">
-              Has a hard time tracking his students progress
+              These are Mr Johnson’s current pain points on his institutions
+              current learning situation :
             </p>
             <ul class="research-example__one__list">
               <li style="padding-left: 1em">
-                Wishes he could refer to old lesson notes in real time
+                Has a hard time tracking his students progress
               </li>
               <li style="padding-left: 1em">
-                He didn’t think the app was good to look at (bad UI)
+                Wishes he could refer to old lesson notes in real time
               </li>
               <li style="padding-left: 1em">
                 His email is always a mess trying to sort out the numerous
@@ -143,8 +144,8 @@
               </div>
             </div>
             <p class="research-example__two__decription">
-              Doesn’t enjoy the fact that she has to be on zoom everyday, it
-              isn’t cost effective for her.
+              These are Ms Sarah’s current pain points on his institutions
+              current learning situation :
             </p>
             <ul class="research-example__two__list">
               <li style="padding-left: 1em">
@@ -427,11 +428,12 @@ export default {
 .research-examples__container {
   margin-top: 60px;
   display: flex;
-  justify-content: space-between;
+  gap: 175px;
+  /* justify-content: space-between; */
 }
 
 .research-example__one {
-  max-width: 30rem;
+  max-width: 500px;
 }
 
 .research-example__one__header {
@@ -484,7 +486,7 @@ export default {
 }
 
 .research-example__two {
-  max-width: 30rem;
+  max-width: 500px;
 }
 
 .research-example__two__header {
@@ -723,10 +725,20 @@ export default {
   text-decoration: none;
 }
 
-@media screen and (max-width: 1280px) {
-.wireframes__images {
-  justify-content: center;
+@media screen and (min-width: 1600px) {
+  .research-example__one {
+    max-width: fit-content;
+  }
+
+  .research-example__two {
+    max-width: fit-content;
+  }
 }
+
+@media screen and (max-width: 1280px) {
+  .wireframes__images {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 1240px) {
@@ -891,7 +903,7 @@ export default {
     font-size: 16px;
   }
 
-   .product__brief__header {
+  .product__brief__header {
     font-size: 26px;
     font-weight: 300;
   }
@@ -968,7 +980,7 @@ export default {
     line-height: 48px;
   }
 
-    .research-example__two__header {
+  .research-example__two__header {
     margin-bottom: 2rem;
   }
 

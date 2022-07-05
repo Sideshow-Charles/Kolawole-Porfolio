@@ -163,6 +163,7 @@
       </section>
     </section>
     <section class="existing-app__container">
+      <p class="existing-app__header">Existing App</p>
       <div class="existing-app__images__container">
         <div class="existimg-app__images">
           <img src="../assets/images/existing-app-1.png" alt="" />
@@ -503,11 +504,11 @@ export default {
 .research-examples__container {
   margin-top: 60px;
   display: flex;
-  justify-content: space-between;
+  gap: 134px;
 }
 
 .research-example__one {
-  max-width: 30rem;
+  max-width: 506px;
 }
 
 .research-example__one__header {
@@ -560,7 +561,7 @@ export default {
 }
 
 .research-example__two {
-  max-width: 30rem;
+  max-width: 506px;
 }
 
 .research-example__two__header {
@@ -646,6 +647,13 @@ export default {
   padding-bottom: 5rem;
   padding-left: 121px;
   padding-right: 121px;
+}
+
+.existing-app__header {
+  font-family: "Graphik-Medium";
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
 }
 
 .existing-app__images__container {
@@ -819,7 +827,7 @@ export default {
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
-  /* gap: 50px; */
+  gap: 67px;
   /* width: 50%;
   margin: 0 auto; */
 }
@@ -827,16 +835,19 @@ export default {
 .mobile-screens-two__one {
   background: url("../assets/images/rectangle-left.png");
   background-repeat: no-repeat;
-  background-size: 539px 500px;
-  background-position: bottom;
+  background-size: 100% 500px;
+  width: 500px;
+  background-position: bottom center;
   /* z-index: 500; */
 }
 
 .mobile-screens-two__one img {
   max-width: 375px;
-  padding: 0 64px;
+  /* padding: 0 64px; */
   position: relative;
   top: 75px;
+  margin: auto;
+  display: block;
   /* z-index: ; */
 }
 
@@ -844,18 +855,19 @@ export default {
   background: url("../assets/images/rectangle-right.png");
   background-repeat: no-repeat;
   background-size: 539px 400px;
-  background-position: bottom;
+  background-position: bottom center;
+  width: 500px;
   position: relative;
-  right: 68px;
+  right: 135px;
 }
 
 .mobile-screens-two__two img {
   max-width: 375px;
-  padding: 0 64px;
-  z-index: 999;
+  margin: auto;
+  display: block;
   position: relative;
   top: 120px;
-  left: 4.5px;
+  left: 5px;
 }
 
 .filter__container {
@@ -1039,6 +1051,16 @@ export default {
   line-height: 30px;
   color: #979797;
   text-decoration: none;
+}
+
+@media screen and (min-width: 1600px) {
+  .research-example__one {
+    max-width: fit-content;
+  }
+
+  .research-example__two {
+    max-width: fit-content;
+  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -1419,6 +1441,12 @@ export default {
     font-size: 18px;
     font-weight: 300;
     line-height: 43px;
+  }
+
+  .existing-app__header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 50px;
   }
 
   .visual-design__header {
