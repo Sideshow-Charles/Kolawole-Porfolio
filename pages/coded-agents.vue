@@ -524,23 +524,25 @@ export default {
 .research-example__one__header__text {
   font-family: "Graphik-Medium";
   line-height: 33px;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  /* margin-bottom: 1rem; */
 }
 
 .research-example__one__header__sub__text {
   font-family: "Graphik-Medium";
   font-weight: 200;
-  font-size: 12px;
+  font-size: 14px;
   color: #1e1e1e;
 }
 
 .research-example__one__decription {
   margin-top: 26px;
   font-family: "Graphik-Regular";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 33px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 40px;
+  margin-bottom: 2rem;
 }
 
 .research-example__one__list {
@@ -549,12 +551,11 @@ export default {
 
 .research-example__one__list li {
   margin-left: 20px;
-  padding: 10px 0;
+  padding: 15px 0;
   font-family: "Graphik-Regular";
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 300;
   line-height: 40px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -576,14 +577,14 @@ export default {
 .research-example__two__header__text {
   font-family: "Graphik-Medium";
   line-height: 33px;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
 .research-example__two__header__sub__text {
   font-family: "Graphik-Medium";
   font-weight: 200;
-  font-size: 12px;
+  font-size: 14px;
   color: #1e1e1e;
 }
 
@@ -591,9 +592,10 @@ export default {
   margin-top: 26px;
   /* max-width: 30rem; */
   font-family: "Graphik-Regular";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 33px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 40px;
+  margin-bottom: 2rem;
 }
 
 .research-example__two__list {
@@ -604,8 +606,8 @@ export default {
   margin-left: 20px;
   padding: 10px 0;
   font-family: "Graphik-Regular";
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 300;
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
@@ -853,6 +855,7 @@ export default {
   z-index: 999;
   position: relative;
   top: 120px;
+  left: 4.5px;
 }
 
 .filter__container {
@@ -1110,6 +1113,22 @@ export default {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .research-example__one {
+    max-width: 20rem;
+  }
+
+  .research-example__two {
+    max-width: 20rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .existimg-app__images {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .product__container {
     padding-left: 64px;
@@ -1131,6 +1150,11 @@ export default {
 
   .research-example__one {
     margin-bottom: 10rem;
+    max-width: 30rem;
+  }
+
+  .research-example__two {
+    max-width: 30rem;
   }
 
   .existing-app__container {
@@ -1326,6 +1350,60 @@ export default {
   }
 
   .research__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .research-example__one__header {
+    margin-bottom: 2rem;
+  }
+
+  .research-example__one__header img {
+    height: 60px;
+  }
+
+  .research-example__one__header__text {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+
+  .research-example__one__decription {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+    margin-top: 3rem;
+  }
+
+  .research-example__one__list li {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .research-example__two__header {
+    margin-bottom: 2rem;
+  }
+
+  .research-example__two__header img {
+    height: 60px;
+  }
+
+  .research-example__two__header__text {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+
+  .research-example__two__decription {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+    margin-top: 3rem;
+  }
+
+  .research-example__two__list li {
     font-size: 18px;
     font-weight: 300;
     line-height: 48px;

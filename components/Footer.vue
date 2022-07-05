@@ -11,8 +11,7 @@
   </footer>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style scoped>
 .footer__container {
@@ -65,8 +64,12 @@
 }
 
 @media screen and (max-width: 540px) {
-   .footer__links img {
-    width: 35%;
+  .footer__text {
+    font-size: 1em;
+  }
+
+  .footer__links img {
+    width: 40%;
   }
 }
 </style>

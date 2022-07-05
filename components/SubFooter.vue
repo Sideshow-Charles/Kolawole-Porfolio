@@ -112,8 +112,12 @@ export default {
     font-weight: 300;
   }
 
+  .footer__text {
+    font-size: 1em;
+  }
+
   .footer__links img {
-    width: 35%;
+    width: 40%;
   }
 }
 </style>

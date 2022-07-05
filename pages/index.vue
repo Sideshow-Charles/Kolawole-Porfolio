@@ -232,11 +232,11 @@ export default {
 }
 
 @media screen and (min-width: 1600px) {
-  #landing__page {
+  /* #landing__page {
     background-image: url("../assets/images/lines-for-web.svg");
     background-repeat: repeat-x;
     background-position: top center;
-  }
+  } */
 
   .selected-works__container {
     gap: 72px;

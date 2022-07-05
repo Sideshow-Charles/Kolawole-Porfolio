@@ -256,7 +256,8 @@ export default {
 
 .social-images__container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 20px;
   align-items: center;
   width: 20%;
   margin-top: 2rem;
@@ -422,6 +423,7 @@ export default {
   text-align: left;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-left: 2rem;
 }
 
 .time {
@@ -437,6 +439,9 @@ export default {
   width: 150px;
   padding: 2px 20px;
   border-radius: 20px;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .section-interest__container {
@@ -607,6 +612,10 @@ export default {
     font-size: 18px;
     font-weight: 300;
     line-height: 48px;
+  }
+
+  .social-images__container {
+    gap: 20px;
   }
 
   .final__paragraph img {

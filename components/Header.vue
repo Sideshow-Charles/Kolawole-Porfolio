@@ -17,7 +17,7 @@
           <Nuxt-Link to="/designs">Designs</Nuxt-Link>
         </li>
         <li class="nav__item__center">
-          <Nuxt-Link to="/resume">Resume</Nuxt-Link>
+          <a href="https://drive.google.com/file/d/1CYfgkKV4sYtkbjYBb2MRwc_BpXpIlJad/view">Resume</a>
         </li>
       </ul>
     </div>
@@ -28,8 +28,7 @@
 </template>
 
 <script>
-export default {
-};
+export default {};
 </script>
 
 <style scoped>
@@ -77,6 +76,13 @@ export default {
 }
 
 /* Media Queries */
+@media screen and (max-width: 1024px) {
+  .nav__items__left {
+    width: 65%;
+    gap: 30px;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .nav__bar {
     padding-left: 64px;
@@ -89,7 +95,7 @@ export default {
   }
 
   .nav__items__center {
-    width: 50%;
+    width: 100%;
     margin-top: 37px;
     justify-content: space-between;
   }
