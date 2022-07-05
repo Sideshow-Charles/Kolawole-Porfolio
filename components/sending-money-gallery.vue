@@ -3,9 +3,7 @@
     <section class="sending-money__container">
       <p class="sending-money__header">Sending Money</p>
       <div class="sending-money__text">
-        Once you’ve signe up/in and you have access to your account, you can
-        fund the account with your account number given to you and you can also
-        send money to other banks with the following steps :
+        Once you’ve signed up/in and you have access to your account, you can fund the account with your account number given to you and you can also send money to other banks with the following steps :
       </div>
       <ul class="sending-money__list">
         <li style="padding-left: 1em">

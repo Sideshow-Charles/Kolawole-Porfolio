@@ -81,7 +81,7 @@
           I was strictly in charge of the product design work on this product,
           for the mobile apps (iOS & Android) and the marketing website, I
           worked in a design team of 2 people where I led the product design
-          efforts and the second person <span>Adeniyi Oyenaike</span> led the
+          efforts and the second person <span><a href="https://ng.linkedin.com/in/adeniyi-oyenaike-a79090156" style="text-decoration: none">Adeniyi Oyenaike</a></span> led the
           graphic design (logo, icons packs etc) efforts.
         </p>
       </section>
@@ -269,15 +269,13 @@
     <section class="product__conclusion">
       <p class="product__conclusion__header">Conclusion and Outcome</p>
       <p class="product__conclusion__text">
-        The product is still in the alpha stage, but the plan is to roll it out
-        in phases to validate and get user feedback, and iterate before
-        releasing the final version of the app.
+        The product is still in the beta stage, but the plan is to roll it out in phases to validate and get user feedback, and iterate before releasing the final version of the app.
       </p>
     </section>
 
     <section class="product-CTA_link">
       <p>
-        <a href="#">Click here to sign up <span>for beta.</span></a>
+        <a href="https://www.monthly.ng/">Click here to sign up <span>for beta.</span></a>
       </p>
     </section>
 

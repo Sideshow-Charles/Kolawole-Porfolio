@@ -17,7 +17,7 @@
           <Nuxt-Link to="/designs">Designs</Nuxt-Link>
         </li>
         <li class="nav__item__center">
-          <a href="https://drive.google.com/file/d/1CYfgkKV4sYtkbjYBb2MRwc_BpXpIlJad/view">Resume</a>
+          <a href="https://drive.google.com/file/d/1xaHKXFhbjV5YDqtI1Y25RXKpGkmJbA-L/view?usp=sharing">Resume</a>
         </li>
       </ul>
     </div>

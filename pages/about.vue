@@ -12,8 +12,8 @@
         </div>
 
         <div class="social-images__container">
-          <img src="../assets/images/twitter.svg" alt="" />
-          <img src="../assets/images/linkedin.svg" alt="" />
+          <a href="twitter.com/_Kolaa"><img src="../assets/images/twitter.svg" alt="" /></a>
+          <a href="dribbble.com/_Kolaa"><img src="../assets/images/linkedin.svg" alt="" /></a>
         </div>
       </article>
 
@@ -25,25 +25,31 @@
           <p>
             I’m Kolawole, a product designer passionate about building
             human-centric products. I currently work at
-            <span>Kuda Bank</span> as a Product Designer with some really
+            <span><a href="kuda.com">Kuda Bank</a></span> as a Product Designer with some really
             talented people, building one of the biggest Neo-bank’s in Africa.
-            Previously I worked at <span>MAX.NG</span> as the Lead Designer.
+            Previously I worked at <span><a href="https://www.max.ng/">MAX.NG</a></span> as the Lead Designer.
           </p>
           <p>
             Before joining MAX I worked at
-            <span>Fieldinsight.co</span> (Delivery Science) - A logistics
-            company built to strengthen companies bonds with their customers
-            with a platform that works online and offline that helps your team
-            on the field.
+            <span><a href="fieldinsight.co">Fieldinsight.co</a></span> (Delivery Science) - A logistics
+            company built to strengthen companies bonds with their customers via
+            an online platform and an offline one that supports teams on the
+            field.
           </p>
           <p>
-            My journey in design has been a very interesting one, I’ve been
-            opportuned to work with great minds and in different fields such as
-            fintech, transportation, agritech and also the health sector,
-            working in these numerous fields and enivironments has helped me
-            ship out great and most importantly usable products. I finished
-            university in 2018 with a degree in Computer Science.
+            My design journey has been a very interesting one. I have been
+            opportuned wot work with great minds and in different industries
+            ranging from fintech to transportation, healthtech and agritech.
+            Working in these different fields and environments has helped me
+            ship out great but most importantly, usable products.   I completed
+            my undergraduate degree in Computer Science in 2018.
           </p>
+
+          <p>
+            In my spare time, I write about and play a lot of sports. I also
+            play video games.
+          </p>
+
           <p class="final__paragraph">
             In my spare time, I write about sports, I watch a lot of sports and
             I play video games. I’m currently available for any design gigs, if
@@ -170,10 +176,10 @@
       <div class="section-interest__listening">
         <h3>Currently Listening</h3>
         <h6>Podcasts:</h6>
-        <img src="../assets/images/currently-listening1.png" alt="" />
-        <img src="../assets/images/currently-listening2.png" alt="" />
-        <img src="../assets/images/currently-listening3.png" alt="" />
-        <img src="../assets/images/currently-listening4.png" alt="" />
+        <a href="https://open.spotify.com/show/6xbt4cCcUqtMT5sPdbWkrb?si=koiP_pvTTl6Zv_tgYpuNJg"><img src="../assets/images/currently-listening1.png" alt="" /></a>
+        <a href="https://open.spotify.com/show/6xbt4cCcUqtMT5sPdbWkrb?si=koiP_pvTTl6Zv_tgYpuNJg"><img src="../assets/images/currently-listening2.png" alt="" /></a>
+        <a href="https://open.spotify.com/show/59RliaMdeDAkEgp9nj1Mkj?si=dOIu4PoMRFqgWTTbxf5ahA"><img src="../assets/images/currently-listening3.png" alt="" /></a>
+        <a href="https://open.spotify.com/show/7sq2pGJnjeXvGgL8qiTsdt?si=2uMGIyL"><img src="../assets/images/currently-listening4.png" alt="" /></a>
 
         <div class="section-interest__listening__music">
           <h6>Music:</h6>
@@ -423,7 +429,7 @@ export default {
   text-align: left;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-left: 2rem;
+  margin-left: 2.1rem;
 }
 
 .time {

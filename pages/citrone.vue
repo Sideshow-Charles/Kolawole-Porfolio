@@ -186,7 +186,7 @@
       <div class="user-journey__image">
         <img src="../assets/images/citrone-user-flow.png" alt="" />
       </div>
-      <p class="user-journey__link">Link to the User Journey</p>
+      <p class="user-journey__link"><a href="https://www.figma.com/file/RDwLOZxRcUokPokhKQCZbt/Citrone%3A-User-Flow?node-id=0%3A1">Link to the User Journey</a></p>
     </section>
 
     <section class="wireframes__container">
@@ -232,7 +232,7 @@
 
     <section class="product-CTA_link">
       <p>
-        <a href="#">Click here to go to website</a>
+        <a href="https://www.citrone.co/">Click here to go to website</a>
       </p>
     </section>
 
@@ -739,6 +739,18 @@ export default {
   .wireframes__images {
     justify-content: center;
   }
+
+  .research-examples__container {
+    flex-direction: column;
+  }
+
+   .research-example__one {
+    max-width: fit-content;
+  }
+
+  .research-example__two {
+    max-width: fit-content;
+  }
 }
 
 @media screen and (max-width: 1240px) {
@@ -749,9 +761,21 @@ export default {
   .role-description__container p {
     margin-bottom: 0.5rem;
   }
+
+  /* .research-examples__container {
+    flex-direction: column;
+  }
+
+   .research-example__one {
+    max-width: fit-content;
+  }
+
+  .research-example__two {
+    max-width: fit-content;
+  } */
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .research-example__one {
     max-width: 20rem;
   }
@@ -759,7 +783,7 @@ export default {
   .research-example__two {
     max-width: 20rem;
   }
-}
+} */
 
 @media screen and (max-width: 980px) {
   .product__container {
@@ -776,18 +800,19 @@ export default {
     padding: 0 64px;
   }
 
-  .research-examples__container {
+  /* .research-examples__container {
     flex-direction: column;
-  }
+    gap: 0;
+  } */
 
-  .research-example__one {
+  /* .research-example__one {
     max-width: 30rem;
     margin-bottom: 10rem;
   }
 
   .research-example__two {
     max-width: 30rem;
-  }
+  } */
 
   .user-journey__container {
     padding-left: 64px;
@@ -820,6 +845,16 @@ export default {
   }
 }
 
+/* @media screen and (max-width: 912px) {
+  .research-example__one {
+    max-width: fit-content;
+  }
+
+  .research-example__two {
+    max-width: fit-content;
+  }
+} */
+
 @media screen and (max-width: 768px) {
   .product__container {
     padding-left: 32px;
@@ -833,6 +868,10 @@ export default {
 
   .citrone-hero__image {
     padding: 0 32px;
+  }
+
+  .research-examples__container {
+    gap: 100px;
   }
 
   .user-journey__container {

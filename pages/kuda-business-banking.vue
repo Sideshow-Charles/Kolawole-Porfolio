@@ -86,9 +86,9 @@
 
         <p class="sub-product__role__header">Collaborators</p>
         <p class="sub-product__role__text">
-          <span>Derek Kanu,</span> <span>Tunde Mason,</span>
-          <span>Okoronkwo Kanno,</span> <span>Omono Etomi,</span>
-          <span>Michael Abegunde,</span> <span>Paul Adedokun</span>
+          <span><a href="https://ng.linkedin.com/in/derek-kanu-blarc">Derek Kanu</a>,</span> <span><a href="https://ng.linkedin.com/in/tundekabirmason">Tunde Mason</a>,</span>
+          <span><a href="https://ng.linkedin.com/in/okoronkwokanno">Okoronkwo Kanno</a>,</span> <span><a href="https://ng.linkedin.com/in/omonoetomi">Omono Etomi</a>,</span>
+          <span><a href="https://ng.linkedin.com/in/michael-abegunde">Michael Abegunde</a>,</span> <span>Paul Adedokun</span>
         </p>
       </section>
 
@@ -230,18 +230,13 @@
     <section class="product__conclusion">
       <p class="product__conclusion__header">Conclusion and Outcome</p>
       <p class="product__conclusion__text">
-        Kuda Business is a product under Kuda MFB which has over 3 million
-        customers and is currently in it’s expansion phase to the UK and other
-        African country, Kuda Business since it’s launch has helped add to the
-        total Kuda MFB users with over 100,000 customers here in Lagos, Nigeria.
-        As we continue growing more features will be added to satisfy out large
-        and ever increasing customer base.
+       Kuda Business is a product under Kuda MFB which has over 3 million customers and is currently in it’s expansion phase to the UK and other African countries, Kuda Business since it’s launch has helped add to the total Kuda MFB users with over 100,000 customers here in Lagos, Nigeria. As we continue growing more features will be added to satisfy out large and ever increasing customer base.
       </p>
     </section>
 
     <section class="product-CTA_link">
       <p>
-        <a href="https://kuda.com/business/">Click here to go to website</a>
+        <a href="https://business.kuda.com/login">Click here to go to website</a>
       </p>
     </section>
 

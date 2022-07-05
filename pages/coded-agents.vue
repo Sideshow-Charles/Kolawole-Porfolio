@@ -298,15 +298,13 @@
     <section class="product__conclusion">
       <p class="product__conclusion__header">Conclusion and Outcome</p>
       <p class="product__conclusion__text">
-        The product is still in the alpha stage, but the plan is to roll it out
-        in phases to validate and get user feedback, and iterate before
-        releasing the final version of the app.
+        The product is still in the beta stage, but the plan is to roll it out in phases to validate and get user feedback, and iterate before releasing the final version of the app.
       </p>
     </section>
 
     <section class="product-CTA_link">
       <p>
-        <a href="#">Click here to sign up <span>for beta.</span></a>
+        <a href="http://www.codedagents.com/">Click here to sign up <span>for beta.</span></a>
       </p>
     </section>
 
@@ -1135,7 +1133,25 @@ export default {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
+  .existimg-app__images {
+    justify-content: center;
+  }
+
+  .research-examples__container {
+    flex-direction: column;
+  }
+
+   .research-example__one {
+    max-width: fit-content;
+  }
+
+  .research-example__two {
+    max-width: fit-content;
+  }
+}
+
+/* @media screen and (max-width: 1024px) {
   .research-example__one {
     max-width: 20rem;
   }
@@ -1143,13 +1159,7 @@ export default {
   .research-example__two {
     max-width: 20rem;
   }
-}
-
-@media screen and (max-width: 1280px) {
-  .existimg-app__images {
-    justify-content: center;
-  }
-}
+} */
 
 @media screen and (max-width: 980px) {
   .product__container {
@@ -1166,18 +1176,18 @@ export default {
     padding: 0 64px;
   }
 
-  .research-examples__container {
+  /* .research-examples__container {
     flex-direction: column;
-  }
+  } */
 
-  .research-example__one {
+  /* .research-example__one {
     margin-bottom: 10rem;
     max-width: 30rem;
   }
 
   .research-example__two {
     max-width: 30rem;
-  }
+  } */
 
   .existing-app__container {
     padding-left: 64px;
@@ -1239,6 +1249,10 @@ export default {
 
   .coded-agents-hero__image {
     padding: 0 32px;
+  }
+
+  .research-examples__container {
+    gap: 100px;
   }
 
   .existing-app__container {
