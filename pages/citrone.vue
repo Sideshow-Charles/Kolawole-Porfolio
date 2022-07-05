@@ -723,6 +723,12 @@ export default {
   text-decoration: none;
 }
 
+@media screen and (max-width: 1280px) {
+.wireframes__images {
+  justify-content: center;
+}
+}
+
 @media screen and (max-width: 1240px) {
   .role-description__container {
     flex-wrap: wrap;

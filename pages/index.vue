@@ -259,9 +259,9 @@ export default {
 
 @media screen and (max-width: 1024px) {
   .selected-works__container {
-    gap: 72px;
+    gap: 60px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 }
 
@@ -282,7 +282,7 @@ export default {
 
   .selected-works__container a img {
     /* max-width: 100%; */
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
   }
 }
 
@@ -308,14 +308,15 @@ export default {
     padding-right: 32px;
   }
 
-  .selected-works__container {
+  /* .selected-works__container {
     gap: 0 !important;
   }
 
   .selected-works__container a img {
     max-width: 100%;
+    display: block;
     margin-bottom: 72px;
-  }
+  } */
 
   .sub-footer__container {
     padding: 7rem 64px;
