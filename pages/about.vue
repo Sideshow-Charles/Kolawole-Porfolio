@@ -590,6 +590,7 @@ export default {
 
   .design__methods {
     margin-bottom: 4rem;
+    /* max-width: fit-content; */
   }
 
   .section-interest__container {
