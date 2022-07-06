@@ -69,7 +69,7 @@
   }
 
   .footer__links img {
-    width: 40%;
+    width: 100%;
   }
 }
 </style>

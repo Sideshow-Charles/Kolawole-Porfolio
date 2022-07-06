@@ -7,16 +7,22 @@
           be the right fit? What are you waiting for
         </p>
       </section>
-       <Button></Button>
+      <Button></Button>
     </section>
     <footer class="footer__container">
       <footer class="footer__text">
         <p><span>&#169;</span>2022 Kolawole Popoola</p>
       </footer>
       <footer class="footer__links">
-            <a href="twitter.com/_Kolaa"><img src="../assets/images/twitter.svg" alt="" /></a>
-      <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143"><img src="../assets/images/linkedin.svg" alt="" /></a>
-      <a href="dribbble.com/_Kolaa"><img src="../assets/images/dribbble.svg" alt="" /></a>
+        <a href="twitter.com/_Kolaa"
+          ><img src="../assets/images/twitter.svg" alt=""
+        /></a>
+        <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143"
+          ><img src="../assets/images/linkedin.svg" alt=""
+        /></a>
+        <a href="dribbble.com/_Kolaa"
+          ><img src="../assets/images/dribbble.svg" alt=""
+        /></a>
       </footer>
     </footer>
   </div>
@@ -27,8 +33,8 @@ import Button from "../components/Button.vue";
 export default {
   components: {
     Button,
-  }
-}
+  },
+};
 </script>
 
 <style scoped>
@@ -106,7 +112,7 @@ export default {
 }
 
 @media screen and (max-width: 540px) {
-   .sub-footer__text {
+  .sub-footer__text {
     line-height: 43px;
     font-size: 20.5px;
     font-weight: 300;
@@ -117,7 +123,7 @@ export default {
   }
 
   .footer__links img {
-    width: 40%;
+    width: 100%;
   }
 }
 </style>

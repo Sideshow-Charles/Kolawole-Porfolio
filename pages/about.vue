@@ -1,191 +1,197 @@
 <template>
-  <div class="landing__page">
+  <div id="about__me">
     <Header></Header>
-    <article class="about__container">
-      <article class="image__container">
-        <img src="../assets/images/hero-image.png" alt="" class="hero__image" />
-
-        <div class="contact__container">
-          <h3>Contact Me</h3>
-
-          <p>kolapopoola4@gmail.com</p>
-        </div>
-
-        <div class="social-images__container">
-          <a href="twitter.com/_Kolaa"><img src="../assets/images/twitter.svg" alt="" /></a>
-          <a href="dribbble.com/_Kolaa"><img src="../assets/images/linkedin.svg" alt="" /></a>
-        </div>
-      </article>
-
-      <article class="about-text__container">
-        <article class="about-text__header">
-          <p class="about__header">Hello Again</p>
-        </article>
-        <article class="about-text__container">
-          <p>
-            I’m Kolawole, a product designer passionate about building
-            human-centric products. I currently work at
-            <span><a href="kuda.com">Kuda Bank</a></span> as a Product Designer with some really
-            talented people, building one of the biggest Neo-bank’s in Africa.
-            Previously I worked at <span><a href="https://www.max.ng/">MAX.NG</a></span> as the Lead Designer.
+    <section class="about__container">
+      <section class="about__container__left">
+        <img src="../assets/images/hero-image.png" alt="" />
+        <section class="contact__information__container">
+          <p class="contact__information__header">Contact Me</p>
+          <p class="contact__information__email">
+            <a href="mailto:kolapopoola4@gmail.com">kolapopoola4@gmail.com</a>
           </p>
-          <p>
-            Before joining MAX I worked at
-            <span><a href="fieldinsight.co">Fieldinsight.co</a></span> (Delivery Science) - A logistics
-            company built to strengthen companies bonds with their customers via
-            an online platform and an offline one that supports teams on the
-            field.
-          </p>
-          <p>
-            My design journey has been a very interesting one. I have been
-            opportuned wot work with great minds and in different industries
-            ranging from fintech to transportation, healthtech and agritech.
-            Working in these different fields and environments has helped me
-            ship out great but most importantly, usable products.   I completed
-            my undergraduate degree in Computer Science in 2018.
-          </p>
-
-          <p>
-            In my spare time, I write about and play a lot of sports. I also
-            play video games.
-          </p>
-
-          <p class="final__paragraph">
-            In my spare time, I write about sports, I watch a lot of sports and
-            I play video games. I’m currently available for any design gigs, if
-            you’d like to build something groundbreaking shoot me a mail at
-            <a href="mailto:kolapopoola4@gmail.com"
-              >kolapopoola4@gmail.com :)<img
-                src="../assets/images/underline.svg"
-                alt=""
+          <section class="social-images__container">
+            <a href="twitter.com/_Kolaa"
+              ><img src="../assets/images/twitter.svg" alt=""
             /></a>
-          </p>
-        </article>
-      </article>
-    </article>
-
-    <section class="section__container">
-      <section class="section__toolkit">
-        <h2>My Toolkit</h2>
-
-        <section class="section-design__toolkit">
-          <div class="design__methods">
-            <h3>UX Design Methods</h3>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Wireframing
-            </li>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Sketching
-            </li>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>User
-              Personas
-            </li>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>User
-              Flows
-            </li>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Prototyping
-            </li>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>UX
-              Thinking
-            </li>
-          </div>
-
-          <div class="design__tools">
-            <h3>UI Design Tools</h3>
-
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Figma
-            </li>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Adobe XD
-            </li>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Sketch
-            </li>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Principle
-            </li>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Whimsical
-            </li>
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Invision Studio
-            </li>
-          </div>
+            <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143"
+              ><img src="../assets/images/linkedin.svg" alt=""
+            /></a>
+          </section>
         </section>
       </section>
 
-      <section class="section-work__history">
-        <h2>Work History</h2>
-        <section class="section__history">
-          <div class="work__history">
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span>Kuda
-              Bank
-            </li>
-            <p class="role">Product Designer</p>
-            <p class="time">2021 - Present</p>
-
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >MAX.NG
-            </li>
-            <p class="role">Lead Product Designer</p>
-            <p class="time">2019 - 2021</p>
-
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Delivery Science
-            </li>
-            <p class="role">Product Designer</p>
-            <p class="time">2018-2019</p>
-          </div>
-
-          <div class="parkway-projects-work__history">
-            <li>
-              <span><img src="../assets/images/Polygon.png" alt="" /></span
-              >Parkway Projects
-            </li>
-            <p class="role">UX Designer</p>
-            <p class="time">2018-2018</p>
-          </div>
-        </section>
+      <section class="about__container__right"></section>
+      <section class="about__text__container">
+        <p class="about__text__header">Hello Again</p>
+        <p class="about__text__first__paragraph">
+          I’m Kolawole, a product designer passionate about building
+          human-centric products. I currently work at
+          <span><a href="https://kuda.com/">Kuda Bank</a></span> as a Product
+          Designer with some really talented people, building one of the biggest
+          Neo-bank’s in Africa. Previously I worked at
+          <span><a href="https://www.max.ng/">MAX.NG</a></span> as the Lead
+          Designer.
+        </p>
+        <p class="about__text__second__paragraph">
+          Before joining MAX I worked at
+          <span><a href="">Fieldinsight.co</a></span> (Delivery Science) - A
+          logistics company built to strengthen companies bonds with their
+          customers via an online platform and an offline one that supports
+          teams on the field.
+        </p>
+        <p class="about__text__third__paragraph">
+          My design journey has been a very interesting one. I have been
+          opportuned wot work with great minds and in different industries
+          ranging from fintech to transportation, healthtech and agritech.
+          Working in these different fields and environments has helped me ship
+          out great but most importantly, usable products.
+        </p>
+        <p class="about__text__fourth__paragraph">
+          I completed my undergraduate degree in Computer Science in 2018.
+        </p>
+        <p class="about__text__fifth__paragraph">
+          In my spare time, I write about and play a lot of sports. I also play
+          video games.
+        </p>
+        <p class="about__text__final__paragraph">
+          In my spare time, I write about sports, I watch a lot of sports and I
+          play video games. I’m currently available for any design gigs, if
+          you’d like to build something groundbreaking shoot me a mail at
+          <a href="mailto:kolapopoola4@gmail.com"
+            >kolapopoola4@gmail.com :)<img
+              src="../assets/images/underline.svg"
+              alt=""
+          /></a>
+        </p>
       </section>
     </section>
 
-    <section class="section-interest__container">
-      <div class="section-interest__reading">
-        <h3>Currently Reading</h3>
-        <img src="../assets/images/currently-reading1.png" alt="" />
-        <img src="../assets/images/currently-reading2.png" alt="" />
-        <img src="../assets/images/currently-reading3.png" alt="" />
-      </div>
-      <div class="section-interest__listening">
-        <h3>Currently Listening</h3>
-        <h6>Podcasts:</h6>
-        <a href="https://open.spotify.com/show/6xbt4cCcUqtMT5sPdbWkrb?si=koiP_pvTTl6Zv_tgYpuNJg"><img src="../assets/images/currently-listening1.png" alt="" /></a>
-        <a href="https://open.spotify.com/show/6xbt4cCcUqtMT5sPdbWkrb?si=koiP_pvTTl6Zv_tgYpuNJg"><img src="../assets/images/currently-listening2.png" alt="" /></a>
-        <a href="https://open.spotify.com/show/59RliaMdeDAkEgp9nj1Mkj?si=dOIu4PoMRFqgWTTbxf5ahA"><img src="../assets/images/currently-listening3.png" alt="" /></a>
-        <a href="https://open.spotify.com/show/7sq2pGJnjeXvGgL8qiTsdt?si=2uMGIyL"><img src="../assets/images/currently-listening4.png" alt="" /></a>
+    <section class="tools__and__history__container">
+      <section class="design__tools">
+        <p class="toolkit__header">My Toolkit</p>
 
-        <div class="section-interest__listening__music">
-          <h6>Music:</h6>
-          <img src="../assets/images/currently-listening5.png" alt="" />
+        <div class="design__methods__and__tools">
+          <div class="design__methods">
+            <p class="design__methods__header">UX Design Methods</p>
+            <ul class="design__methods__list">
+              <li style="padding-left: 1em">Wireframing</li>
+              <li style="padding-left: 1em">Sketching</li>
+              <li style="padding-left: 1em">User Personas</li>
+              <li style="padding-left: 1em">User Flows</li>
+              <li style="padding-left: 1em">Prototyping</li>
+              <li style="padding-left: 1em">UX Thinking</li>
+            </ul>
+          </div>
+          <div class="design__tools">
+            <p class="design__tools__header">UI Design Tools</p>
+            <ul class="design__tools__list">
+              <li style="padding-left: 1em">Figma</li>
+              <li style="padding-left: 1em">Adobe XD</li>
+              <li style="padding-left: 1em">Sketch</li>
+              <li style="padding-left: 1em">Principle</li>
+              <li style="padding-left: 1em">Whimsical</li>
+              <li style="padding-left: 1em">Invision Studio</li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section class="work__history__container">
+        <p class="work-history__header">Work History</p>
+
+        <div class="section-work__history">
+          <div class="work__history">
+            <ul class="work-history__list">
+              <div class="kuda__bank">
+                <li style="padding-left: 1em">Kuda Bank</li>
+                <p class="role">Product Designer</p>
+                <p class="time">2021 - Present</p>
+              </div>
+
+              <div class="max">
+                <li style="padding-left: 1em">MAX.NG</li>
+                <p class="role">Lead Product Designer</p>
+                <p class="time">2019 - 2021</p>
+              </div>
+
+              <div class="delivery__science">
+                <li style="padding-left: 1em">Delivery Science</li>
+                <p class="role">Product Designer</p>
+                <p class="time">2018-2019</p>
+              </div>
+            </ul>
+          </div>
+          <div class="parkway-projects-work__history">
+            <ul class="work-history__list">
+              <div class="parkway__projects">
+                <li style="padding-left: 1em">Parkway Projects</li>
+                <p class="role">UX Designer</p>
+                <p class="time">2018-2018</p>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="current__interests">
+      <section class="current-interests__reading">
+        <p class="current__interests__reading__header">Currently Reading</p>
+
+        <div class="current__interests__images">
+          <a
+            href="https://www.amazon.co.uk/Golden-Miraculous-Rise-Steph-Curry/dp/1501147838"
+            ><img src="../assets/images/currently-reading1.png" alt=""
+          /></a>
+          <a
+            href="https://www.amazon.co.uk/s?k=andre+iguodala+the+sixth+man&adgrpid=118751224482&gclid=EAIaIQobChMI6MO-w9_h-AIVhLHtCh0h3QvcEAAYASAAEgLNhfD_BwE&hvadid=578505902815&hvdev=m&hvlocphy=20339&hvnetw=g&hvqmt=e&hvrand=1772722565327168302&hvtargid=kwd-774993042662&hydadcr=24134_2250247&tag=hydrukspg-21&ref=pd_sl_4nw0ggqjy_e"
+            ><img src="../assets/images/currently-reading2.png" alt=""
+          /></a>
+          <a
+            href="https://www.amazon.co.uk/Designing-People-Think-John-Whalen/dp/1491985453/ref=asc_df_1491985453/?tag=googshopuk-21&linkCode=df0&hvadid=344396759675&hvpos=&hvnetw=g&hvrand=7037749491465602488&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=20339&hvtargid=pla-686148797180&psc=1&th=1&psc=1"
+            ><img src="../assets/images/currently-reading3.png" alt=""
+          /></a>
+        </div>
+      </section>
+
+      <section class="current-interests__listening">
+        <div class="current__interests__podcasts">
+          <p class="current__interests__podcasts__header">
+            Currently Listening
+          </p>
+          <p class="current__interests__podcasts__sub__header">Podcasts:</p>
+
+          <div class="current__interests__podcasts__images">
+            <a
+              href="https://open.spotify.com/show/6xbt4cCcUqtMT5sPdbWkrb?si=koiP_pvTTl6Zv_tgYpuNJg"
+              ><img src="../assets/images/currently-listening1.png" alt=""
+            /></a>
+            <a
+              href="https://open.spotify.com/show/6xbt4cCcUqtMT5sPdbWkrb?si=koiP_pvTTl6Zv_tgYpuNJg"
+              ><img src="../assets/images/currently-listening2.png" alt=""
+            /></a>
+            <a
+              href="https://open.spotify.com/show/59RliaMdeDAkEgp9nj1Mkj?si=dOIu4PoMRFqgWTTbxf5ahA"
+              ><img src="../assets/images/currently-listening3.png" alt=""
+            /></a>
+            <a
+              href="https://open.spotify.com/show/7sq2pGJnjeXvGgL8qiTsdt?si=2uMGIyL"
+              ><img src="../assets/images/currently-listening4.png" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <div class="current__interests__music">
+          <p class="current__interests__music__header">Music:</p>
+
+          <div class="current__interests__images">
+            <a
+              href="https://open.spotify.com/user/1637v78g8mzx0lrxxt5xf368w?si=V74aPdsgSdKrUi9-uUdLlw"
+              ><img src="../assets/images/currently-listening5.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
     </section>
     <SubFooter></SubFooter>
   </div>
@@ -203,7 +209,7 @@ export default {
 </script>
 
 <style scoped>
-.landing__page {
+#about__me {
   background-image: url("../assets/images/lines-for-web.svg");
   background-repeat: repeat-y;
   background-position: top center;
@@ -218,107 +224,139 @@ export default {
   max-width: 109.2rem;
 }
 
-.about-text__container {
-  line-height: 2.5rem;
-  width: 35rem;
-}
-
-/* .about-text__container p span {
-  text-decoration: underline;
-} */
-
-.image__container {
+.about__container__left {
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
   flex-direction: column;
 }
 
-.image__container img {
-  /* height: 50%; */
-  margin-bottom: 5rem;
+.about__container__left img {
+  width: 100%;
 }
 
-.hero__image {
-  width: 75%;
+.contact__information__container {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
-.contact__container h3 {
+.contact__information__header {
   font-family: "Graphik-Medium";
   font-size: 25px;
   font-weight: 900;
   line-height: 60px;
-  letter-spacing: 0em;
-  text-align: left;
 }
 
-.contact__container p {
+.contact__information__email {
   font-family: "Graphik-Regular";
   font-size: 16px;
   font-weight: 400;
   line-height: 40px;
-  letter-spacing: 0em;
-  text-align: left;
+}
+
+.contact__information__email a {
+  text-decoration: none;
 }
 
 .social-images__container {
   display: flex;
-  /* justify-content: space-between; */
-  gap: 20px;
-  align-items: center;
-  width: 20%;
-  margin-top: 2rem;
+  gap: 23px;
+  margin-top: 16px;
 }
 
-.about-text__header {
+.social-images__container img {
+  max-width: 50px;
+}
+
+.about__container__right {
+  width: 30rem;
+}
+
+.about__text__header {
   font-family: "Graphik-SemiBold";
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 600;
   line-height: 4.5rem;
   margin-bottom: 2rem;
 }
 
-.about-text__container {
+.about__text__first__paragraph {
   font-family: "Graphik-Regular";
   font-size: 1.3rem;
   font-weight: 300;
   line-height: 3.2rem;
-}
-
-.about-text__container p {
   margin-bottom: 3rem;
 }
 
-.about-text__container p span {
-  text-decoration: underline;
+.about__text__second__paragraph {
+  font-family: "Graphik-Regular";
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 3.2rem;
+  margin-bottom: 3rem;
 }
 
-.final__paragraph a {
+.about__text__third__paragraph {
+  font-family: "Graphik-Regular";
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 3.2rem;
+  margin-bottom: 3rem;
+}
+
+.about__text__fourth__paragraph {
+  font-family: "Graphik-Regular";
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 3.2rem;
+  margin-bottom: 3rem;
+}
+
+.about__text__fifth__paragraph {
+  font-family: "Graphik-Regular";
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 3.2rem;
+  margin-bottom: 3rem;
+}
+
+.about__text__final__paragraph {
+  font-family: "Graphik-Regular";
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 3.2rem;
+  margin-bottom: 3rem;
+}
+
+.about__text__final__paragraph a {
   text-decoration: none;
-  color: inherit;
   width: fit-content;
   position: relative;
 }
 
-.final__paragraph img {
+.about__text__final__paragraph img {
   position: absolute;
   left: 0;
-  bottom: -10px;
+  bottom: -15px;
   width: 280px;
 }
 
-.section__container {
-  margin: 0 auto;
-  max-width: 109.2rem;
-  padding-top: 5rem;
-  padding-bottom: 7rem;
-  padding-left: 121px;
-  padding-right: 121px;
+.tools__and__history__container {
+  padding: 7rem 121px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin: 0 auto;
+  max-width: 109.2rem;
 }
 
-.section__toolkit h2 {
+.design__methods__and__tools {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.toolkit__header {
   font-weight: 900;
   font-family: "Graphik-Medium";
   font-size: 25px;
@@ -328,25 +366,35 @@ export default {
   margin-bottom: 3rem;
 }
 
-.section__toolkit h3 {
+.design__methods__header {
   font-weight: 900;
   font-family: "Graphik-Medium";
   font-size: 21px;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
+  padding: 20px 0;
 }
 
-.section-design__toolkit {
-  display: flex;
-  justify-content: space-between;
-  width: 30rem;
+.design__tools__header {
+  font-weight: 900;
+  font-family: "Graphik-Medium";
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* margin-bottom: 3rem; */
+  padding: 20px 0;
 }
 
-.design__methods li {
-  margin: 30px 0;
-  list-style: none;
+.design__methods__list {
+  list-style-image: url("~assets/images/Polygon.png");
+}
+
+.design__methods__list li {
+  margin-left: 20px;
+  padding: 20px 0;
   font-family: "Graphik-Regular";
   font-size: 19px;
   font-weight: 400;
@@ -355,13 +403,13 @@ export default {
   text-align: left;
 }
 
-.design__methods li span {
-  margin-right: 20px;
+.design__tools__list {
+  list-style-image: url("~assets/images/Polygon.png");
 }
 
-.design__tools li {
-  margin: 30px 0;
-  list-style: none;
+.design__tools__list li {
+  margin-left: 20px;
+  padding: 20px 0;
   font-family: "Graphik-Regular";
   font-size: 19px;
   font-weight: 400;
@@ -370,11 +418,7 @@ export default {
   text-align: left;
 }
 
-.design__tools li span {
-  margin-right: 20px;
-}
-
-.section-work__history h2 {
+.work-history__header {
   font-weight: 900;
   font-family: "Graphik-Medium";
   font-size: 25px;
@@ -384,52 +428,36 @@ export default {
   margin-bottom: 3rem;
 }
 
-.section__history {
+.section-work__history {
   display: flex;
+  justify-content: space-between;
 }
 
-.work__history {
-  width: 15rem;
+.work-history__list {
+  list-style-image: url("~assets/images/Polygon.png");
 }
 
-.work__history li {
-  list-style: none;
+.work-history__list li {
+  margin-left: 20px;
+  padding: 20px 0;
   font-weight: 900;
   font-family: "Graphik-Medium";
-  font-size: 19px;
-  line-height: 40px;
+  font-size: 21px;
+  line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-}
-
-.work__history li span {
-  margin-right: 20px;
-}
-
-.parkway-projects-work__history li {
-  list-style: none;
-  font-weight: 900;
-  font-family: "Graphik-Medium";
-  font-size: 19px;
-  line-height: 40px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-.parkway-projects-work__history span {
-  margin-right: 20px;
 }
 
 .role {
   font-family: "Graphik-Regular";
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 19px;
+  font-weight: 400;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-bottom: 1rem;
-  margin-left: 2.1rem;
+  margin-left: 2.6rem;
 }
 
 .time {
@@ -450,18 +478,17 @@ export default {
   justify-content: center;
 }
 
-.section-interest__container {
-  padding-top: 5rem;
-  padding-bottom: 7rem;
-  max-width: 109.2rem;
-  margin: 0 auto;
-  padding-left: 121px;
-  padding-right: 121px;
+.current__interests {
+  padding: 7rem 121px;
   display: flex;
-  justify-content: space-between;
+  gap: 470px;
+  /* justify-content: space-around; */
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 109.2rem;
 }
 
-.section-interest__reading h3 {
+.current__interests__reading__header {
   font-weight: 900;
   font-family: "Graphik-Medium";
   font-size: 20px;
@@ -471,12 +498,18 @@ export default {
   margin-bottom: 2rem;
 }
 
-.section-interest__reading img {
+.current__interests__images img {
   max-width: 70px;
   margin-right: 20px;
 }
 
-.section-interest__listening h3 {
+.current-interests__listening {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.current__interests__podcasts__header {
   font-weight: 900;
   font-family: "Graphik-Medium";
   font-size: 20px;
@@ -486,7 +519,7 @@ export default {
   margin-bottom: 2rem;
 }
 
-.section-interest__listening h6 {
+.current__interests__podcasts__sub__header {
   font-family: "Graphik-Regular";
   font-size: 18px;
   font-weight: 500;
@@ -496,189 +529,161 @@ export default {
   margin-bottom: 2rem;
 }
 
-.section-interest__listening img {
+.current__interests__podcasts__images img {
   max-width: 70px;
   margin-right: 20px;
 }
 
-.section-interest__listening__music h6 {
+.current__interests__music__header {
   font-family: "Graphik-Regular";
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 1600px) {
-  .about-text__container {
-    width: 50rem;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .about-text__container {
-    width: 40rem;
-  }
-
-  .section__container {
-    padding-left: 64px;
-    padding-right: 64px;
-  }
-
-  .section-interest__reading img {
-    margin-bottom: 4rem;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .about-text__container {
-    width: 30rem;
+@media screen and (max-width: 1024px) {
+  .tools__and__history__container {
+    flex-direction: column;
+    gap: 150px;
   }
 }
 
 @media screen and (max-width: 980px) {
   .about__container {
-    padding: 7rem 64px;
     flex-direction: column;
-  }
-
-  .section__container {
-    flex-direction: column;
-  }
-
-  .section__toolkit {
-    margin-bottom: 4rem;
-  }
-
-  .section-interest__container {
     padding-left: 64px;
     padding-right: 64px;
+    gap: 70px;
+  }
+
+  .about__container__left img {
+    max-width: 50%;
+  }
+
+  .tools__and__history__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .current__interests {
     flex-direction: column;
+    padding-left: 64px;
+    padding-right: 64px;
+    gap: 150px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .about__container__left img {
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .about__container {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
-  .hero__image {
-    width: 100%;
+  .tools__and__history__container {
+    padding-left: 32px;
+    padding-right: 32px;
+    gap: 100px;
   }
 
-  .about-text__container {
-    width: 100%;
+  .current__interests {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
-  .section__container {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
-  .section-design__toolkit {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .section__history {
+  .design__methods__and__tools {
     flex-direction: column;
   }
 
-  .design__methods {
-    margin-bottom: 4rem;
-    /* max-width: fit-content; */
-  }
-
-  .section-interest__container {
-    padding-left: 24px;
-    padding-right: 24px;
+  .section-work__history {
+    flex-direction: column;
   }
 }
 
 @media screen and (max-width: 540px) {
-  .landing__page {
+  #about__me {
     background-image: url("../assets/images/lines-for-mobile.svg");
     background-position: top center;
   }
 
-  .about__header {
-    font-size: 26px !important;
-    font-weight: 300 !important;
-  }
-
-  .contact__container h3 {
+  .contact__information__header {
     font-size: 22px;
     font-weight: 200;
   }
 
-  .about-text__container p {
-    font-size: 18px;
+.about__text__header {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.about__text__first__paragraph,
+.about__text__second__paragraph,
+.about__text__third__paragraph,
+.about__text__fourth__paragraph,
+.about__text__fifth__paragraph,
+.about__text__final__paragraph {
+ font-size: 18px;
     font-weight: 300;
     line-height: 48px;
-  }
+}
 
-  .social-images__container {
-    gap: 20px;
-  }
-
-  .final__paragraph img {
+ .about__text__final__paragraph img {
     position: absolute;
     left: 0;
     bottom: -12px;
     width: 230px;
   }
 
-  .section__toolkit h2 {
+  .toolkit__header {
     font-weight: 300;
     font-size: 24px;
   }
 
-  .section__toolkit h3 {
+  .design__methods__header,
+  .design__tools__header {
+font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .design__methods__list,
+  .design__tools__list {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .work-history__header {
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
   }
 
-  .design__methods li {
+  .role,
+  time {
     font-size: 16px;
     font-weight: 300;
     line-height: 40px;
   }
 
-  .design__tools li {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 40px;
-  }
-
-  .section-work__history h2 {
-    font-weight: 300;
-    font-size: 24px;
-  }
-
-  .section-interest__reading h3 {
+  .current__interests__reading__header,
+  .current__interests__podcasts__header {
+    font-weight: 600;
     font-size: 18px;
-    font-weight: 300;
-    line-height: 48px;
+    line-height: 30px;
   }
 
-  .section-interest__listening h3 {
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 48px;
-  }
-
-  .section-interest__listening h6 {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 40px;
-  }
-
-  .section-interest__listening__music h6 {
+  .current__interests__podcasts__sub__header,
+  .current__interests__music__header {
     font-size: 16px;
     font-weight: 300;
     line-height: 40px;
