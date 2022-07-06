@@ -625,23 +625,23 @@ export default {
     font-weight: 200;
   }
 
-.about__text__header {
+  .about__text__header {
     font-size: 26px;
     font-weight: 300;
-}
+  }
 
-.about__text__first__paragraph,
-.about__text__second__paragraph,
-.about__text__third__paragraph,
-.about__text__fourth__paragraph,
-.about__text__fifth__paragraph,
-.about__text__final__paragraph {
- font-size: 18px;
+  .about__text__first__paragraph,
+  .about__text__second__paragraph,
+  .about__text__third__paragraph,
+  .about__text__fourth__paragraph,
+  .about__text__fifth__paragraph,
+  .about__text__final__paragraph {
+    font-size: 18px;
     font-weight: 300;
     line-height: 48px;
-}
+  }
 
- .about__text__final__paragraph img {
+  .about__text__final__paragraph img {
     position: absolute;
     left: 0;
     bottom: -12px;
@@ -655,7 +655,7 @@ export default {
 
   .design__methods__header,
   .design__tools__header {
-font-weight: 600;
+    font-weight: 300;
     font-size: 18px;
     line-height: 30px;
   }
@@ -668,9 +668,14 @@ font-weight: 600;
   }
 
   .work-history__header {
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 124px;
     line-height: 30px;
+  }
+
+  .work-history__list li {
+    font-weight: 300;
+    font-size: 20px;
   }
 
   .role,
