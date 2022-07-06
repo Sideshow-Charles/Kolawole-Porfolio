@@ -669,7 +669,7 @@ export default {
 
   .work-history__header {
     font-weight: 300;
-    font-size: 124px;
+    font-size: 24px;
     line-height: 30px;
   }
 

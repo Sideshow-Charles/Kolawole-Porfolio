@@ -153,5 +153,11 @@ export default {
     font-weight: 300;
     line-height: 48px;
   }
+
+  .design__caption {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 48px;
+  }
 }
 </style>
