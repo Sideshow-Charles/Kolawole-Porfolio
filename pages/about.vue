@@ -550,6 +550,11 @@ export default {
     flex-direction: column;
     gap: 150px;
   }
+
+  .current__interests {
+    flex-direction: column;
+    gap: 150px;
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -570,7 +575,7 @@ export default {
   }
 
   .current__interests {
-    flex-direction: column;
+    /* flex-direction: column; */
     padding-left: 64px;
     padding-right: 64px;
     gap: 150px;
