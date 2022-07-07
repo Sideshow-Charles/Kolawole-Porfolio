@@ -204,4 +204,43 @@ export default {
   }
 }
 
+@media screen and (max-width: 320px) {
+.invoicing__header {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .invoicing__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .invoicing__list li {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .invoicing__image__caption {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+   .invoicing__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .invoicing__gallery__container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 16px;
+  }
+}
+
 </style>

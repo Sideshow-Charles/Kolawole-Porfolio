@@ -1,5 +1,5 @@
 <template>
-  <div id="landing__page">
+  <div id="citrone">
     <Header></Header>
     <article class="product__container">
       <article class="product__header">
@@ -186,7 +186,12 @@
       <div class="user-journey__image">
         <img src="../assets/images/citrone-user-flow.png" alt="" />
       </div>
-      <p class="user-journey__link"><a href="https://www.figma.com/file/RDwLOZxRcUokPokhKQCZbt/Citrone%3A-User-Flow?node-id=0%3A1">Link to the User Journey</a></p>
+      <p class="user-journey__link">
+        <a
+          href="https://www.figma.com/file/RDwLOZxRcUokPokhKQCZbt/Citrone%3A-User-Flow?node-id=0%3A1"
+          >Link to the User Journey</a
+        >
+      </p>
     </section>
 
     <section class="wireframes__container">
@@ -744,7 +749,7 @@ export default {
     flex-direction: column;
   }
 
-   .research-example__one {
+  .research-example__one {
     max-width: fit-content;
   }
 
@@ -910,9 +915,10 @@ export default {
 }
 
 @media screen and (max-width: 540px) {
-  #landing__page {
+  #citrone {
     background-image: url("../assets/images/lines-for-mobile.svg");
     background-position: top center;
+    background-repeat: repeat-y;
   }
 
   .hero-image {
@@ -1108,6 +1114,71 @@ export default {
     font-size: 16px;
     font-weight: 300;
     line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .product__header,
+  .product__brief__header,
+  .product__challenge__header,
+  .product__role__header,
+  .research__header,
+  .product-research__and__user__experience__header,
+  .research-example__one__header__text,
+  .research-example__two__header__text
+  .solution__header,
+  .wireframes__header,
+  .user-journey__header,
+  .product__challenges__header,
+  .product__conclusion__header {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .product__text,
+  .product__brief__text,
+  .product__challenge__list li,
+  .product__role__text,
+  .research__text,
+  .product-research__and__user__experience__text,
+  .research-example__one__decription,
+  .research-example__one__list li,
+  .research-example__two__decription,
+  .research-example__two__list li,
+  .research__conclusion,
+  .solution__text,
+  .wireframes__text,
+  .user-journey__text,
+  .product__challenges__text,
+  .product__conclusion__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .role-description__container p {
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 25px;
+  }
+
+  .wireframes__images img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .product__container,
+  .citrone-hero__image,
+  .about-product__container,
+  .user-journey__container,
+  .wireframes__container,
+  .product__challenge__and__takeaway,
+  .product__conclusion,
+  .product-CTA_link {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 </style>

@@ -651,6 +651,7 @@ export default {
   .toolkit__header {
     font-weight: 300;
     font-size: 24px;
+    margin-bottom: 1rem;
   }
 
   .design__methods__header,
@@ -697,6 +698,110 @@ export default {
     font-size: 16px;
     font-weight: 300;
     line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact__information__header {
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .about__container {
+    gap: 30px;
+  }
+
+  .about__text__header {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .social-images__container img {
+    max-width: 30px;
+  }
+
+  .about__text__first__paragraph,
+  .about__text__second__paragraph,
+  .about__text__third__paragraph,
+  .about__text__fourth__paragraph,
+  .about__text__fifth__paragraph,
+  .about__text__final__paragraph {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .about__text__final__paragraph img {
+    width: 180px;
+  }
+
+  .tools__and__history__container {
+    padding: 1rem 16px;
+  }
+
+  .toolkit__header {
+    font-size: 20px;
+    font-weight: 300;
+    /* margin-bottom: 1rem; */
+  }
+  .design__methods__header {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .design__methods__list li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .design__tools__header {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .design__tools__list li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .work-history__header {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .work-history__list li {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .role {
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 2.4rem;
+  }
+
+  .time {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .current__interests__reading__header {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .current__interests__podcasts__header {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .about__container {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 </style>

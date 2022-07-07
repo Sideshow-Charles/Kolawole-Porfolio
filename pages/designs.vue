@@ -1,5 +1,5 @@
 <template>
-  <div id="landing__page">
+  <div id="designs">
     <Header></Header>
 
     <section class="more-designs__container">
@@ -135,7 +135,7 @@ export default {
 }
 
 @media screen and (max-width: 540px) {
-  #landing__page {
+  #designs {
     background-image: url("../assets/images/lines-for-mobile.svg");
     background-repeat: no-repeat;
     background-position: top center;
@@ -158,6 +158,33 @@ export default {
     font-size: 18px;
     font-weight: 300;
     line-height: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+   .more-designs__header {
+     font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+   }
+
+   .more-designs__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+   }
+
+   .design__caption {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+   }
+}
+
+@media screen and (max-width: 280px) {
+  .more-designs__container {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 </style>

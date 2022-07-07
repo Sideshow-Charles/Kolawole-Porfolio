@@ -226,11 +226,11 @@
       <img src="../assets/images/coded-agents-3.png" alt="" />
     </section>
 
-    <!-- <section class="mobile-screens-mobile__images">
+    <div class="mobile-screens-one-mobile__images">
       <img src="../assets/images/ca-mobile-1.png" alt="" />
       <img src="../assets/images/ca-mobile-2.png" alt="" />
       <img src="../assets/images/ca-mobile-3.png" alt="" />
-    </section> -->
+    </div>
 
     <section class="post-property__container">
       <p class="post-property__header">Post a Property</p>
@@ -252,6 +252,11 @@
         <img src="../assets/images/ca-5.png" alt="" />
       </div>
     </section>
+
+    <div class="mobile-screens-two-mobile__images">
+      <img src="../assets/images/ca-mobile-4.png" alt="" />
+      <img src="../assets/images/ca-mobile-5.png" alt="" />
+    </div>
 
     <section class="filter__container">
       <p class="filter__header">Filter</p>
@@ -275,11 +280,11 @@
       <img src="../assets/images/ca-8.png" alt="" />
     </section>
 
-    <!-- <section class="mobile-screens-mobile__three__images">
+    <div class="mobile-screens-three-mobile__images">
       <img src="../assets/images/ca-mobile-6.png" alt="" />
       <img src="../assets/images/ca-mobile-7.png" alt="" />
       <img src="../assets/images/ca-mobile-8.png" alt="" />
-    </section> -->
+    </div>
 
     <section class="product__challenge__and__takeaway">
       <p class="product__challenges__header">Challenges and Takeaways</p>
@@ -298,13 +303,17 @@
     <section class="product__conclusion">
       <p class="product__conclusion__header">Conclusion and Outcome</p>
       <p class="product__conclusion__text">
-        The product is still in the beta stage, but the plan is to roll it out in phases to validate and get user feedback, and iterate before releasing the final version of the app.
+        The product is still in the beta stage, but the plan is to roll it out
+        in phases to validate and get user feedback, and iterate before
+        releasing the final version of the app.
       </p>
     </section>
 
     <section class="product-CTA_link">
       <p>
-        <a href="http://www.codedagents.com/">Click here to sign up <span>for beta.</span></a>
+        <a href="http://www.codedagents.com/"
+          >Click here to sign up <span>for beta.</span></a
+        >
       </p>
     </section>
 
@@ -792,7 +801,7 @@ export default {
   height: 867px;
 }
 
-.mobile-screens-mobile__images {
+.mobile-screens-one-mobile__images {
   display: none;
 }
 
@@ -1142,7 +1151,7 @@ export default {
     flex-direction: column;
   }
 
-   .research-example__one {
+  .research-example__one {
     max-width: fit-content;
   }
 
@@ -1373,6 +1382,7 @@ export default {
     font-size: 26px;
     font-weight: 300;
   }
+
   .product__role__text {
     font-size: 18px;
     font-weight: 300;
@@ -1498,36 +1508,75 @@ export default {
     font-weight: 300;
     line-height: 48px;
   }
-  /* 
-  .mobile-screens-mobile__images {
+
+  .mobile-screens-one__images {
+    display: none;
+  }
+
+  .mobile-screens-one-mobile__images {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     gap: 64px;
     padding: 0 96px;
     background: url("../assets/images/mobile-screens-background.png");
     background-repeat: no-repeat;
-    background-size: 100% 2200px;
+    background-size: 100% 1300px;
     background-position: bottom;
-    margin-left: 47px;
-    margin-right: 47px;
     margin-top: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
   }
 
-  .mobile-screens-mobile__images img {
-    top: 0;
-    width: 100%;
+  .mobile-screens-one-mobile__images img {
+    max-width: 100%;
   }
 
-  .mobile-screens-one__images {
+  .mobile-screens-two__container {
     display: none;
-  } */
+  }
 
-  /* .mobile-screens-two__container {
+  .mobile-screens-two-mobile__images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 64px;
+    padding: 0 96px;
+    background: url("../assets/images/mobile-screens-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1300px;
+    background-position: bottom;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+
+  .mobile-screens-two-mobile__images img {
+    max-width: 100%;
+  }
+
+  .mobile-screens-three__images {
     display: none;
-  } */
+  }
+
+  .mobile-screens-three-mobile__images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 64px;
+    padding: 0 96px;
+    background: url("../assets/images/mobile-screens-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1300px;
+    background-position: bottom;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+
+  .mobile-screens-three-mobile__images img {
+    max-width: 100%;
+  }
 
   .post-property__header {
     font-size: 26px;
@@ -1604,6 +1653,102 @@ export default {
     font-size: 16px;
     font-weight: 300;
     line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .product__header,
+  .product__brief__header,
+  .product__challenge__header,
+  .product__role__header,
+  .research__header,
+  /* .research-example__one__header,
+  .research-example__two__header, */
+  .key__motivators__header,
+  .existing-app__header,
+  .visual-design__header,
+  .get-started__header,
+  .listings__header,
+  .post-property__header,
+  .filter__header,
+  .more-visuals__header,
+  .product__challenges__header,
+  .product__conclusion__header,
+  .product__presentation,
+  .product__next__header {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .product__text,
+  .product__brief__text,
+  .product__challenge__list li,
+  .product__role__text,
+  .research__text,
+  .research-example__one__decription,
+  .research-example__one__list li,
+  .research-example__two__decription,
+  .research-example__two__list li,
+  .key__motivators__list li,
+  .visual-design__text,
+  .get-started__text,
+  .listings__text,
+  .post-property__text,
+  .filter__text,
+  .product__challenges__text,
+  .product__conclusion__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .role-description__container p {
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 25px;
+  }
+
+  .research-example__one__header__text,
+  .research-example__two__header__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 0;
+  }
+
+  .mobile-screens-one-mobile__images,
+  .mobile-screens-two-mobile__images,
+  .mobile-screens-three-mobile__images {
+    align-items: center;
+  }
+
+  .mobile-screens-one-mobile__images img,
+  .mobile-screens-two-mobile__images img,
+  .mobile-screens-three-mobile__images img {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .product__container,
+  .about-product__container,
+  .coded-agents-hero__image,
+  .existing-app__container,
+  .visual-design__container,
+  .post-property__container,
+  .filter__container,
+  .more-visuals__container,
+  .product__challenge__and__takeaway,
+  .product__conclusion,
+  .product-CTA_link,
+  .product__footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .existimg-app__images img {
+    width: 200px;
   }
 }
 </style>

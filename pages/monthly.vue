@@ -1,5 +1,5 @@
 <template>
-  <div id="landing__page">
+  <div id="monthly">
     <Header></Header>
     <article class="product__container">
       <article class="product__header">
@@ -81,8 +81,15 @@
           I was strictly in charge of the product design work on this product,
           for the mobile apps (iOS & Android) and the marketing website, I
           worked in a design team of 2 people where I led the product design
-          efforts and the second person <span><a href="https://ng.linkedin.com/in/adeniyi-oyenaike-a79090156" style="text-decoration: none">Adeniyi Oyenaike</a></span> led the
-          graphic design (logo, icons packs etc) efforts.
+          efforts and the second person
+          <span
+            ><a
+              href="https://ng.linkedin.com/in/adeniyi-oyenaike-a79090156"
+              style="text-decoration: none"
+              >Adeniyi Oyenaike</a
+            ></span
+          >
+          led the graphic design (logo, icons packs etc) efforts.
         </p>
       </section>
 
@@ -118,9 +125,9 @@
         </ul>
 
         <p class="research-sub__text">
-          After doing this poll and speaking to some other people with similar
-          issues, we decided to speak to a few landlords and the reasons below
-          are why they insist on a full year down payment :
+          After speaking to Landlords we realized the major issue here is trust,
+          and in tackling that on our product we included a KYC (Know Your
+          Customer) flow which consists of ;
         </p>
 
         <ul class="research__list">
@@ -269,13 +276,17 @@
     <section class="product__conclusion">
       <p class="product__conclusion__header">Conclusion and Outcome</p>
       <p class="product__conclusion__text">
-        The product is still in the beta stage, but the plan is to roll it out in phases to validate and get user feedback, and iterate before releasing the final version of the app.
+        The product is still in the beta stage, but the plan is to roll it out
+        in phases to validate and get user feedback, and iterate before
+        releasing the final version of the app.
       </p>
     </section>
 
     <section class="product-CTA_link">
       <p>
-        <a href="https://www.monthly.ng/">Click here to sign up <span>for beta.</span></a>
+        <a href="https://www.monthly.ng/"
+          >Click here to sign up <span>for beta.</span></a
+        >
       </p>
     </section>
 
@@ -905,7 +916,7 @@ export default {
     margin-bottom: 0.5rem;
   }
 
-   .wireframes__images {
+  .wireframes__images {
     justify-content: center;
   }
 
@@ -978,6 +989,11 @@ export default {
     padding-right: 64px;
   }
 
+  .more__visuals__container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
   .website-design__container {
     padding-left: 64px;
     padding-right: 64px;
@@ -1046,6 +1062,11 @@ export default {
     padding-right: 32px;
   }
 
+  .more__visuals__container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
   .website-design__container {
     padding-left: 32px;
     padding-right: 32px;
@@ -1073,9 +1094,10 @@ export default {
 }
 
 @media screen and (max-width: 540px) {
-  #landing__page {
+  #monthly {
     background-image: url("../assets/images/lines-for-mobile.svg");
     background-position: top center;
+    background-repeat: repeat-y;
   }
 
   .product__container {
@@ -1360,6 +1382,81 @@ export default {
     font-size: 16px;
     font-weight: 300;
     line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .product__header,
+  .product__brief__header,
+  .product__challenge__header,
+  .product__role__header,
+  .research__header,
+  .product__solution__header,
+  .wireframes__header,
+  .visual-design__header,
+  .sign-in__header,
+  .loans__header,
+  .complete__kyc__header,
+  .more__visuals__header,
+  .website-design__header,
+  .product__challenges__header,
+  .product__conclusion__header,
+  .product__presentation,
+  .product__next__header {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .product__text,
+  .product__brief__text,
+  .product__challenge__text,
+  .product__challenge__list li,
+  .product__role__text,
+  .research__text,
+  .research__subtext,
+  .research-sub__text,
+  .research__list li,
+  .product__solution__text,
+  .sign-in__text,
+  .loans__text,
+  .complete__kyc__text,
+  .product__challenges__text,
+  .product__conclusion__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .role-description__container p {
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 25px;
+  }
+
+  .wireframes__images img {
+    width: 150px;
+  }
+  .monthly-mobile-screens-one__images img,
+  .monthly-mobile-screens-two__images img,
+  .monthly-mobile-screens-three__images img {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .product__container,
+  .monthly-hero__image,
+  .about-product__container,
+  .wireframes__container,
+  .visual-design__container,
+  .complete__kyc__container,
+  .more__visuals__container,
+  .product__challenge__and__takeaway,
+  .product__conclusion 
+  .product-CTA_link {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 </style>

@@ -126,4 +126,29 @@ export default {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 320px) {
+    .sub-footer__text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 43px;
+  }
+
+  .footer__text {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .sub-footer__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+   .sub-footer__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+}
 </style>

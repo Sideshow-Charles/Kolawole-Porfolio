@@ -62,4 +62,14 @@ span.emoji {
     font-weight: 300px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .contact {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-weight: 300px;
+  }
+}
+
 </style>

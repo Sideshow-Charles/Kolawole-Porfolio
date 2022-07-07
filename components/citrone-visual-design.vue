@@ -247,5 +247,62 @@ export default {
     font-weight: 300;
     line-height: 43px;
   }
+
+  .visual-design__list li {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 43px;
+  }
+
+  .visual-design__image__caption {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .visual-design__header {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .visual-design__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .visual-design__list li {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+   .visual-design__gallery__container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 16px;
+  }
+
+  .visual-design__image__caption {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .visual-design__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* .visual-design__gallery__container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 16px;
+  } */
 }
 </style>

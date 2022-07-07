@@ -121,10 +121,6 @@ export default {};
     padding-right: 32px;
     flex-direction: column-reverse;
   }
-
-  /* .nav__items__center {
-    width: 100%;
-  } */
 }
 
 @media screen and (max-width: 540px) {
@@ -132,6 +128,26 @@ export default {};
     font-size: 17px;
     font-weight: 300;
     line-height: 43px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+   .nav__items__left {
+    /* width: 65%; */
+    gap: 0;
+  }
+
+    .nav__items__center {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 43px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .nav__bar {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 </style>

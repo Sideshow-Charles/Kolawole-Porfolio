@@ -3,7 +3,9 @@
     <section class="sending-money__container">
       <p class="sending-money__header">Sending Money</p>
       <div class="sending-money__text">
-        Once you’ve signed up/in and you have access to your account, you can fund the account with your account number given to you and you can also send money to other banks with the following steps :
+        Once you’ve signed up/in and you have access to your account, you can
+        fund the account with your account number given to you and you can also
+        send money to other banks with the following steps :
       </div>
       <ul class="sending-money__list">
         <li style="padding-left: 1em">
@@ -254,6 +256,45 @@ export default {
     font-size: 18px;
     font-weight: 300;
     line-height: 43px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .sending-money__header {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .sending-money__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .sending-money__list li {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .sending-money__image__caption {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .sending-money__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .sending-money__gallery__container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 16px;
   }
 }
 </style>

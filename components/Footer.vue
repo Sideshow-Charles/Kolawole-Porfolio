@@ -72,4 +72,10 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer__text {
+    font-size: 0.7em;
+  }
+}
 </style>

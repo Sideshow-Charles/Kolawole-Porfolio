@@ -1,5 +1,5 @@
 <template>
-  <div id="landing__page">
+  <div id="kuda__business__banking">
     <Header></Header>
     <article class="product__container">
       <article class="product__header">
@@ -17,7 +17,7 @@
         <p>2021 - Present</p>
         <p>Type - Fintech</p>
         <p>Role - Product Designer</p>
-        <p>Platform - Web Application, Mobile Application</p>
+        <p>Platform - Web, Mobile Application</p>
       </article>
     </article>
 
@@ -86,9 +86,29 @@
 
         <p class="sub-product__role__header">Collaborators</p>
         <p class="sub-product__role__text">
-          <span><a href="https://ng.linkedin.com/in/derek-kanu-blarc">Derek Kanu</a>,</span> <span><a href="https://ng.linkedin.com/in/tundekabirmason">Tunde Mason</a>,</span>
-          <span><a href="https://ng.linkedin.com/in/okoronkwokanno">Okoronkwo Kanno</a>,</span> <span><a href="https://ng.linkedin.com/in/omonoetomi">Omono Etomi</a>,</span>
-          <span><a href="https://ng.linkedin.com/in/michael-abegunde">Michael Abegunde</a>,</span> <span>Paul Adedokun</span>
+          <span
+            ><a href="https://ng.linkedin.com/in/derek-kanu-blarc">Derek Kanu</a
+            >,</span
+          >
+          <span
+            ><a href="https://ng.linkedin.com/in/tundekabirmason">Tunde Mason</a
+            >,</span
+          >
+          <span
+            ><a href="https://ng.linkedin.com/in/okoronkwokanno"
+              >Okoronkwo Kanno</a
+            >,</span
+          >
+          <span
+            ><a href="https://ng.linkedin.com/in/omonoetomi">Omono Etomi</a
+            >,</span
+          >
+          <span
+            ><a href="https://ng.linkedin.com/in/michael-abegunde"
+              >Michael Abegunde</a
+            >,</span
+          >
+          <span>Paul Adedokun</span>
         </p>
       </section>
 
@@ -230,13 +250,20 @@
     <section class="product__conclusion">
       <p class="product__conclusion__header">Conclusion and Outcome</p>
       <p class="product__conclusion__text">
-       Kuda Business is a product under Kuda MFB which has over 3 million customers and is currently in it’s expansion phase to the UK and other African countries, Kuda Business since it’s launch has helped add to the total Kuda MFB users with over 100,000 customers here in Lagos, Nigeria. As we continue growing more features will be added to satisfy out large and ever increasing customer base.
+        Kuda Business is a product under Kuda MFB which has over 3 million
+        customers and is currently in it’s expansion phase to the UK and other
+        African countries, Kuda Business since it’s launch has helped add to the
+        total Kuda MFB users with over 100,000 customers here in Lagos, Nigeria.
+        As we continue growing more features will be added to satisfy out large
+        and ever increasing customer base.
       </p>
     </section>
 
     <section class="product-CTA_link">
       <p>
-        <a href="https://business.kuda.com/login">Click here to go to website</a>
+        <a href="https://business.kuda.com/login"
+          >Click here to go to website</a
+        >
       </p>
     </section>
 
@@ -1052,9 +1079,10 @@ export default {
 }
 
 @media screen and (max-width: 540px) {
-  #landing__page {
+  #kuda__business__banking {
     background-image: url("../assets/images/lines-for-mobile.svg");
     background-position: top center;
+   background-repeat: repeat-y;
   }
 
   .product__container {
@@ -1331,6 +1359,118 @@ export default {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
+  .product__header,
+  .product__brief__header,
+  .product__challenge__header,
+  .product__role__header,
+  .sub-product__role__header,
+  .product-target__audience__header,
+  .product__solution__header,
+  .visual-design__header,
+  .onboarding__header,
+  .mobile-screens__header,
+  .product__challenges__header,
+  .product__conclusion__header,
+  .product__presentation,
+  .product__next__header {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .product__text,
+  .product__brief__text,
+  .product__challenges__text,
+  .product__challenge__list li,
+  .product__role__text,
+  .sub-product__role__text,
+  .product-target__audience__text,
+  .product__solution__text,
+  .flow-chart-onboarding__image__caption,
+  .business-registration__image__caption,
+  .visual-design__text,
+  .onboarding__text,
+  .mobile-screens__text,
+  .product__challenges__text,
+  .product__conclusion__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .role-description__container p {
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 25px;
+  }
+
+  .mobile-mobile-screens-one__images img,
+  .mobile-mobile-screens-two__images img,
+  .mobile-mobile-screens-three__images img {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .product__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .kuda-hero__image {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .about-product__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .flow-chart-onboarding__container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .business-registration__container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .visual-design__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .onboarding__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .onboarding-hero__image {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mobile-screens__container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .product__challenge__and__takeaway {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .product__conclusion {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .product-CTA_link {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 </style>
