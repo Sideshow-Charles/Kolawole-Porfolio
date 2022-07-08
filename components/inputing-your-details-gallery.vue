@@ -38,6 +38,19 @@
         </div>
       </section>
     </section>
+
+    <!-- Mobile slider -->
+    <section class="mobile__gallery">
+      
+      <div class="mobile-main__image">
+        <img :src="mainPicture" />
+      </div>
+
+      <div class="navigation__buttons">
+        <a class="previous">&#8592;</a>
+        <a class="next">&#8594;</a>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -189,6 +202,10 @@ export default {
   border: 3px solid #48d38a;
 }
 
+.mobile__gallery {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   .input-details__gallery__menu {
     flex-wrap: wrap;
@@ -245,6 +262,50 @@ export default {
     font-size: 18px;
     font-weight: 300;
     line-height: 43px;
+  }
+
+  .input-details__gallery__container {
+    display: none;
+  }
+
+  .mobile__gallery {
+    display: block;
+    position: relative;
+  }
+
+  .mobile-main__image {
+    background-color: #000;
+    margin: 0 32px;
+  }
+
+  .mobile-main__image img {
+    padding: 16px 32px;
+    max-width: 100%;
+  }
+
+  .navigation__buttons {
+    margin: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+   .previous {
+    position: absolute;
+    left: 2%;
+    top: -120px;
+    background: transparent;
+    color: white;
+    height: 200px;
+  }
+
+  .next {
+    position: absolute;
+    right: 2%;
+    top: -120px;
+    background: transparent;
+    color: white;
+    height: 200px;
   }
 }
 
