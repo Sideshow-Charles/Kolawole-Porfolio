@@ -302,7 +302,7 @@ export default {
 </script>
 
 <style scoped>
-#landing__page {
+#kuda__business__banking {
   background-image: url("../assets/images/lines-for-web.svg");
   background-repeat: repeat-y;
   background-position: top center;

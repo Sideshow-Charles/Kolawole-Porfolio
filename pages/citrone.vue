@@ -265,7 +265,7 @@ export default {
 </script>
 
 <style scoped>
-#landing__page {
+#citrone {
   background-image: url("../assets/images/lines-for-web.svg");
   background-repeat: repeat-y;
   background-position: top center;

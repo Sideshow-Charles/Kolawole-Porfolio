@@ -418,6 +418,7 @@ export default {
   text-align: left;
 }
 
+
 .work-history__header {
   font-weight: 900;
   font-family: "Graphik-Medium";
@@ -430,7 +431,6 @@ export default {
 
 .section-work__history {
   display: flex;
-  justify-content: space-between;
 }
 
 .work-history__list {
@@ -481,7 +481,8 @@ export default {
 .current__interests {
   padding: 7rem 121px;
   display: flex;
-  gap: 470px;
+  justify-content: space-between;
+  /* gap: 470px; */
   /* justify-content: space-around; */
   align-items: flex-start;
   margin: 0 auto;
@@ -507,6 +508,7 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 42px;
+  padding-right: 75px;
 }
 
 .current__interests__podcasts__header {
@@ -528,6 +530,7 @@ export default {
   text-align: left;
   margin-bottom: 2rem;
 }
+
 
 .current__interests__podcasts__images img {
   max-width: 70px;
