@@ -392,8 +392,10 @@ export default {
     font-family: "Graphik-Regular";
     position: absolute;
     text-align: center;
-    top: 235px;
-    padding: 0 64px;
+    top: 240px;
+    padding-bottom: 16px;
+    padding-left: 64px;
+    padding-right: 64px;
   }
 }
 
