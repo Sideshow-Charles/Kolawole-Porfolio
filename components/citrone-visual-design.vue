@@ -364,6 +364,10 @@ export default {
 }
 
 @media screen and (max-width: 414px) {
+  .mobile-main__image img {
+    padding-bottom: 180px;
+  }
+
   .navigation__buttons {
     margin: 0 32px;
     display: flex;
@@ -392,8 +396,9 @@ export default {
     font-family: "Graphik-Regular";
     position: absolute;
     text-align: center;
-    top: 240px;
-    padding-bottom: 16px;
+    top: 250px;
+    margin-top: 16px;
+    /* padding-bottom: 48px; */
     padding-left: 64px;
     padding-right: 64px;
   }
