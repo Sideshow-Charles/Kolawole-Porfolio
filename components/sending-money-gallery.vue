@@ -44,6 +44,30 @@
         </div>
       </section>
     </section>
+
+    <!-- Mobile gallery -->
+    <section class="mobile__gallery">
+      <div class="mobile-main__image">
+        <img :src="mainPicture" />
+      </div>
+      <div class="navigation__buttons">
+        <img
+          src="../assets/images/kb-left.svg"
+          alt=""
+          class="previous"
+          @click="prev"
+        />
+        <img
+          src="../assets/images/kb-right.svg"
+          alt=""
+          class="next"
+          @click="next"
+        />
+      </div>
+      <p class="mobile__gallery__caption">
+        {{ mainCaption }}
+      </p>
+    </section>
   </div>
 </template>
 
@@ -93,6 +117,25 @@ export default {
       this.mainPicture = this.pictures[index].image;
       this.mainCaption = this.pictures[index].caption;
       this.indexofActive = index;
+    },
+
+    next() {
+      if (this.indexofActive < this.pictures.length - 1) {
+        this.indexofActive++;
+        this.mainPicture = this.pictures[this.indexofActive].image;
+        this.mainCaption = this.pictures[this.indexofActive].caption;
+      } else {
+        this.indexofActive = 0;
+        this.mainPicture = this.pictures[0].image;
+        this.mainCaption = this.pictures[0].caption;
+      }
+    },
+    prev() {
+      if (this.indexofActive > 0) {
+        this.indexofActive--;
+        this.mainPicture = this.pictures[this.indexofActive].image;
+        this.mainCaption = this.pictures[this.indexofActive].caption;
+      }
     },
   },
 
@@ -196,6 +239,10 @@ export default {
   border: 3px solid #48d38a;
 }
 
+.mobile__gallery {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   .sending-money__gallery__menu {
     flex-wrap: wrap;
@@ -257,6 +304,100 @@ export default {
     font-weight: 300;
     line-height: 43px;
   }
+
+  .sending-money__gallery__container {
+    display: none;
+  }
+
+  .mobile__gallery {
+    display: block;
+    position: relative;
+  }
+
+  .mobile-main__image {
+    background-color: #000;
+    margin: 0 32px;
+  }
+
+  .mobile-main__image img {
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 100%;
+    padding-top: 32px;
+    padding-bottom: 144px;
+  }
+
+  .navigation__buttons {
+    margin: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .previous {
+    position: absolute;
+    left: -1%;
+    top: -350px;
+    background: transparent;
+    color: white;
+  }
+
+  .next {
+    position: absolute;
+    right: -1%;
+    top: -350px;
+    background: transparent;
+    color: white;
+  }
+
+  .mobile__gallery__caption {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: "Graphik-Regular";
+    position: absolute;
+    text-align: center;
+    top: 460px;
+    color: #fff;
+    padding: 0 64px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .navigation__buttons {
+    margin: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .previous {
+    position: absolute;
+    left: -1%;
+    top: -275px;
+    background: transparent;
+    color: white;
+  }
+
+  .next {
+    position: absolute;
+    right: -1%;
+    top: -275px;
+    background: transparent;
+    color: white;
+  }
+
+  .mobile__gallery__caption {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: "Graphik-Regular";
+    position: absolute;
+    text-align: center;
+    top: 330px;
+    color: #fff;
+    padding: 0 64px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -283,6 +424,19 @@ export default {
     font-weight: 300;
     line-height: 40px;
   }
+
+  .previous {
+    top: -250px;
+  }
+
+  .next {
+    top: -250px;
+  }
+
+  .mobile__gallery__caption {
+    top: 250px;
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 280px) {
@@ -295,6 +449,20 @@ export default {
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 16px;
+  }
+
+  .previous {
+    top: -230px;
+  }
+
+  .next {
+    top: -230px;
+  }
+
+  .mobile__gallery__caption {
+    top: 230px;
+    font-size: 13px;
+    padding: 0 48px;
   }
 }
 </style>

@@ -313,7 +313,7 @@ export default {
     padding-right: 32px;
     max-width: 100%;
     padding-top: 32px;
-    padding-bottom: 128px;
+    padding-bottom: 144px;
   }
 
   .navigation__buttons {
@@ -326,7 +326,7 @@ export default {
   .previous {
     position: absolute;
     left: -1%;
-    top: -230px;
+    top: -300px;
     background: transparent;
     color: white;
   }
@@ -334,7 +334,7 @@ export default {
   .next {
     position: absolute;
     right: -1%;
-    top: -230px;
+    top: -300px;
     background: transparent;
     color: white;
   }
@@ -346,11 +346,55 @@ export default {
     font-family: "Graphik-Regular";
     position: absolute;
     text-align: center;
-    top: 235px;
+    top: 330px;
     color: #fff;
     padding: 0 64px;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .navigation__buttons {
+    margin: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .previous {
+    position: absolute;
+    left: -1%;
+    top: -240px;
+    background: transparent;
+    color: white;
+  }
+
+  .next {
+    position: absolute;
+    right: -1%;
+    top: -240px;
+    background: transparent;
+    color: white;
+  }
+
+  .mobile__gallery__caption {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: "Graphik-Regular";
+    position: absolute;
+    text-align: center;
+    top: 245px;
+    color: #fff;
+    padding: 0 64px;
+  }
+}
+
+/* @media screen and (max-width: 375px) {
+  .mobile__gallery__caption {
+    top: 230px;
+    line-height: 24px;
+  }
+} */
 
 @media screen and (max-width: 320px) {
   .input-details__header {
@@ -376,6 +420,19 @@ export default {
     font-weight: 300;
     line-height: 40px;
   }
+
+  .previous {
+    top: -225px;
+  }
+
+  .next {
+    top: -225px;
+  }
+
+  .mobile__gallery__caption {
+    top: 185px;
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 280px) {
@@ -388,6 +445,20 @@ export default {
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 16px;
+  }
+
+  .previous {
+    top: -210px;
+  }
+
+  .next {
+    top: -210px;
+  }
+
+  .mobile__gallery__caption {
+    top: 155px;
+    font-size: 13px;
+    padding: 0 48px;
   }
 }
 </style>
