@@ -39,17 +39,28 @@
       </section>
     </section>
 
-    <!-- Mobile slider -->
+    <!-- Mobile gallery -->
     <section class="mobile__gallery">
-      
       <div class="mobile-main__image">
         <img :src="mainPicture" />
       </div>
-
       <div class="navigation__buttons">
-        <a class="previous">&#8592;</a>
-        <a class="next">&#8594;</a>
+        <img
+          src="../assets/images/kb-left.svg"
+          alt=""
+          class="previous"
+          @click="prev"
+        />
+        <img
+          src="../assets/images/kb-right.svg"
+          alt=""
+          class="next"
+          @click="next"
+        />
       </div>
+      <p class="mobile__gallery__caption">
+        {{ mainCaption }}
+      </p>
     </section>
   </div>
 </template>
@@ -103,6 +114,25 @@ export default {
       this.mainPicture = this.pictures[index].image;
       this.mainCaption = this.pictures[index].caption;
       this.indexofActive = index;
+    },
+
+    next() {
+      if (this.indexofActive < this.pictures.length - 1) {
+        this.indexofActive++;
+        this.mainPicture = this.pictures[this.indexofActive].image;
+        this.mainCaption = this.pictures[this.indexofActive].caption;
+      } else {
+        this.indexofActive = 0;
+        this.mainPicture = this.pictures[0].image;
+        this.mainCaption = this.pictures[0].caption;
+      }
+    },
+    prev() {
+      if (this.indexofActive > 0) {
+        this.indexofActive--;
+        this.mainPicture = this.pictures[this.indexofActive].image;
+        this.mainCaption = this.pictures[this.indexofActive].caption;
+      }
     },
   },
 
@@ -279,8 +309,11 @@ export default {
   }
 
   .mobile-main__image img {
-    padding: 16px 32px;
+    padding-left: 32px;
+    padding-right: 32px;
     max-width: 100%;
+    padding-top: 32px;
+    padding-bottom: 128px;
   }
 
   .navigation__buttons {
@@ -290,22 +323,32 @@ export default {
     position: relative;
   }
 
-   .previous {
+  .previous {
     position: absolute;
-    left: 2%;
-    top: -120px;
+    left: -1%;
+    top: -230px;
     background: transparent;
     color: white;
-    height: 200px;
   }
 
   .next {
     position: absolute;
-    right: 2%;
-    top: -120px;
+    right: -1%;
+    top: -230px;
     background: transparent;
     color: white;
-    height: 200px;
+  }
+
+  .mobile__gallery__caption {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: "Graphik-Regular";
+    position: absolute;
+    text-align: center;
+    top: 235px;
+    color: #fff;
+    padding: 0 64px;
   }
 }
 
