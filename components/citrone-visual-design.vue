@@ -378,14 +378,14 @@ export default {
   .previous {
     position: absolute;
     left: -1%;
-    top: -275px;
+    top: -290px;
     background: transparent;
   }
 
   .next {
     position: absolute;
     right: -1%;
-    top: -275px;
+    top: -290px;
     background: transparent;
   }
 
