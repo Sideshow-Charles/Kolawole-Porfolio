@@ -196,7 +196,7 @@ export default {
   gap: 72px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .selected-works__container__mobile {
@@ -206,10 +206,12 @@ export default {
 .selected-works__container a img {
   max-width: 100%;
   transition: transform 0.5s ease;
+  /* overflow: hidden; */
 }
 
 .selected-works__container a img:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
+  /* overflow: hidden; */
 }
 
 .selected-works__container a {
