@@ -114,8 +114,7 @@
                 He didn’t think the app was good to look at (bad UI)
               </li>
               <li style="padding-left: 1em">
-                Communication with other Agents and potential buyers weren’t as
-                seamless as he expected
+              Communication with other Agents and potential buyers wasn’t as seamless as he expected
               </li>
             </ul>
           </section>

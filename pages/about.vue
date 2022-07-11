@@ -40,11 +40,7 @@
           teams on the field.
         </p>
         <p class="about__text__third__paragraph">
-          My design journey has been a very interesting one. I have been
-          opportuned wot work with great minds and in different industries
-          ranging from fintech to transportation, healthtech and agritech.
-          Working in these different fields and environments has helped me ship
-          out great but most importantly, usable products.
+          My design journey has been a very interesting one. I have had the opportunity of working with great minds and in different industries ranging from fintech to transportation, healthtech and agritech. Working in these different fields and environments has helped me ship out great but most importantly, usable products.
         </p>
         <p class="about__text__fourth__paragraph">
           I completed my undergraduate degree in Computer Science in 2018.
@@ -54,9 +50,7 @@
           video games.
         </p>
         <p class="about__text__final__paragraph">
-          In my spare time, I write about sports, I watch a lot of sports and I
-          play video games. I’m currently available for any design gigs, if
-          you’d like to build something groundbreaking shoot me a mail at
+         I’m currently available for any design gigs, if you’d like to build something groundbreaking shoot me a mail at
           <a href="mailto:kolapopoola4@gmail.com"
             >kolapopoola4@gmail.com :)<img
               src="../assets/images/underline.svg"
