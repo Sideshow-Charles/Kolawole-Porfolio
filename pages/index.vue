@@ -216,15 +216,15 @@ export default {
 
 .selected-works__container a {
   /* width: fit-content; */
-  display: inline-block;
+  /* display: inline-block; */
 }
 
-.selected__works {
+/* .selected__works {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .sub-footer__container {
   text-align: center;

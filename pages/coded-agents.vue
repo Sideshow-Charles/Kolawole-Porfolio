@@ -150,14 +150,16 @@
         <p class="key__motivators__header">Key Motivators</p>
         <ul class="key__motivators__list">
           <li style="padding-left: 1em">
-            He didn’t think the app was easy to use
+            Existing app doesn’t help them achieve their main goal which is; posting the property they have for sale/lease and connecting with fellow agents and customers seamlessly
           </li>
           <li style="padding-left: 1em">
-            He didn’t think the app was good to look at (bad UI)
+            To be able to post all specifications of the house needed
           </li>
           <li style="padding-left: 1em">
-            Communication with other Agents and potential buyers weren’t as
-            seamless as he expected
+            A platform that connects them with fellow agents that can be of help to them
+          </li>
+           <li style="padding-left: 1em">
+            A platform that is easy and seamless to use
           </li>
         </ul>
       </section>
@@ -827,6 +829,14 @@ export default {
   font-weight: 300;
   line-height: 3rem;
   margin-bottom: 1rem;
+}
+
+.mobile-screens-two-mobile__images {
+  display: none;
+}
+
+.mobile-screens-three-mobile__images {
+  display: none;
 }
 
 .mobile-screens-two__container {
