@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style scoped>
-#landing__page {
+#designs {
   background-image: url("../assets/images/lines-for-web.svg");
   background-repeat: no-repeat;
   background-position: top center;
