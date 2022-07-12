@@ -389,13 +389,6 @@ export default {
   }
 }
 
-/* @media screen and (max-width: 375px) {
-  .mobile__gallery__caption {
-    top: 230px;
-    line-height: 24px;
-  }
-} */
-
 @media screen and (max-width: 320px) {
   .input-details__header {
     font-size: 20px;

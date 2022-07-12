@@ -10,7 +10,7 @@
             <a href="mailto:kolapopoola4@gmail.com">kolapopoola4@gmail.com</a>
           </p>
           <section class="social-images__container">
-            <a href="twitter.com/_Kolaa"
+            <a href="https://www.twitter.com/_Kolaa"
               ><img src="../assets/images/twitter.svg" alt=""
             /></a>
             <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143"
@@ -40,7 +40,11 @@
           teams on the field.
         </p>
         <p class="about__text__third__paragraph">
-          My design journey has been a very interesting one. I have had the opportunity of working with great minds and in different industries ranging from fintech to transportation, healthtech and agritech. Working in these different fields and environments has helped me ship out great but most importantly, usable products.
+          My design journey has been a very interesting one. I have had the
+          opportunity of working with great minds and in different industries
+          ranging from fintech to transportation, healthtech and agritech.
+          Working in these different fields and environments has helped me ship
+          out great but most importantly, usable products.
         </p>
         <p class="about__text__fourth__paragraph">
           I completed my undergraduate degree in Computer Science in 2018.
@@ -50,7 +54,8 @@
           video games.
         </p>
         <p class="about__text__final__paragraph">
-         I’m currently available for any design gigs, if you’d like to build something groundbreaking shoot me a mail at
+          I’m currently available for any design gigs, if you’d like to build
+          something groundbreaking shoot me a mail at
           <a href="mailto:kolapopoola4@gmail.com"
             >kolapopoola4@gmail.com :)<img
               src="../assets/images/underline.svg"
@@ -367,7 +372,6 @@ export default {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  /* margin-bottom: 3rem; */
   padding: 20px 0;
 }
 
@@ -378,7 +382,6 @@ export default {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  /* margin-bottom: 3rem; */
   padding: 20px 0;
 }
 
@@ -411,7 +414,6 @@ export default {
   letter-spacing: 0em;
   text-align: left;
 }
-
 
 .work-history__header {
   font-weight: 900;
@@ -449,7 +451,6 @@ export default {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  /* margin-top: 1rem; */
   margin-bottom: 1rem;
   margin-left: 2.6rem;
 }
@@ -476,8 +477,6 @@ export default {
   padding: 7rem 121px;
   display: flex;
   justify-content: space-between;
-  /* gap: 470px; */
-  /* justify-content: space-around; */
   align-items: flex-start;
   margin: 0 auto;
   max-width: 109.2rem;
@@ -525,7 +524,6 @@ export default {
   margin-bottom: 2rem;
 }
 
-
 .current__interests__podcasts__images img {
   max-width: 70px;
   margin-right: 20px;
@@ -538,7 +536,6 @@ export default {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  /* margin-top: 2rem; */
   margin-bottom: 2rem;
 }
 
@@ -572,7 +569,6 @@ export default {
   }
 
   .current__interests {
-    /* flex-direction: column; */
     padding-left: 64px;
     padding-right: 64px;
     gap: 150px;
@@ -739,7 +735,6 @@ export default {
   .toolkit__header {
     font-size: 20px;
     font-weight: 300;
-    /* margin-bottom: 1rem; */
   }
   .design__methods__header {
     font-size: 18px;

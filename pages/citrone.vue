@@ -284,7 +284,6 @@ export default {
   font-family: "Graphik-SemiBold";
   font-size: 2rem;
   font-weight: 600;
-  /* letter-spacing: 0.02em; */
   line-height: 4.5rem;
   margin-bottom: 1.5rem;
   max-width: 55rem;
@@ -434,7 +433,6 @@ export default {
   margin-top: 60px;
   display: flex;
   gap: 175px;
-  /* justify-content: space-between; */
 }
 
 .research-example__one {
@@ -457,7 +455,6 @@ export default {
   line-height: 33px;
   font-weight: 400;
   font-size: 1.2rem;
-  /* margin-bottom: 1rem; */
 }
 
 .research-example__one__header__sub__text {
@@ -521,7 +518,6 @@ export default {
 
 .research-example__two__decription {
   margin-top: 26px;
-  /* max-width: 30rem; */
   font-family: "Graphik-Regular";
   font-weight: 300;
   font-size: 1.2rem;
@@ -766,29 +762,7 @@ export default {
   .role-description__container p {
     margin-bottom: 0.5rem;
   }
-
-  /* .research-examples__container {
-    flex-direction: column;
-  }
-
-   .research-example__one {
-    max-width: fit-content;
-  }
-
-  .research-example__two {
-    max-width: fit-content;
-  } */
-}
-
-/* @media screen and (max-width: 1024px) {
-  .research-example__one {
-    max-width: 20rem;
-  }
-
-  .research-example__two {
-    max-width: 20rem;
-  }
-} */
+} 
 
 @media screen and (max-width: 980px) {
   .product__container {
@@ -804,20 +778,6 @@ export default {
   .citrone-hero__image {
     padding: 0 64px;
   }
-
-  /* .research-examples__container {
-    flex-direction: column;
-    gap: 0;
-  } */
-
-  /* .research-example__one {
-    max-width: 30rem;
-    margin-bottom: 10rem;
-  }
-
-  .research-example__two {
-    max-width: 30rem;
-  } */
 
   .user-journey__container {
     padding-left: 64px;
@@ -850,15 +810,6 @@ export default {
   }
 }
 
-/* @media screen and (max-width: 912px) {
-  .research-example__one {
-    max-width: fit-content;
-  }
-
-  .research-example__two {
-    max-width: fit-content;
-  }
-} */
 
 @media screen and (max-width: 768px) {
   .product__container {

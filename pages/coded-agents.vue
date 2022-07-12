@@ -599,7 +599,6 @@ export default {
 
 .research-example__two__decription {
   margin-top: 26px;
-  /* max-width: 30rem; */
   font-family: "Graphik-Regular";
   font-weight: 300;
   font-size: 1.2rem;
@@ -844,8 +843,6 @@ export default {
   align-items: center;
   margin-bottom: 3rem;
   gap: 67px;
-  /* width: 50%;
-  margin: 0 auto; */
 }
 
 .mobile-screens-two__one {
@@ -854,17 +851,14 @@ export default {
   background-size: 100% 500px;
   width: 500px;
   background-position: bottom center;
-  /* z-index: 500; */
 }
 
 .mobile-screens-two__one img {
   max-width: 375px;
-  /* padding: 0 64px; */
   position: relative;
   top: 75px;
   margin: auto;
   display: block;
-  /* z-index: ; */
 }
 
 .mobile-screens-two__two {
@@ -956,7 +950,6 @@ export default {
 
 .mobile-screens-three__images img:nth-child(2) {
   max-height: 986px;
-  /* top: -68px; */
 }
 
 .product__challenge__and__takeaway {
@@ -1169,16 +1162,6 @@ export default {
   }
 }
 
-/* @media screen and (max-width: 1024px) {
-  .research-example__one {
-    max-width: 20rem;
-  }
-
-  .research-example__two {
-    max-width: 20rem;
-  }
-} */
-
 @media screen and (max-width: 980px) {
   .product__container {
     padding-left: 64px;
@@ -1193,19 +1176,6 @@ export default {
   .coded-agents-hero__image {
     padding: 0 64px;
   }
-
-  /* .research-examples__container {
-    flex-direction: column;
-  } */
-
-  /* .research-example__one {
-    margin-bottom: 10rem;
-    max-width: 30rem;
-  }
-
-  .research-example__two {
-    max-width: 30rem;
-  } */
 
   .existing-app__container {
     padding-left: 64px;
@@ -1671,8 +1641,6 @@ export default {
   .product__challenge__header,
   .product__role__header,
   .research__header,
-  /* .research-example__one__header,
-  .research-example__two__header, */
   .key__motivators__header,
   .existing-app__header,
   .visual-design__header,

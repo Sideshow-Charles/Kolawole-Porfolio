@@ -885,11 +885,6 @@ export default {
   text-decoration: none;
 }
 
-/* .nav__items__center a:active,
-.nav__items__center a.nuxt-link-active {
-  border-bottom: 3px solid #14586d;
-} */
-
 @media screen and (max-width: 1280px) {
   .role-description__container {
     flex-wrap: wrap;
@@ -1242,8 +1237,6 @@ export default {
     background-repeat: no-repeat;
     background-size: 100% 1000px;
     background-position: center;
-    /* margin-left: 47px;
-  margin-right: 47px; */
     margin-bottom: 200px;
   }
 
@@ -1272,8 +1265,6 @@ export default {
     background-repeat: no-repeat;
     background-size: 100% 1000px;
     background-position: center;
-    /* margin-left: 47px;
-    margin-right: 47px; */
     margin-bottom: 200px;
   }
 
@@ -1302,8 +1293,6 @@ export default {
     background-repeat: no-repeat;
     background-size: 100% 1000px;
     background-position: center;
-    /* margin-left: 47px;
-    margin-right: 47px; */
     margin-bottom: 200px;
   }
 

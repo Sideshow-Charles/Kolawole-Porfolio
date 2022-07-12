@@ -4,9 +4,9 @@
       <p><span>&#169;</span>2022 Kolawole Popoola</p>
     </footer>
     <footer class="footer__links">
-      <a href="twitter.com/_Kolaa"><img src="../assets/images/twitter.svg" alt="" /></a>
+      <a href="https://www.twitter.com/_Kolaa"><img src="../assets/images/twitter.svg" alt="" /></a>
       <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143"><img src="../assets/images/linkedin.svg" alt="" /></a>
-      <a href="dribbble.com/_Kolaa"><img src="../assets/images/dribbble.svg" alt="" /></a>
+      <a href="https://www.dribbble.com/_Kolaa"><img src="../assets/images/dribbble.svg" alt="" /></a>
     </footer>
   </footer>
 </template>

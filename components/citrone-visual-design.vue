@@ -398,7 +398,6 @@ export default {
     text-align: center;
     top: 250px;
     margin-top: 16px;
-    /* padding-bottom: 48px; */
     padding-left: 64px;
     padding-right: 64px;
   }

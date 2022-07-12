@@ -322,7 +322,6 @@ export default {
 }
 
 .product__container {
-  flex-direction: column;
   max-width: 109.2rem;
   margin: 0 auto;
   padding-top: 7rem;
@@ -1281,8 +1280,6 @@ export default {
     background-repeat: no-repeat;
     background-size: 100% 2000px;
     background-position: center;
-    /* margin-left: 47px;
-    margin-right: 47px; */
     margin-top: 107px;
     margin-bottom: 200px;
   }
@@ -1319,7 +1316,6 @@ export default {
 
   .website-design__images {
     display: none;
-    /* max-width: 100%; */
   }
 
   .mobile-website-design__images {

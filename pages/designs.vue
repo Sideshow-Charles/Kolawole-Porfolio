@@ -63,7 +63,6 @@ export default {
   font-family: "Graphik-SemiBold";
   font-size: 2rem;
   font-weight: 600;
-  /* letter-spacing: -0.03em; */
   line-height: 4.5rem;
   margin-bottom: 1.5rem;
 }
@@ -84,7 +83,7 @@ export default {
 
 .design__images img {
   max-width: 100%;
-} 
+}
 
 .design__caption {
   font-family: "Graphik-Regular";
@@ -96,7 +95,6 @@ export default {
 @media screen and (min-width: 1024px) {
   .design__images {
     gap: 20px;
-    /* display: grid; */
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   }
 }
@@ -119,7 +117,7 @@ export default {
   }
 
   .design__images {
-     grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 
   .design__images img {
@@ -162,23 +160,23 @@ export default {
 }
 
 @media screen and (max-width: 320px) {
-   .more-designs__header {
-     font-size: 20px;
+  .more-designs__header {
+    font-size: 20px;
     font-weight: 300;
     line-height: 40px;
-   }
+  }
 
-   .more-designs__text {
+  .more-designs__text {
     font-size: 15px;
     font-weight: 300;
     line-height: 40px;
-   }
+  }
 
-   .design__caption {
+  .design__caption {
     font-size: 15px;
     font-weight: 300;
     line-height: 40px;
-   }
+  }
 }
 
 @media screen and (max-width: 280px) {
