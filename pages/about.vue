@@ -549,6 +549,13 @@ export default {
     flex-direction: column;
     gap: 150px;
   }
+
+  .about__text__final__paragraph img {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 255px;
+  }
 }
 
 @media screen and (max-width: 980px) {

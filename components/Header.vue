@@ -79,7 +79,11 @@ export default {};
 @media screen and (max-width: 1024px) {
   .nav__items__left {
     width: 65%;
-    gap: 30px;
+  }
+
+  .nav__items__center {
+    font-size: 16px;
+    width: 60%;
   }
 }
 
