@@ -7,15 +7,12 @@
         <section class="contact__information__container">
           <p class="contact__information__header">Contact Me</p>
           <p class="contact__information__email">
-            <a href="mailto:kolapopoola4@gmail.com">kolapopoola4@gmail.com</a>
+            <a href="mailto:kolapopoola4@gmail.com" target="_blank">kolapopoola4@gmail.com</a>
           </p>
           <section class="social-images__container">
-            <a href="https://www.twitter.com/_Kolaa"
-              ><img src="../assets/images/twitter.svg" alt=""
-            /></a>
-            <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143"
-              ><img src="../assets/images/linkedin.svg" alt=""
-            /></a>
+            <a href="https://www.twitter.com/_Kolaa" target="_blank"><img src="../assets/images/twitter.svg" alt="" /></a>
+            <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143" target="_blank"><img src="../assets/images/linkedin.svg"
+                alt="" /></a>
           </section>
         </section>
       </section>
@@ -26,10 +23,10 @@
         <p class="about__text__first__paragraph">
           I’m Kolawole, a product designer passionate about building
           human-centric products. I currently work at
-          <span><a href="https://kuda.com/">Kuda Bank</a></span> as a Product
+          <span><a href="https://kuda.com/" target="_blank">Kuda Bank</a></span> as a Product
           Designer with some really talented people, building one of the biggest
           Neo-bank’s in Africa. Previously I worked at
-          <span><a href="https://www.max.ng/">MAX.NG</a></span> as the Lead
+          <span><a href="https://www.max.ng/" target="_blank">MAX.NG</a></span> as the Lead
           Designer.
         </p>
         <p class="about__text__second__paragraph">
@@ -56,11 +53,8 @@
         <p class="about__text__final__paragraph">
           I’m currently available for any design gigs, if you’d like to build
           something groundbreaking shoot me a mail at
-          <a href="mailto:kolapopoola4@gmail.com"
-            >kolapopoola4@gmail.com :)<img
-              src="../assets/images/underline.svg"
-              alt=""
-          /></a>
+          <a href="mailto:kolapopoola4@gmail.com" target="_blank">kolapopoola4@gmail.com :)<img src="../assets/images/underline.svg"
+              alt="" /></a>
         </p>
       </section>
     </section>
@@ -138,18 +132,14 @@
         <p class="current__interests__reading__header">Currently Reading</p>
 
         <div class="current__interests__images">
+          <a href="https://www.amazon.co.uk/Golden-Miraculous-Rise-Steph-Curry/dp/1501147838" target="_blank"><img
+              src="../assets/images/currently-reading1.png" alt="" /></a>
           <a
-            href="https://www.amazon.co.uk/Golden-Miraculous-Rise-Steph-Curry/dp/1501147838"
-            ><img src="../assets/images/currently-reading1.png" alt=""
-          /></a>
+            href="https://www.amazon.co.uk/s?k=andre+iguodala+the+sixth+man&adgrpid=118751224482&gclid=EAIaIQobChMI6MO-w9_h-AIVhLHtCh0h3QvcEAAYASAAEgLNhfD_BwE&hvadid=578505902815&hvdev=m&hvlocphy=20339&hvnetw=g&hvqmt=e&hvrand=1772722565327168302&hvtargid=kwd-774993042662&hydadcr=24134_2250247&tag=hydrukspg-21&ref=pd_sl_4nw0ggqjy_e" target="_blank"><img
+              src="../assets/images/currently-reading2.png" alt="" /></a>
           <a
-            href="https://www.amazon.co.uk/s?k=andre+iguodala+the+sixth+man&adgrpid=118751224482&gclid=EAIaIQobChMI6MO-w9_h-AIVhLHtCh0h3QvcEAAYASAAEgLNhfD_BwE&hvadid=578505902815&hvdev=m&hvlocphy=20339&hvnetw=g&hvqmt=e&hvrand=1772722565327168302&hvtargid=kwd-774993042662&hydadcr=24134_2250247&tag=hydrukspg-21&ref=pd_sl_4nw0ggqjy_e"
-            ><img src="../assets/images/currently-reading2.png" alt=""
-          /></a>
-          <a
-            href="https://www.amazon.co.uk/Designing-People-Think-John-Whalen/dp/1491985453/ref=asc_df_1491985453/?tag=googshopuk-21&linkCode=df0&hvadid=344396759675&hvpos=&hvnetw=g&hvrand=7037749491465602488&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=20339&hvtargid=pla-686148797180&psc=1&th=1&psc=1"
-            ><img src="../assets/images/currently-reading3.png" alt=""
-          /></a>
+            href="https://www.amazon.co.uk/Designing-People-Think-John-Whalen/dp/1491985453/ref=asc_df_1491985453/?tag=googshopuk-21&linkCode=df0&hvadid=344396759675&hvpos=&hvnetw=g&hvrand=7037749491465602488&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=20339&hvtargid=pla-686148797180&psc=1&th=1&psc=1" target="_blank"><img
+              src="../assets/images/currently-reading3.png" alt="" /></a>
         </div>
       </section>
 
@@ -161,22 +151,14 @@
           <p class="current__interests__podcasts__sub__header">Podcasts:</p>
 
           <div class="current__interests__podcasts__images">
-            <a
-              href="https://open.spotify.com/show/6xbt4cCcUqtMT5sPdbWkrb?si=koiP_pvTTl6Zv_tgYpuNJg"
-              ><img src="../assets/images/currently-listening1.png" alt=""
-            /></a>
-            <a
-              href="https://open.spotify.com/show/6xbt4cCcUqtMT5sPdbWkrb?si=koiP_pvTTl6Zv_tgYpuNJg"
-              ><img src="../assets/images/currently-listening2.png" alt=""
-            /></a>
-            <a
-              href="https://open.spotify.com/show/59RliaMdeDAkEgp9nj1Mkj?si=dOIu4PoMRFqgWTTbxf5ahA"
-              ><img src="../assets/images/currently-listening3.png" alt=""
-            /></a>
-            <a
-              href="https://open.spotify.com/show/7sq2pGJnjeXvGgL8qiTsdt?si=2uMGIyL"
-              ><img src="../assets/images/currently-listening4.png" alt=""
-            /></a>
+            <a href="https://open.spotify.com/show/6xbt4cCcUqtMT5sPdbWkrb?si=koiP_pvTTl6Zv_tgYpuNJg" target="_blank"><img
+                src="../assets/images/currently-listening1.png" alt="" /></a>
+            <a href="https://open.spotify.com/show/6xbt4cCcUqtMT5sPdbWkrb?si=koiP_pvTTl6Zv_tgYpuNJg" target="_blank"><img
+                src="../assets/images/currently-listening2.png" alt="" /></a>
+            <a href="https://open.spotify.com/show/59RliaMdeDAkEgp9nj1Mkj?si=dOIu4PoMRFqgWTTbxf5ahA" target="_blank"><img
+                src="../assets/images/currently-listening3.png" alt="" /></a>
+            <a href="https://open.spotify.com/show/7sq2pGJnjeXvGgL8qiTsdt?si=2uMGIyL" target="_blank"><img
+                src="../assets/images/currently-listening4.png" alt="" /></a>
           </div>
         </div>
 
@@ -184,10 +166,8 @@
           <p class="current__interests__music__header">Music:</p>
 
           <div class="current__interests__images">
-            <a
-              href="https://open.spotify.com/user/1637v78g8mzx0lrxxt5xf368w?si=V74aPdsgSdKrUi9-uUdLlw"
-              ><img src="../assets/images/currently-listening5.png" alt=""
-            /></a>
+            <a href="https://open.spotify.com/user/1637v78g8mzx0lrxxt5xf368w?si=V74aPdsgSdKrUi9-uUdLlw" target="_blank"><img
+                src="../assets/images/currently-listening5.png" alt="" /></a>
           </div>
         </div>
       </section>
@@ -743,6 +723,7 @@ export default {
     font-size: 20px;
     font-weight: 300;
   }
+
   .design__methods__header {
     font-size: 18px;
     font-weight: 300;

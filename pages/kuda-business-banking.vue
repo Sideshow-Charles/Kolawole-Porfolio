@@ -22,18 +22,8 @@
     </article>
 
     <section class="kuda-hero__image">
-      <img
-        src="../assets/images/kuda-hero-image.png"
-        alt=""
-        class="hero-image"
-        width="100%"
-      />
-      <img
-        src="../assets/images/kuda-mobile-image.png"
-        class="mobile-image"
-        alt=""
-        width="100%"
-      />
+      <img src="../assets/images/kuda-hero-image.png" alt="" class="hero-image" width="100%" />
+      <img src="../assets/images/kuda-mobile-image.png" class="mobile-image" alt="" width="100%" />
     </section>
 
     <section class="about-product__container">
@@ -86,28 +76,11 @@
 
         <p class="sub-product__role__header">Collaborators</p>
         <p class="sub-product__role__text">
-          <span
-            ><a href="https://ng.linkedin.com/in/derek-kanu-blarc">Derek Kanu</a
-            >,</span
-          >
-          <span
-            ><a href="https://ng.linkedin.com/in/tundekabirmason">Tunde Mason</a
-            >,</span
-          >
-          <span
-            ><a href="https://ng.linkedin.com/in/okoronkwokanno"
-              >Okoronkwo Kanno</a
-            >,</span
-          >
-          <span
-            ><a href="https://ng.linkedin.com/in/omonoetomi">Omono Etomi</a
-            >,</span
-          >
-          <span
-            ><a href="https://ng.linkedin.com/in/michael-abegunde"
-              >Michael Abegunde</a
-            >,</span
-          >
+          <span><a href="https://ng.linkedin.com/in/derek-kanu-blarc" target="_blank">Derek Kanu</a>,</span>
+          <span><a href="https://ng.linkedin.com/in/tundekabirmason" target="_blank">Tunde Mason</a>,</span>
+          <span><a href="https://ng.linkedin.com/in/okoronkwokanno" target="_blank">Okoronkwo Kanno</a>,</span>
+          <span><a href="https://ng.linkedin.com/in/omonoetomi" target="_blank">Omono Etomi</a>,</span>
+          <span><a href="https://ng.linkedin.com/in/michael-abegunde" target="_blank">Michael Abegunde</a>,</span>
           <span>Paul Adedokun</span>
         </p>
       </section>
@@ -135,10 +108,7 @@
       <section class="flow-chart-onboarding__container">
         <section class="flow-chart-onboarding__content">
           <section class="flow-chart-onboarding__images">
-            <img
-              src="../assets/images/Kuda Business Onboarding V2-New-to-Bank Onboarding final.png"
-              alt=""
-            />
+            <img src="../assets/images/Kuda Business Onboarding V2-New-to-Bank Onboarding final.png" alt="" />
           </section>
         </section>
       </section>
@@ -147,10 +117,7 @@
       <section class="business-registration__container">
         <section class="business-registration__content">
           <section class="business-registration__images">
-            <img
-              src="../assets/images/Kuda Business Onboarding V2-Business Registration.png"
-              alt=""
-            />
+            <img src="../assets/images/Kuda Business Onboarding V2-Business Registration.png" alt="" />
           </section>
         </section>
       </section>
@@ -261,9 +228,7 @@
 
     <section class="product-CTA_link">
       <p>
-        <a href="https://business.kuda.com/login"
-          >Click here to go to website</a
-        >
+        <a href="https://business.kuda.com/login" target="_blank">Click here to go to website</a>
       </p>
     </section>
 
@@ -1077,7 +1042,7 @@ export default {
   #kuda__business__banking {
     background-image: url("../assets/images/lines-for-mobile.svg");
     background-position: top center;
-   background-repeat: repeat-y;
+    background-repeat: repeat-y;
   }
 
   .product__container {
@@ -1349,6 +1314,7 @@ export default {
 }
 
 @media screen and (max-width: 320px) {
+
   .product__header,
   .product__brief__header,
   .product__challenge__header,

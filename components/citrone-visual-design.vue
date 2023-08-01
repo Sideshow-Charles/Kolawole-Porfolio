@@ -23,11 +23,8 @@
 
       <section class="visual-design__gallery__menu">
         <div v-for="(pictures, index) in pictures" v-bind:key="index">
-          <img
-            :src="pictures.image"
-            @click="changemainPicture(index)"
-            :class="{ active: index == indexofActive ? true : false }"
-          />
+          <img :src="pictures.image" @click="changemainPicture(index)"
+            :class="{ active: index == indexofActive ? true : false }" />
         </div>
       </section>
     </section>
@@ -38,18 +35,8 @@
         <img :src="mainPicture" />
       </div>
       <div class="navigation__buttons">
-        <img
-          src="../assets/images/citrone-left.svg"
-          alt=""
-          class="previous"
-          @click="prev"
-        />
-        <img
-          src="../assets/images/citrone-right.svg"
-          alt=""
-          class="next"
-          @click="next"
-        />
+        <img src="../assets/images/citrone-left.svg" alt="" class="previous" @click="prev" />
+        <img src="../assets/images/citrone-right.svg" alt="" class="next" @click="next" />
       </div>
       <p class="mobile__gallery__caption">
         {{ mainCaption }}
@@ -455,7 +442,7 @@ export default {
     padding-right: 16px;
   }
 
-   .previous {
+  .previous {
     top: -220px;
   }
 

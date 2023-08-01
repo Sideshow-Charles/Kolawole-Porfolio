@@ -13,7 +13,7 @@
           Hi, I’m Kolawole Popoola, a Product Designer with over 4 years
           experience in delivering end to end, usable designs for digital
           products. I currently work with some talented people at
-          <span><a href="http://kuda.com/">Kuda Bank</a></span>
+          <span><a href="http://kuda.com/" target="_blank">Kuda Bank</a></span>
           building the best Neobank in Africa. In my spare time, I write about
           sports, I watch a lot of sports and I play video games.
         </p>
@@ -36,16 +36,16 @@
           <p>Some of my selected work</p>
         </section>
         <section class="selected-works__container">
-          <!-- <div class="selected__works"> -->
+          
           <a href="/kuda-business-banking"
             ><img src="../assets/images/selected-work1.png" alt=""
           /></a>
           <a href="/monthly"
             ><img src="../assets/images/selected-work2.png" alt=""
           /></a>
-          <!-- </div> -->
+        
 
-          <!-- <div class="selected__works"> -->
+        
           <a href="/citrone"
             ><img src="../assets/images/selected-work3.png" alt=""
           /></a>

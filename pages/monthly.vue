@@ -22,18 +22,8 @@
     </article>
 
     <section class="monthly-hero__image">
-      <img
-        src="../assets/images/monthly-hero-image.png"
-        class="hero-image"
-        alt=""
-        width="100%"
-      />
-      <img
-        src="../assets/images/monthly-mobile-image.png"
-        class="mobile-image"
-        alt=""
-        width="100%"
-      />
+      <img src="../assets/images/monthly-hero-image.png" class="hero-image" alt="" width="100%" />
+      <img src="../assets/images/monthly-mobile-image.png" class="mobile-image" alt="" width="100%" />
     </section>
 
     <section class="about-product__container">
@@ -82,13 +72,8 @@
           for the mobile apps (iOS & Android) and the marketing website, I
           worked in a design team of 2 people where I led the product design
           efforts and the second person
-          <span
-            ><a
-              href="https://ng.linkedin.com/in/adeniyi-oyenaike-a79090156"
-              style="text-decoration: none"
-              >Adeniyi Oyenaike</a
-            ></span
-          >
+          <span><a href="https://ng.linkedin.com/in/adeniyi-oyenaike-a79090156" style="text-decoration: none">Adeniyi
+              Oyenaike</a></span>
           led the graphic design (logo, icons packs etc) efforts.
         </p>
       </section>
@@ -284,9 +269,7 @@
 
     <section class="product-CTA_link">
       <p>
-        <a href="https://www.monthly.ng/"
-          >Click here to sign up <span>for beta.</span></a
-        >
+        <a href="https://www.monthly.ng/" target="_blank">Click here to sign up <span>for beta.</span></a>
       </p>
     </section>
 
@@ -1153,6 +1136,7 @@ export default {
     font-size: 26px;
     font-weight: 300;
   }
+
   .product__role__text {
     font-size: 18px;
     font-weight: 300;
@@ -1382,6 +1366,7 @@ export default {
 }
 
 @media screen and (max-width: 320px) {
+
   .product__header,
   .product__brief__header,
   .product__challenge__header,
@@ -1433,6 +1418,7 @@ export default {
   .wireframes__images img {
     width: 150px;
   }
+
   .monthly-mobile-screens-one__images img,
   .monthly-mobile-screens-two__images img,
   .monthly-mobile-screens-three__images img {
@@ -1441,6 +1427,7 @@ export default {
 }
 
 @media screen and (max-width: 280px) {
+
   .product__container,
   .monthly-hero__image,
   .about-product__container,
@@ -1449,8 +1436,7 @@ export default {
   .complete__kyc__container,
   .more__visuals__container,
   .product__challenge__and__takeaway,
-  .product__conclusion 
-  .product-CTA_link {
+  .product__conclusion .product-CTA_link {
     padding-left: 16px;
     padding-right: 16px;
   }

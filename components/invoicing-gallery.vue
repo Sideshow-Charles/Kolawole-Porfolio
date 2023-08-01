@@ -22,33 +22,20 @@
 
       <section class="invoicing__gallery__menu">
         <div v-for="(pictures, index) in pictures" v-bind:key="index">
-          <img
-            :src="pictures.image"
-            @click="changemainPicture(index)"
-            :class="{ active: index == indexofActive ? true : false }"
-          />
+          <img :src="pictures.image" @click="changemainPicture(index)"
+            :class="{ active: index == indexofActive ? true : false }" />
         </div>
       </section>
     </section>
 
-        <!-- Mobile gallery -->
+    <!-- Mobile gallery -->
     <section class="mobile__gallery">
       <div class="mobile-main__image">
         <img :src="mainPicture" />
       </div>
       <div class="navigation__buttons">
-        <img
-          src="../assets/images/kb-left.svg"
-          alt=""
-          class="previous"
-          @click="prev"
-        />
-        <img
-          src="../assets/images/kb-right.svg"
-          alt=""
-          class="next"
-          @click="next"
-        />
+        <img src="../assets/images/kb-left.svg" alt="" class="previous" @click="prev" />
+        <img src="../assets/images/kb-right.svg" alt="" class="next" @click="next" />
       </div>
       <p class="mobile__gallery__caption">
         {{ mainCaption }}
@@ -346,7 +333,7 @@ export default {
 }
 
 @media screen and (max-width: 320px) {
-.invoicing__header {
+  .invoicing__header {
     font-size: 20px;
     font-weight: 300;
     line-height: 40px;
@@ -370,7 +357,7 @@ export default {
     line-height: 40px;
   }
 
-   .previous {
+  .previous {
     top: -250px;
   }
 
@@ -385,7 +372,7 @@ export default {
 }
 
 @media screen and (max-width: 280px) {
-   .invoicing__container {
+  .invoicing__container {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -410,5 +397,4 @@ export default {
     padding: 0 48px;
   }
 }
-
 </style>

@@ -2,9 +2,7 @@
   <div class="nav__bar">
     <div class="nav__items__left">
       <div class="logo__container">
-        <Nuxt-Link to="/"
-          ><img src="../assets/images/KOLAWOLE.svg" alt=""
-        /></Nuxt-Link>
+        <Nuxt-Link to="/"><img src="../assets/images/KOLAWOLE.svg" alt="" /></Nuxt-Link>
       </div>
       <ul class="nav__items__center">
         <li class="nav__item__center">
@@ -17,7 +15,8 @@
           <Nuxt-Link to="/designs">Designs</Nuxt-Link>
         </li>
         <li class="nav__item__center">
-          <a href="https://drive.google.com/file/d/1xaHKXFhbjV5YDqtI1Y25RXKpGkmJbA-L/view?usp=sharing">Resume</a>
+          <a href="https://drive.google.com/file/d/1xaHKXFhbjV5YDqtI1Y25RXKpGkmJbA-L/view?usp=sharing"
+            target="_blank">Resume</a>
         </li>
       </ul>
     </div>
@@ -136,12 +135,12 @@ export default {};
 }
 
 @media screen and (max-width: 320px) {
-   .nav__items__left {
+  .nav__items__left {
     /* width: 65%; */
     gap: 0;
   }
 
-    .nav__items__center {
+  .nav__items__center {
     font-size: 13px;
     font-weight: 300;
     line-height: 43px;

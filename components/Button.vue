@@ -1,14 +1,7 @@
 <template>
-  <a href="mailto:kolapopoola4@gmail.com"
-    ><button
-      class="contact"
-      :class="btnStyle"
-      v-bind="$attrs"
-      v-on="$listeners"
-    >
+  <a href="mailto:kolapopoola4@gmail.com" target="_blank"><button class="contact" :class="btnStyle" v-bind="$attrs" v-on="$listeners">
       <slot /> <span class="emoji">&#128075;&#127997;</span> Contact Me!
-    </button></a
-  >
+    </button></a>
 </template>
 
 <script>
@@ -71,5 +64,4 @@ span.emoji {
     font-weight: 300px;
   }
 }
-
 </style>

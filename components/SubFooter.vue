@@ -14,15 +14,10 @@
         <p><span>&#169;</span>2022 Kolawole Popoola</p>
       </footer>
       <footer class="footer__links">
-        <a href="https://www.twitter.com/_Kolaa"
-          ><img src="../assets/images/twitter.svg" alt=""
-        /></a>
-        <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143"
-          ><img src="../assets/images/linkedin.svg" alt=""
-        /></a>
-        <a href="https://www.dribbble.com/_Kolaa"
-          ><img src="../assets/images/dribbble.svg" alt=""
-        /></a>
+        <a href="https://www.twitter.com/_Kolaa" target="_blank"><img src="../assets/images/twitter.svg" alt="" /></a>
+        <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143" target="_blank"><img src="../assets/images/linkedin.svg"
+            alt="" /></a>
+        <a href="https://www.dribbble.com/_Kolaa" target="_blank"><img src="../assets/images/dribbble.svg" alt="" /></a>
       </footer>
     </footer>
   </div>
@@ -41,6 +36,7 @@ export default {
 .sub-footer {
   background: #f0f8fb;
 }
+
 .sub-footer__container {
   text-align: center;
   padding: 10rem 144px;
@@ -128,7 +124,7 @@ export default {
 }
 
 @media screen and (max-width: 320px) {
-    .sub-footer__text {
+  .sub-footer__text {
     font-size: 16px;
     font-weight: 300;
     line-height: 43px;
@@ -145,7 +141,7 @@ export default {
     padding-right: 16px;
   }
 
-   .sub-footer__text {
+  .sub-footer__text {
     font-size: 15px;
     font-weight: 300;
     line-height: 40px;

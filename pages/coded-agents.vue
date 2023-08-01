@@ -22,19 +22,9 @@
     </article>
 
     <section class="coded-agents-hero__image">
-      <img
-        src="../assets/images/coded-agents-hero-image.png"
-        alt=""
-        width="100%"
-        class="hero__image"
-      />
+      <img src="../assets/images/coded-agents-hero-image.png" alt="" width="100%" class="hero__image" />
 
-      <img
-        src="../assets/images/ca-mobile-image.png"
-        alt=""
-        width="100%"
-        class="mobile__hero__image"
-      />
+      <img src="../assets/images/ca-mobile-image.png" alt="" width="100%" class="mobile__hero__image" />
     </section>
 
     <section class="about-product__container">
@@ -114,7 +104,7 @@
                 He didn’t think the app was good to look at (bad UI)
               </li>
               <li style="padding-left: 1em">
-              Communication with other Agents and potential buyers wasn’t as seamless as he expected
+                Communication with other Agents and potential buyers wasn’t as seamless as he expected
               </li>
             </ul>
           </section>
@@ -149,7 +139,8 @@
         <p class="key__motivators__header">Key Motivators</p>
         <ul class="key__motivators__list">
           <li style="padding-left: 1em">
-            Existing app doesn’t help them achieve their main goal which is; posting the property they have for sale/lease and connecting with fellow agents and customers seamlessly
+            Existing app doesn’t help them achieve their main goal which is; posting the property they have for sale/lease
+            and connecting with fellow agents and customers seamlessly
           </li>
           <li style="padding-left: 1em">
             To be able to post all specifications of the house needed
@@ -157,7 +148,7 @@
           <li style="padding-left: 1em">
             A platform that connects them with fellow agents that can be of help to them
           </li>
-           <li style="padding-left: 1em">
+          <li style="padding-left: 1em">
             A platform that is easy and seamless to use
           </li>
         </ul>
@@ -312,9 +303,7 @@
 
     <section class="product-CTA_link">
       <p>
-        <a href="http://www.codedagents.com/"
-          >Click here to sign up <span>for beta.</span></a
-        >
+        <a href="http://www.codedagents.com/" target="_blank">Click here to sign up <span>for beta.</span></a>
       </p>
     </section>
 
@@ -323,9 +312,7 @@
       <section class="product__next__container">
         <p class="product__next__header">Next Project</p>
         <p class="product__next__text">
-          <Nuxt-Link to="/kuda-business-banking"
-            >Kuda Business Banking</Nuxt-Link
-          >
+          <Nuxt-Link to="/kuda-business-banking">Kuda Business Banking</Nuxt-Link>
         </p>
       </section>
     </section>
@@ -1636,6 +1623,7 @@ export default {
 }
 
 @media screen and (max-width: 320px) {
+
   .product__header,
   .product__brief__header,
   .product__challenge__header,
@@ -1708,6 +1696,7 @@ export default {
 }
 
 @media screen and (max-width: 280px) {
+
   .product__container,
   .about-product__container,
   .coded-agents-hero__image,

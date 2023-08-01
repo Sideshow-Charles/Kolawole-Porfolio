@@ -189,7 +189,7 @@
       <p class="user-journey__link">
         <a
           href="https://www.figma.com/file/RDwLOZxRcUokPokhKQCZbt/Citrone%3A-User-Flow?node-id=0%3A1"
-          >Link to the User Journey</a
+          target="_blank">Link to the User Journey</a
         >
       </p>
     </section>
@@ -237,7 +237,7 @@
 
     <section class="product-CTA_link">
       <p>
-        <a href="https://www.citrone.co/">Click here to go to website</a>
+        <a href="https://www.citrone.co/" target="_blank">Click here to go to website</a>
       </p>
     </section>
 
@@ -256,10 +256,12 @@
 <script>
 import Header from "../components/Header.vue";
 import CitroneVisualDesign from "../components/citrone-visual-design.vue";
+import SubFooter from "../components/SubFooter.vue";
 export default {
   components: {
     Header,
     CitroneVisualDesign,
+    SubFooter
   },
 };
 </script>
