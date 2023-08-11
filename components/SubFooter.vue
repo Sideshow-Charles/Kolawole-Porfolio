@@ -11,13 +11,13 @@
     </section>
     <footer class="footer__container">
       <footer class="footer__text">
-        <p><span>&#169;</span>&copy; Kolawole Popoola {{ new
-                    Date().getFullYear() }}</p>
+        <p>&copy; Kolawole Popoola {{ new
+          Date().getFullYear() }}</p>
       </footer>
       <footer class="footer__links">
         <a href="https://www.twitter.com/_Kolaa" target="_blank"><img src="../assets/images/twitter.svg" alt="" /></a>
-        <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143" target="_blank"><img src="../assets/images/linkedin.svg"
-            alt="" /></a>
+        <a href="https://www.linkedin.com/in/kolawole-popoola-b61664143" target="_blank"><img
+            src="../assets/images/linkedin.svg" alt="" /></a>
         <a href="https://www.dribbble.com/_Kolaa" target="_blank"><img src="../assets/images/dribbble.svg" alt="" /></a>
       </footer>
     </footer>
